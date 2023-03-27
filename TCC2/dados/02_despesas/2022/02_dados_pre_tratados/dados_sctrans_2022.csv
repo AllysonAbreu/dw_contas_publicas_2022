@@ -1,0 +1,731 @@
+NUMERO;DATA;ORGAO;DESPESA;DATA INCLUSAO;VALOR;LIQUIDADO;PAGO;SALDO
+730;29/12/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;03/01/2023;1.234,26;1.234,26;1.234,26;0
+729;29/12/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;03/01/2023;551,1;551,1;551,1;0
+728;29/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/01/2023;0,26;0,26;0,26;0
+727;28/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;29/12/2022;10.921,00;10.921,00;10.921,00;0
+725;26/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/12/2022;6.396,96;6.396,96;6.396,96;0
+724;23/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;26/12/2022;2.600,00;2.600,00;2.600,00;0
+723;23/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/12/2022;9.600,93;9.600,93;9.600,93;0
+722;23/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/12/2022;5.399,55;5.399,55;5.399,55;0
+721;22/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;23/12/2022;251,6;251,6;251,6;0
+720;22/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;23/12/2022;257,4;257,4;257,4;0
+719;22/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/12/2022;100;100;100;0
+718;21/12/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;22/12/2022;87.746,39;87.746,39;87.746,39;0
+717;21/12/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;22/12/2022;31.308,40;31.308,40;31.308,40;0
+716;21/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/12/2022;370;370;370;0
+715;21/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/12/2022;370;370;370;0
+714;21/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/12/2022;2.000,00;2.000,00;2.000,00;0
+713;21/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/12/2022;5.500,00;5.500,00;5.500,00;0
+712;21/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/12/2022;3.100,00;3.100,00;3.100,00;0
+711;21/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/12/2022;258,14;258,14;258,14;0
+710;20/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/12/2022;3.000,00;3.000,00;3.000,00;0
+709;20/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/12/2022;5.000,00;5.000,00;5.000,00;0
+708;20/12/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/12/2022;6.329,68;6.329,68;6.329,68;0
+707;20/12/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/12/2022;4.797,52;4.797,52;4.797,52;0
+706;20/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/12/2022;655;655;655;0
+705;20/12/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;21/12/2022;34.874,09;34.874,09;34.874,09;0
+704;13/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;14/12/2022;3.100,00;3.100,00;3.100,00;0
+703;13/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/12/2022;8.415,68;8.415,68;8.415,68;0
+702;13/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;14/12/2022;1.450,00;1.450,00;1.450,00;0
+701;12/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/12/2022;12.456,56;12.456,56;0;12.456,56
+700;12/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;13/12/2022;520;520;520;0
+699;12/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/12/2022;31.735,60;31.735,60;31.735,60;0
+698;09/12/2022;02011 - Superintendência Cajazeirense de Trânsito;319113 - Contribuições Patronais;12/12/2022;54.085,11;54.085,11;54.085,11;0
+697;07/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;12/12/2022;3.500,00;3.500,00;3.500,00;0
+696;06/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/12/2022;20.200,00;20.200,00;20.200,00;0
+695;06/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/12/2022;570;570;570;0
+694;05/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;06/12/2022;2.500,00;2.500,00;2.500,00;0
+693;02/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/12/2022;18.300,00;18.300,00;0;18.300,00
+692;02/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/12/2022;22.239,25;22.239,25;22.239,25;0
+691;02/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/12/2022;25.009,00;25.009,00;25.009,00;0
+690;01/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/12/2022;6.396,96;6.396,96;6.396,96;0
+689;01/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/12/2022;26,14;26,14;26,14;0
+688;01/12/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/12/2022;44,09;44,09;44,09;0
+726;30/11/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;27/12/2022;34.874,09;34.874,09;34.874,09;0
+687;30/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;01/12/2022;350;350;350;0
+686;30/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/12/2022;1.000,00;1.000,00;1.000,00;0
+685;30/11/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;01/12/2022;30.141,73;30.141,73;30.141,73;0
+684;29/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339093 - Indenizações e Restituições;07/12/2022;1.650,00;1.650,00;1.650,00;0
+683;29/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/11/2022;880,56;880,56;880,56;0
+682;29/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/11/2022;1.207,55;1.207,55;1.207,55;0
+681;29/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/11/2022;1.146,37;1.146,37;1.146,37;0
+680;29/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/11/2022;15.598,70;15.598,70;15.598,70;0
+679;29/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/11/2022;1.000,00;1.000,00;1.000,00;0
+678;29/11/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;30/11/2022;47.831,17;47.831,17;47.831,17;0
+677;24/11/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;25/11/2022;89.089,34;89.089,34;89.089,34;0
+676;24/11/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;25/11/2022;34.874,03;0;0;0
+675;24/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/11/2022;7.500,00;7.500,00;7.500,00;0
+674;22/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/11/2022;8.039,33;8.039,33;8.039,33;0
+673;22/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/11/2022;50;50;50;0
+672;22/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/11/2022;770;770;770;0
+671;21/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/11/2022;3.000,00;3.000,00;3.000,00;0
+670;21/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/11/2022;8.043,00;8.043,00;8.043,00;0
+669;21/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;22/11/2022;350;350;350;0
+668;21/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/11/2022;9.500,00;9.500,00;9.500,00;0
+667;21/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;22/11/2022;2.600,00;2.600,00;2.600,00;0
+666;18/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/11/2022;5.000,00;5.000,00;5.000,00;0
+665;18/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/11/2022;5.005,90;5.005,90;5.005,90;0
+664;18/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/11/2022;6.007,10;6.007,10;6.007,10;0
+663;18/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/11/2022;5.785,30;5.785,30;5.785,30;0
+662;18/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/11/2022;5.899,80;5.899,80;5.899,80;0
+661;18/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;21/11/2022;1.545,00;1.545,00;1.545,00;0
+660;18/11/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/11/2022;4.771,65;4.771,65;4.771,65;0
+659;18/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;21/11/2022;1.270,00;1.270,00;1.270,00;0
+658;17/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/11/2022;646;646;646;0
+657;17/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/11/2022;640;640;640;0
+656;17/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/11/2022;370;370;370;0
+655;17/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/11/2022;6.900,00;6.900,00;6.900,00;0
+654;17/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/11/2022;5.840,00;5.840,00;5.840,00;0
+653;17/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;18/11/2022;1.000,00;1.000,00;1.000,00;0
+652;17/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/11/2022;1.450,00;1.450,00;1.450,00;0
+651;17/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/11/2022;8.000,00;8.000,00;8.000,00;0
+650;16/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/11/2022;12.456,56;12.456,56;0;12.456,56
+649;16/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/11/2022;3.500,00;3.500,00;3.500,00;0
+648;11/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;16/11/2022;1.636,00;1.636,00;1.636,00;0
+647;11/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;1.900,00;1.900,00;1.900,00;0
+646;10/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;16/11/2022;5.955,00;5.955,00;4.497,00;1.458,00
+645;10/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;16/11/2022;918;918;918;0
+644;10/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;16/11/2022;8.542,00;8.542,00;0;8.542,00
+643;10/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;620;620;620;0
+642;10/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;18.300,00;18.300,00;18.300,00;0
+641;10/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;800;800;800;0
+640;10/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;149,26;149,26;149,26;0
+639;10/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;100;100;100;0
+638;09/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/11/2022;850;850;850;0
+637;09/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/11/2022;10.000,00;10.000,00;10.000,00;0
+636;09/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/11/2022;9.000,00;9.000,00;0;9.000,00
+635;09/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/11/2022;299,5;299,5;299,5;0
+634;09/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/11/2022;3.100,00;3.100,00;3.100,00;0
+633;08/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/11/2022;498;498;498;0
+632;07/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/11/2022;950;950;950;0
+631;07/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;08/11/2022;2.500,00;2.500,00;2.500,00;0
+630;07/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/11/2022;1.000,00;1.000,00;1.000,00;0
+629;07/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/11/2022;3.100,00;3.100,00;3.100,00;0
+628;07/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/11/2022;3.100,00;3.100,00;3.100,00;0
+627;07/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339093 - Indenizações e Restituições;08/11/2022;2.125,00;2.125,00;2.125,00;0
+626;07/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/11/2022;10.921,00;0;0;0
+625;03/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/11/2022;6.396,96;6.396,96;6.396,96;0
+624;01/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/11/2022;18.300,00;18.300,00;0;18.300,00
+623;01/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/11/2022;100;100;100;0
+622;01/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/11/2022;105;105;105;0
+621;01/11/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/11/2022;5.000,00;5.000,00;5.000,00;0
+620;01/11/2022;02011 - Superintendência Cajazeirense de Trânsito;469171 - Principal da Dívida Contratual Resgatada;07/11/2022;890,63;890,63;890,63;0
+619;31/10/2022;02011 - Superintendência Cajazeirense de Trânsito;319113 - Contribuições Patronais;01/11/2022;1.241,95;1.241,95;1.241,95;0
+618;28/10/2022;02011 - Superintendência Cajazeirense de Trânsito;319113 - Contribuições Patronais;01/11/2022;36.115,30;36.115,30;36.115,30;0
+617;28/10/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;01/11/2022;1.210,34;1.210,34;1.210,34;0
+616;28/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/11/2022;1.275,36;1.275,36;1.275,36;0
+615;27/10/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;28/10/2022;93.104,68;93.104,68;93.104,68;0
+614;27/10/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;28/10/2022;36.744,32;36.744,32;36.744,32;0
+613;26/10/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;27/10/2022;540,43;540,43;540,43;0
+612;26/10/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;27/10/2022;540,43;540,43;540,43;0
+611;25/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/10/2022;1.579,00;1.579,00;1.579,00;0
+610;25/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/10/2022;18.704,84;18.704,84;18.704,84;0
+609;25/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/10/2022;3.000,00;3.000,00;3.000,00;0
+608;25/10/2022;02011 - Superintendência Cajazeirense de Trânsito;469171 - Principal da Dívida Contratual Resgatada;26/10/2022;1.815,82;1.815,82;1.815,82;0
+607;24/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;26/10/2022;500;500;500;0
+606;24/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/10/2022;176,48;176,48;176,48;0
+605;24/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;26/10/2022;2.600,00;2.600,00;2.600,00;0
+604;24/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;26/10/2022;1.830,00;1.830,00;1.830,00;0
+603;21/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;24/10/2022;2.430,00;2.430,00;2.430,00;0
+602;21/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/10/2022;5.000,00;5.000,00;5.000,00;0
+601;21/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;24/10/2022;1.200,00;1.200,00;1.200,00;0
+600;20/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;21/10/2022;640;640;640;0
+599;20/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;21/10/2022;1.520,00;1.520,00;1.520,00;0
+598;20/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/10/2022;6.000,00;6.000,00;6.000,00;0
+597;20/10/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/10/2022;4.771,65;4.771,65;4.771,65;0
+596;19/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/10/2022;6.369,96;6.369,96;6.369,96;0
+595;19/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/10/2022;370;370;370;0
+594;19/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;20/10/2022;665;665;665;0
+593;19/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/10/2022;9.500,00;9.500,00;9.500,00;0
+592;19/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/10/2022;120;120;120;0
+591;19/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;20/10/2022;1.767,00;1.767,00;1.767,00;0
+590;17/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;18/10/2022;1.900,00;1.900,00;1.900,00;0
+589;17/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/10/2022;1.450,00;1.450,00;1.450,00;0
+588;13/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;17/10/2022;1.050,00;1.050,00;1.050,00;0
+587;13/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;17/10/2022;2.500,00;2.500,00;2.500,00;0
+586;11/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;13/10/2022;438;438;438;0
+585;10/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/10/2022;5.600,00;5.600,00;5.600,00;0
+584;10/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/10/2022;3.100,00;3.100,00;3.100,00;0
+583;10/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/10/2022;3.500,00;3.500,00;3.500,00;0
+582;10/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/10/2022;11.418,51;11.418,51;0;11.418,51
+581;07/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;10/10/2022;460;460;460;0
+580;07/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;10/10/2022;535;535;535;0
+579;07/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;10/10/2022;11.035,15;11.035,15;11.035,15;0
+578;06/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;07/10/2022;1.900,00;1.900,00;1.900,00;0
+577;06/10/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;07/10/2022;444,31;444,31;444,31;0
+576;06/10/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;07/10/2022;4.994,67;4.994,67;4.994,67;0
+575;06/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/10/2022;530;530;530;0
+574;05/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/10/2022;6.396,96;6.396,96;6.396,96;0
+573;04/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/10/2022;450;450;450;0
+572;04/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;05/10/2022;2.060,00;2.060,00;2.060,00;0
+571;04/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/10/2022;4.618,00;4.618,00;4.618,00;0
+570;03/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;05/10/2022;1.375,00;1.375,00;1.375,00;0
+569;03/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/10/2022;1.825,00;1.825,00;1.825,00;0
+568;03/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;05/10/2022;1.400,00;1.400,00;1.400,00;0
+567;03/10/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;05/10/2022;18.300,00;18.300,00;18.300,00;0
+566;30/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/10/2022;1.000,00;1.000,00;1.000,00;0
+565;29/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/09/2022;3.264,55;3.264,55;3.264,55;0
+564;28/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;29/09/2022;2.386,00;2.386,00;2.386,00;0
+563;28/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;29/09/2022;156;156;156;0
+562;28/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;29/09/2022;350;350;350;0
+561;27/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/09/2022;520;520;520;0
+560;27/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/09/2022;80,66;80,66;80,66;0
+559;27/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/09/2022;186,44;186,44;186,44;0
+558;27/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/09/2022;1.175,95;1.175,95;1.175,95;0
+557;27/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/09/2022;62.804,20;62.804,20;62.804,20;0
+556;27/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/09/2022;3.100,00;3.100,00;3.100,00;0
+555;27/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;28/09/2022;2.600,00;2.600,00;2.600,00;0
+554;23/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/09/2022;200;200;200;0
+553;23/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/09/2022;3.000,00;3.000,00;3.000,00;0
+552;23/09/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;26/09/2022;89.517,13;89.517,13;89.517,13;0
+551;23/09/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;26/09/2022;36.744,32;36.744,32;36.744,32;0
+550;22/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/09/2022;20;20;20;0
+549;22/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/09/2022;3.100,00;3.100,00;3.100,00;0
+548;20/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;16/11/2022;1.636,00;0;0;0
+547;20/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;838,5;838,5;838,5;0
+546;20/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;370;370;370;0
+545;20/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/11/2022;370;370;370;0
+544;20/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/09/2022;5.000,00;5.000,00;5.000,00;0
+543;20/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/09/2022;2.450,00;2.450,00;2.450,00;0
+542;20/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/09/2022;319,84;319,84;319,84;0
+541;20/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;21/09/2022;1.400,00;1.400,00;1.400,00;0
+540;19/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/09/2022;5.000,00;5.000,00;5.000,00;0
+539;19/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/09/2022;9.500,00;9.500,00;9.500,00;0
+538;16/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/09/2022;5.000,00;0;0;0
+537;16/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/09/2022;350;350;350;0
+536;16/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/09/2022;1.450,00;1.450,00;1.450,00;0
+535;16/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/09/2022;12.226,00;12.226,00;12.226,00;0
+534;16/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/09/2022;50;50;50;0
+533;13/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;14/09/2022;195;195;195;0
+532;13/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/09/2022;95;95;95;0
+531;13/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;14/09/2022;284;284;284;0
+530;12/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;21/09/2022;1.500,00;1.500,00;1.500,00;0
+529;12/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/09/2022;3.500,00;3.500,00;3.500,00;0
+528;12/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/09/2022;6.174,00;6.174,00;6.174,00;0
+527;12/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/09/2022;3.100,00;3.100,00;3.100,00;0
+526;09/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;12/09/2022;750;750;750;0
+525;09/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;12/09/2022;2.004,00;2.004,00;2.004,00;0
+524;08/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;09/09/2022;1.940,00;1.940,00;1.940,00;0
+523;06/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/09/2022;10.029,44;10.029,44;10.029,44;0
+522;06/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/09/2022;12.763,66;12.763,66;12.763,66;0
+519;05/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;06/09/2022;2.500,00;2.500,00;2.500,00;0
+518;05/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/09/2022;360;360;360;0
+517;05/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/09/2022;190;190;190;0
+516;05/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/09/2022;1.000,00;1.000,00;1.000,00;0
+515;05/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/09/2022;6.396,96;6.396,96;6.396,96;0
+514;05/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/09/2022;72.342,30;72.342,30;72.342,30;0
+513;02/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;05/09/2022;18.300,00;0;0;0
+512;01/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;02/09/2022;1.500,00;1.500,00;1.500,00;0
+511;01/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;02/09/2022;111.980,00;111.980,00;111.980,00;0
+510;01/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;02/09/2022;650;650;650;0
+509;01/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/09/2022;19.000,00;19.000,00;19.000,00;0
+508;01/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/09/2022;16.500,00;16.500,00;16.500,00;0
+507;01/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/09/2022;20.000,00;20.000,00;20.000,00;0
+506;01/09/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/09/2022;18.500,00;18.500,00;18.500,00;0
+521;31/08/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;09/09/2022;87.065,96;87.065,96;87.065,96;0
+520;31/08/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;09/09/2022;37.684,01;37.684,01;37.684,01;0
+505;31/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/09/2022;400;400;400;0
+504;31/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;01/09/2022;250;250;250;0
+503;30/08/2022;02011 - Superintendência Cajazeirense de Trânsito;319113 - Contribuições Patronais;31/08/2022;65.846,36;65.846,36;65.846,36;0
+502;30/08/2022;02011 - Superintendência Cajazeirense de Trânsito;319113 - Contribuições Patronais;31/08/2022;9.921,47;9.921,47;9.921,47;0
+501;30/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;31/08/2022;1.000,00;1.000,00;1.000,00;0
+500;29/08/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;30/08/2022;1.184,08;1.184,08;1.184,08;0
+499;29/08/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;30/08/2022;528,7;528,7;528,7;0
+498;29/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/08/2022;5.000,00;5.000,00;5.000,00;0
+497;29/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;30/08/2022;365;365;365;0
+496;29/08/2022;02011 - Superintendência Cajazeirense de Trânsito;469171 - Principal da Dívida Contratual Resgatada;30/08/2022;1.829,21;1.829,21;1.829,21;0
+495;26/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;29/08/2022;169,9;169,9;169,9;0
+494;26/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/08/2022;385;385;385;0
+493;26/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;29/08/2022;1.480,00;1.480,00;1.480,00;0
+492;26/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;29/08/2022;4.618,00;0;0;0
+491;26/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/08/2022;550;550;550;0
+490;26/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;29/08/2022;149,5;149,5;149,5;0
+489;25/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/08/2022;2.000,00;2.000,00;2.000,00;0
+488;25/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/08/2022;656;656;656;0
+487;25/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/08/2022;870;870;870;0
+486;25/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/08/2022;6.950,00;6.950,00;6.950,00;0
+485;25/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/08/2022;16.495,00;16.495,00;16.495,00;0
+484;24/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;25/08/2022;960;960;960;0
+483;24/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/08/2022;95,64;95,64;95,64;0
+482;24/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/08/2022;906,72;906,72;906,72;0
+481;24/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/08/2022;203,7;203,7;203,7;0
+480;23/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/08/2022;3.000,00;3.000,00;3.000,00;0
+479;23/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/08/2022;3.600,00;3.600,00;3.600,00;0
+478;23/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/08/2022;1.575,00;1.575,00;1.575,00;0
+477;23/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;24/08/2022;2.600,00;2.600,00;2.600,00;0
+476;19/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;23/08/2022;160;160;160;0
+475;19/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;23/08/2022;1.470,00;1.470,00;1.470,00;0
+474;19/08/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;23/08/2022;4.880,02;4.880,02;4.880,02;0
+473;18/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/08/2022;9.500,00;9.500,00;9.500,00;0
+472;18/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/08/2022;1.450,00;1.450,00;1.450,00;0
+471;18/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/08/2022;469,61;469,61;469,61;0
+470;17/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/08/2022;441;441;441;0
+469;17/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/08/2022;2.000,00;2.000,00;2.000,00;0
+468;17/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/08/2022;1.750,00;1.750,00;1.750,00;0
+467;16/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/08/2022;10.029,44;10.029,44;10.029,44;0
+466;16/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/08/2022;1.671,57;1.671,57;1.671,57;0
+465;16/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/08/2022;5.000,00;5.000,00;5.000,00;0
+464;16/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;17/08/2022;1.400,00;1.400,00;1.400,00;0
+463;16/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/08/2022;720;720;720;0
+462;16/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;17/08/2022;1.575,00;1.575,00;1.575,00;0
+461;15/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;16/08/2022;2.930,00;2.930,00;2.930,00;0
+460;10/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;11/08/2022;175;175;175;0
+459;10/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;11/08/2022;3.780,00;3.780,00;3.780,00;0
+458;09/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;10/08/2022;640;640;640;0
+457;09/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;10/08/2022;432;432;432;0
+456;09/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/08/2022;2.000,00;2.000,00;2.000,00;0
+455;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/08/2022;3.500,00;3.500,00;3.500,00;0
+454;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/08/2022;900;900;900;0
+453;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/08/2022;30;30;30;0
+452;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/08/2022;100;100;100;0
+451;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/08/2022;224;224;224;0
+450;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/08/2022;3.100,00;3.100,00;3.100,00;0
+449;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;09/08/2022;2.500,00;2.500,00;2.500,00;0
+448;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;09/08/2022;500;500;500;0
+447;08/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/08/2022;11.610,00;11.610,00;11.610,00;0
+446;03/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/08/2022;6.396,96;0;0;0
+445;03/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/08/2022;3.100,00;3.100,00;3.100,00;0
+444;03/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/08/2022;55.811,95;55.811,95;55.811,95;0
+443;03/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;04/08/2022;11.995,85;11.995,85;11.995,85;0
+442;02/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/08/2022;18.300,00;18.300,00;18.300,00;0
+441;01/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/08/2022;10.000,00;10.000,00;10.000,00;0
+440;01/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/08/2022;2.156,97;2.156,97;2.156,97;0
+439;01/08/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/08/2022;1.000,00;1.000,00;1.000,00;0
+438;29/07/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;02/08/2022;36.776,59;36.776,59;36.776,59;0
+437;29/07/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;02/08/2022;78.071,37;78.071,37;78.071,37;0
+436;29/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/08/2022;385;385;385;0
+435;27/07/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;29/07/2022;7.685,41;7.685,41;7.685,41;0
+434;27/07/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;29/07/2022;523,46;523,46;523,46;0
+433;27/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/07/2022;300;300;300;0
+432;26/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/07/2022;3.100,00;3.100,00;3.100,00;0
+431;26/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;27/07/2022;1.920,00;1.920,00;1.920,00;0
+430;26/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;27/07/2022;1.790,00;1.790,00;1.790,00;0
+429;25/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;27/07/2022;245;245;245;0
+428;25/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/07/2022;2.248,00;2.248,00;2.248,00;0
+427;21/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/07/2022;3.000,00;3.000,00;3.000,00;0
+426;21/07/2022;02011 - Superintendência Cajazeirense de Trânsito;449052 - Equipamentos e Material Permanente;22/07/2022;1.450,00;1.450,00;1.450,00;0
+425;21/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/07/2022;9.500,00;9.500,00;9.500,00;0
+424;21/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;22/07/2022;1.130,00;1.130,00;1.130,00;0
+423;21/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;22/07/2022;2.600,00;2.600,00;2.600,00;0
+422;20/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/07/2022;200;200;200;0
+421;20/07/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/07/2022;4.771,65;4.771,65;4.771,65;0
+420;20/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/07/2022;1.450,00;1.450,00;1.450,00;0
+419;20/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/07/2022;5.000,00;5.000,00;5.000,00;0
+418;19/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;20/07/2022;210;210;210;0
+417;19/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;20/07/2022;11.047,50;11.047,50;11.047,50;0
+416;19/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;20/07/2022;1.400,00;1.400,00;1.400,00;0
+415;19/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/07/2022;215;215;215;0
+414;19/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;20/07/2022;3.057,30;3.057,30;3.057,30;0
+413;19/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/07/2022;15.866,10;15.866,10;15.866,10;0
+412;18/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/07/2022;30.203,50;30.203,50;30.203,50;0
+411;18/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/07/2022;324;324;324;0
+410;14/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;15/07/2022;24.300,00;24.300,00;24.300,00;0
+409;14/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;15/07/2022;450;450;450;0
+408;13/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;15/07/2022;5.225,00;5.225,00;5.225,00;0
+407;13/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;14/07/2022;1.914,00;1.914,00;1.914,00;0
+406;13/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;14/07/2022;3.500,00;3.500,00;3.500,00;0
+405;13/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/07/2022;2.050,00;2.050,00;2.050,00;0
+404;12/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/07/2022;4.850,00;4.850,00;4.850,00;0
+403;11/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;12/07/2022;300;300;300;0
+402;11/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;12/07/2022;4.095,00;4.095,00;4.095,00;0
+401;11/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;12/07/2022;700;700;700;0
+400;08/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339093 - Indenizações e Restituições;11/07/2022;1.300,00;1.300,00;1.300,00;0
+399;08/07/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;11/07/2022;33.565,62;33.565,62;33.565,62;0
+398;08/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;11/07/2022;21.480,00;21.480,00;21.480,00;0
+397;08/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;11/07/2022;2.913,15;2.913,15;2.913,15;0
+396;08/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;11/07/2022;400;400;400;0
+395;07/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/07/2022;95,65;95,65;95,65;0
+394;06/07/2022;02011 - Superintendência Cajazeirense de Trânsito;449052 - Equipamentos e Material Permanente;07/07/2022;230;230;230;0
+393;06/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/07/2022;750;750;750;0
+392;06/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/07/2022;3.100,00;3.100,00;3.100,00;0
+391;06/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/07/2022;1.450,00;1.450,00;1.450,00;0
+390;05/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;06/07/2022;2.500,00;2.500,00;2.500,00;0
+389;05/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/07/2022;466,9;466,9;466,9;0
+388;05/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/07/2022;390;390;390;0
+387;04/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;05/07/2022;84.484,50;84.484,50;84.484,50;0
+386;04/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/07/2022;800;800;800;0
+385;04/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/07/2022;12.641,79;12.641,79;12.641,79;0
+384;04/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;05/07/2022;149,26;149,26;149,26;0
+383;04/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;05/07/2022;421,46;421,46;421,46;0
+382;01/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;04/07/2022;250;250;250;0
+381;01/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;04/07/2022;1.748,50;1.748,50;1.748,50;0
+380;01/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/07/2022;6.396,96;6.396,96;6.396,96;0
+379;01/07/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/07/2022;18.300,00;18.300,00;18.300,00;0
+378;30/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;1.000,00;1.000,00;1.000,00;0
+377;30/06/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;01/07/2022;78.820,84;78.820,84;78.820,84;0
+376;30/06/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;01/07/2022;37.744,32;37.744,32;37.744,32;0
+375;30/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;520;520;520;0
+374;30/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;385;385;385;0
+373;30/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;213,18;213,18;213,18;0
+372;30/06/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;01/07/2022;547,02;547,02;547,02;0
+371;30/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;100;100;100;0
+370;29/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;370;370;370;0
+369;29/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;370;370;370;0
+368;29/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;193;193;193;0
+367;29/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/07/2022;327,5;327,5;327,5;0
+366;28/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;29/06/2022;17.030,00;17.030,00;17.030,00;0
+365;28/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;29/06/2022;1.680,00;1.680,00;1.680,00;0
+364;28/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;29/06/2022;3.000,00;3.000,00;3.000,00;0
+363;27/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;28/06/2022;1.400,00;1.400,00;1.400,00;0
+362;27/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;28/06/2022;2.575,00;2.575,00;2.575,00;0
+361;27/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/06/2022;9.500,00;9.500,00;9.500,00;0
+360;23/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;27/06/2022;2.144,00;2.144,00;2.144,00;0
+359;23/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;27/06/2022;2.600,00;2.600,00;2.600,00;0
+358;22/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/06/2022;7.644,60;7.644,60;7.644,60;0
+357;22/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/06/2022;3.000,00;3.000,00;3.000,00;0
+356;20/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/06/2022;5.000,00;5.000,00;5.000,00;0
+355;20/06/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/06/2022;26,9;26,9;26,9;0
+354;20/06/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/06/2022;27,64;27,64;27,64;0
+353;20/06/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/06/2022;39,27;39,27;39,27;0
+352;20/06/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/06/2022;4.771,65;4.771,65;4.771,65;0
+351;20/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/06/2022;200;200;200;0
+350;20/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;21/06/2022;1.545,00;1.545,00;1.545,00;0
+349;20/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/06/2022;3.100,00;3.100,00;3.100,00;0
+348;17/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;20/06/2022;345;345;345;0
+347;15/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;17/06/2022;3.200,00;3.200,00;3.200,00;0
+346;15/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;17/06/2022;320;320;320;0
+345;15/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;17/06/2022;11.945,00;11.945,00;11.945,00;0
+344;15/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/06/2022;720;720;720;0
+343;15/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;17/06/2022;2.500,00;2.500,00;2.500,00;0
+342;15/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/06/2022;8.357,87;8.357,87;8.357,87;0
+341;15/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;17/06/2022;960;960;960;0
+340;14/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;15/06/2022;910;910;910;0
+339;14/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;15/06/2022;410;410;410;0
+338;14/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;15/06/2022;3.500,00;3.500,00;3.500,00;0
+337;13/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;14/06/2022;640;640;640;0
+336;13/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;14/06/2022;213,18;213,18;213,18;0
+335;13/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/06/2022;4.082,00;4.082,00;4.082,00;0
+334;13/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;14/06/2022;9.500,00;9.500,00;9.500,00;0
+333;13/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;14/06/2022;1.400,00;1.400,00;1.400,00;0
+332;10/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/06/2022;10.029,44;10.029,44;10.029,44;0
+331;10/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/06/2022;3.400,00;3.400,00;3.400,00;0
+330;10/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;13/06/2022;700;700;700;0
+329;10/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/06/2022;3.500,00;3.500,00;3.500,00;0
+328;10/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/06/2022;5.800,00;5.800,00;5.800,00;0
+327;07/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/06/2022;1.385,00;1.385,00;1.385,00;0
+326;07/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/06/2022;1.041,00;1.041,00;1.041,00;0
+325;07/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/06/2022;997;997;997;0
+324;07/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/06/2022;403;403;403;0
+323;07/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/06/2022;233,94;233,94;233,94;0
+322;07/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/06/2022;969,85;969,85;969,85;0
+321;06/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/06/2022;2.521,00;2.521,00;2.521,00;0
+320;06/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/06/2022;8.100,00;8.100,00;8.100,00;0
+319;06/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/06/2022;213,18;213,18;213,18;0
+318;03/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/06/2022;11.952,63;11.952,63;11.952,63;0
+317;03/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/06/2022;396;396;396;0
+316;03/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/06/2022;856,75;856,75;856,75;0
+315;03/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/06/2022;250;250;250;0
+314;03/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/06/2022;870,5;870,5;870,5;0
+313;03/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/06/2022;4.500,00;4.500,00;4.500,00;0
+312;02/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/06/2022;34.490,00;34.490,00;34.490,00;0
+311;02/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/06/2022;75.866,55;75.866,55;75.866,55;0
+310;02/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/06/2022;18.300,00;18.300,00;18.300,00;0
+309;01/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/06/2022;6.396,96;6.396,96;6.396,96;0
+308;01/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/06/2022;100;100;100;0
+307;01/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;02/06/2022;1.029,00;1.029,00;1.029,00;0
+306;01/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;02/06/2022;950;950;950;0
+305;01/06/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;02/06/2022;3.000,00;3.000,00;3.000,00;0
+304;01/06/2022;02011 - Superintendência Cajazeirense de Trânsito;469171 - Principal da Dívida Contratual Resgatada;02/06/2022;882,94;882,94;882,94;0
+303;31/05/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;01/06/2022;541,85;541,85;541,85;0
+302;31/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/06/2022;480;480;480;0
+301;31/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;01/06/2022;250;250;250;0
+300;31/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/06/2022;1.000,00;1.000,00;1.000,00;0
+299;30/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;31/05/2022;940;940;940;0
+298;30/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;31/05/2022;327,5;327,5;327,5;0
+297;27/05/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;30/05/2022;76.827,66;76.827,66;76.827,66;0
+296;27/05/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;30/05/2022;37.744,32;37.744,32;37.744,32;0
+295;27/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/05/2022;1.800,00;1.800,00;1.800,00;0
+294;27/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;30/05/2022;920;920;920;0
+293;27/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;30/05/2022;3.243,66;3.243,66;3.243,66;0
+292;27/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;30/05/2022;2.826,00;2.826,00;2.826,00;0
+291;26/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;27/05/2022;700;700;700;0
+290;26/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;27/05/2022;442;442;442;0
+289;25/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/05/2022;3.000,00;0;0;0
+288;25/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/05/2022;3.100,00;3.100,00;3.100,00;0
+287;25/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/05/2022;9.500,00;9.500,00;9.500,00;0
+286;25/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;26/05/2022;2.600,00;2.600,00;2.600,00;0
+285;24/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/05/2022;815;815;815;0
+284;24/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/05/2022;92,89;92,89;92,89;0
+283;24/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/05/2022;1.413,06;1.413,06;1.413,06;0
+282;24/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/05/2022;230,92;230,92;230,92;0
+281;23/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/05/2022;3.100,00;3.100,00;3.100,00;0
+280;20/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;23/05/2022;5.162,00;5.162,00;5.162,00;0
+279;20/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;23/05/2022;1.400,00;1.400,00;1.400,00;0
+278;20/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;23/05/2022;1.400,00;1.400,00;1.400,00;0
+277;20/05/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;23/05/2022;4.771,65;4.771,65;4.771,65;0
+276;19/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/05/2022;300;300;300;0
+275;19/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/05/2022;3.000,00;3.000,00;3.000,00;0
+274;19/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;20/05/2022;5.000,00;5.000,00;5.000,00;0
+273;18/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/05/2022;5.833,31;5.833,31;5.833,31;0
+272;18/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/05/2022;1.750,00;1.750,00;1.750,00;0
+271;18/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/05/2022;726;726;726;0
+270;18/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/05/2022;339,68;339,68;339,68;0
+269;18/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;19/05/2022;2.500,00;2.500,00;2.500,00;0
+268;17/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/05/2022;12.017,70;12.017,70;12.017,70;0
+267;17/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/05/2022;659,7;659,7;659,7;0
+266;17/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;18/05/2022;460;460;460;0
+265;12/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/05/2022;233,94;233,94;233,94;0
+264;11/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/05/2022;194,28;194,28;194,28;0
+263;11/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;13/05/2022;241,72;241,72;241,72;0
+262;11/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;13/05/2022;114,85;114,85;114,85;0
+261;11/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/05/2022;3.400,00;3.400,00;3.400,00;0
+260;10/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;11/05/2022;420;420;420;0
+259;10/05/2022;02011 - Superintendência Cajazeirense de Trânsito;449052 - Equipamentos e Material Permanente;11/05/2022;860;860;860;0
+258;10/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;11/05/2022;840;840;840;0
+257;09/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/05/2022;3.500,00;3.500,00;3.500,00;0
+256;09/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/05/2022;8.859,34;8.859,34;8.859,34;0
+255;09/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/05/2022;800;800;800;0
+254;09/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/05/2022;650;650;650;0
+253;09/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/05/2022;100;100;100;0
+252;06/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/05/2022;327,5;327,5;327,5;0
+251;06/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/05/2022;11.449,66;11.449,66;11.449,66;0
+250;06/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/05/2022;396;396;396;0
+249;06/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;09/05/2022;1.400,00;1.400,00;1.400,00;0
+248;06/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;09/05/2022;1.400,00;1.400,00;1.400,00;0
+247;06/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/05/2022;18.300,00;18.300,00;18.300,00;0
+246;06/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/05/2022;2.500,00;2.500,00;2.500,00;0
+245;04/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;05/05/2022;76.193,65;76.193,65;76.193,65;0
+244;04/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/05/2022;708;708;708;0
+243;04/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;05/05/2022;6.396,96;6.396,96;6.396,96;0
+242;04/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;05/05/2022;11.742,50;11.742,50;11.742,50;0
+241;03/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;04/05/2022;5.162,00;0;0;0
+240;03/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/05/2022;327,5;327,5;327,5;0
+239;03/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;04/05/2022;640;640;640;0
+238;03/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;04/05/2022;150;150;150;0
+237;02/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/05/2022;841;841;841;0
+236;02/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/05/2022;1.400,00;1.400,00;1.400,00;0
+235;02/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/05/2022;1.000,00;1.000,00;1.000,00;0
+234;02/05/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;03/05/2022;10.028,50;10.028,50;10.028,50;0
+233;29/04/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;02/05/2022;537,69;537,69;537,69;0
+232;29/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;02/05/2022;200;200;200;0
+231;28/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;02/05/2022;1.000,00;1.000,00;1.000,00;0
+230;28/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/04/2022;5.500,00;5.500,00;5.500,00;0
+229;28/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/04/2022;5.200,00;5.200,00;5.200,00;0
+228;28/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/04/2022;3.100,00;3.100,00;3.100,00;0
+227;28/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/04/2022;850;850;850;0
+226;28/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/04/2022;95,99;95,99;95,99;0
+225;27/04/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;28/04/2022;76.196,11;76.196,11;76.196,11;0
+224;27/04/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;28/04/2022;37.744,32;37.744,32;37.744,32;0
+223;27/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/04/2022;300;300;300;0
+222;26/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/04/2022;3.000,00;3.000,00;3.000,00;0
+221;26/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;27/04/2022;600;600;600;0
+220;26/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/04/2022;3.000,00;3.000,00;3.000,00;0
+219;26/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/04/2022;300;300;300;0
+218;26/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;27/04/2022;2.500,00;2.500,00;2.500,00;0
+217;26/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;27/04/2022;200;200;200;0
+216;25/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/04/2022;95;95;95;0
+215;25/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;26/04/2022;60;60;60;0
+214;25/04/2022;02011 - Superintendência Cajazeirense de Trânsito;469171 - Principal da Dívida Contratual Resgatada;26/04/2022;862,15;862,15;862,15;0
+213;25/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/04/2022;207,59;207,59;207,59;0
+212;22/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;25/04/2022;2.600,00;2.600,00;2.600,00;0
+211;20/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/04/2022;5.000,00;5.000,00;5.000,00;0
+210;20/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/04/2022;9.500,00;9.500,00;9.500,00;0
+209;20/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/04/2022;3.100,00;3.100,00;3.100,00;0
+208;20/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/04/2022;5.000,00;5.000,00;5.000,00;0
+207;19/04/2022;02011 - Superintendência Cajazeirense de Trânsito;469171 - Principal da Dívida Contratual Resgatada;22/04/2022;2.587,57;2.587,57;2.587,57;0
+206;19/04/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;22/04/2022;4.771,65;4.771,65;4.771,65;0
+205;19/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/04/2022;149,26;149,26;149,26;0
+204;19/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/04/2022;1.449,37;1.449,37;1.449,37;0
+203;19/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/04/2022;361,02;361,02;361,02;0
+202;19/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;22/04/2022;640;640;640;0
+201;19/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/04/2022;600;600;600;0
+200;19/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;22/04/2022;350;350;350;0
+199;14/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/04/2022;5.966,00;5.966,00;5.966,00;0
+198;14/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/04/2022;6.070,84;6.070,84;6.070,84;0
+197;13/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/04/2022;150;150;150;0
+196;13/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/04/2022;700;700;700;0
+195;13/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/04/2022;15.992,50;15.992,50;15.992,50;0
+194;13/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/04/2022;15.896,01;15.896,01;15.896,01;0
+193;13/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;14/04/2022;17.936,50;17.936,50;17.936,50;0
+192;12/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/04/2022;18.300,00;18.300,00;18.300,00;0
+191;12/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/04/2022;350;350;350;0
+190;12/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/04/2022;3.400,00;3.400,00;3.400,00;0
+189;12/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;13/04/2022;7.500,01;7.500,01;7.500,01;0
+188;11/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;12/04/2022;15.245,00;15.245,00;15.245,00;0
+187;11/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;12/04/2022;10.029,44;10.029,44;10.029,44;0
+186;11/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;12/04/2022;3.500,00;3.500,00;3.500,00;0
+185;08/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;11/04/2022;4.990,00;4.990,00;4.990,00;0
+184;07/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/04/2022;74.393,80;74.393,80;74.393,80;0
+183;06/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/04/2022;280;280;280;0
+182;06/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;07/04/2022;800;800;800;0
+181;05/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/04/2022;17.313,00;17.313,00;17.313,00;0
+180;05/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/04/2022;341,8;341,8;341,8;0
+179;05/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/04/2022;650;650;650;0
+178;05/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;06/04/2022;390;390;390;0
+177;05/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/04/2022;350;350;350;0
+176;04/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/04/2022;6.396,96;6.396,96;6.396,96;0
+175;04/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;06/04/2022;800;800;800;0
+174;01/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;04/04/2022;10.923,35;10.923,35;10.923,35;0
+173;01/04/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;04/04/2022;320;320;320;0
+172;31/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/04/2022;3.100,00;3.100,00;3.100,00;0
+171;31/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/04/2022;850;850;850;0
+170;31/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;01/04/2022;2.000,00;2.000,00;2.000,00;0
+169;31/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;01/04/2022;24.274,00;24.274,00;24.274,00;0
+168;31/03/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;01/04/2022;533,03;533,03;533,03;0
+167;30/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;31/03/2022;1.000,00;1.000,00;1.000,00;0
+166;30/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;31/03/2022;2.500,00;2.500,00;2.500,00;0
+165;30/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;31/03/2022;949,5;949,5;949,5;0
+164;30/03/2022;02011 - Superintendência Cajazeirense de Trânsito;449052 - Equipamentos e Material Permanente;31/03/2022;470;470;470;0
+163;29/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;30/03/2022;780;780;780;0
+162;29/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/03/2022;780;780;780;0
+161;29/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/03/2022;520;0;0;0
+160;29/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/03/2022;370;370;370;0
+159;29/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/03/2022;370;370;370;0
+158;29/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;30/03/2022;370;370;370;0
+157;29/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;30/03/2022;1.890,81;1.890,81;1.890,81;0
+156;28/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;29/03/2022;450;450;450;0
+155;28/03/2022;02011 - Superintendência Cajazeirense de Trânsito;449052 - Equipamentos e Material Permanente;29/03/2022;1.280,00;1.280,00;1.280,00;0
+154;28/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;29/03/2022;419,79;419,79;419,79;0
+153;25/03/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;28/03/2022;66.483,37;66.483,37;66.483,37;0
+152;25/03/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;28/03/2022;37.744,32;37.744,32;37.744,32;0
+151;25/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;28/03/2022;24.650,00;24.650,00;24.650,00;0
+150;24/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;25/03/2022;11.610,00;11.610,00;11.610,00;0
+149;24/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/03/2022;935;935;935;0
+148;23/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/03/2022;3.000,00;3.000,00;3.000,00;0
+147;23/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/03/2022;327,5;327,5;327,5;0
+146;22/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/03/2022;400;400;400;0
+145;22/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;23/03/2022;2.600,00;2.600,00;2.600,00;0
+144;21/03/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;22/03/2022;4.655,35;4.655,35;4.655,35;0
+143;21/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/03/2022;600;600;600;0
+142;18/03/2022;02011 - Superintendência Cajazeirense de Trânsito;449052 - Equipamentos e Material Permanente;21/03/2022;4.090,00;4.090,00;4.090,00;0
+141;18/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/03/2022;5.000,00;5.000,00;5.000,00;0
+140;18/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/03/2022;377;377;377;0
+139;18/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/03/2022;250;250;250;0
+138;18/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/03/2022;157;157;157;0
+137;17/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/03/2022;1.124,07;1.124,07;1.124,07;0
+136;17/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/03/2022;149,26;149,26;149,26;0
+135;17/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/03/2022;92,91;92,91;92,91;0
+134;16/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/03/2022;3.800,00;3.800,00;3.800,00;0
+133;15/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/03/2022;300;300;300;0
+132;14/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;15/03/2022;281;281;281;0
+131;14/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;15/03/2022;13.910,70;13.910,70;13.910,70;0
+130;14/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;15/03/2022;300;300;300;0
+129;14/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;15/03/2022;850;850;850;0
+128;10/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;11/03/2022;215;215;215;0
+127;10/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;11/03/2022;60;60;60;0
+126;09/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;10/03/2022;900;900;900;0
+125;09/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;10/03/2022;498,5;498,5;498,5;0
+124;09/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/03/2022;4.166,67;4.166,67;4.166,67;0
+123;09/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;10/03/2022;600;600;600;0
+122;08/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/03/2022;147,18;147,18;147,18;0
+121;08/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/03/2022;650;650;650;0
+120;08/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;09/03/2022;1.400,00;1.400,00;1.400,00;0
+119;08/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;09/03/2022;1.400,00;1.400,00;1.400,00;0
+118;08/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/03/2022;445;445;445;0
+117;08/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;09/03/2022;1.065,00;1.065,00;1.065,00;0
+116;08/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/03/2022;18.300,00;18.300,00;18.300,00;0
+115;07/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/03/2022;450;450;450;0
+114;07/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/03/2022;180;180;180;0
+113;07/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/03/2022;3.500,00;3.500,00;3.500,00;0
+112;04/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;07/03/2022;500;500;500;0
+111;04/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/03/2022;8.100,85;8.100,85;8.100,85;0
+110;04/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/03/2022;720;720;720;0
+109;04/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/03/2022;735;735;735;0
+108;03/03/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/03/2022;71.994,00;71.994,00;71.994,00;0
+107;25/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/03/2022;160;160;160;0
+106;25/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;03/03/2022;251,5;251,5;251,5;0
+105;25/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/03/2022;6.396,96;6.396,96;6.396,96;0
+104;25/02/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;03/03/2022;529,22;529,22;529,22;0
+103;25/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;03/03/2022;543,29;543,29;543,29;0
+102;25/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;03/03/2022;3.100,00;3.100,00;3.100,00;0
+101;24/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/02/2022;9.300,00;9.300,00;9.300,00;0
+100;24/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/02/2022;8.000,00;8.000,00;8.000,00;0
+99;24/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/02/2022;8.000,00;8.000,00;8.000,00;0
+98;24/02/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;25/02/2022;6.516,05;6.516,05;6.516,05;0
+97;24/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/02/2022;1.000,00;1.000,00;1.000,00;0
+96;23/02/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;24/02/2022;64.657,38;64.657,38;64.657,38;0
+95;23/02/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;24/02/2022;37.744,32;37.744,32;37.744,32;0
+94;23/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;24/02/2022;360;360;360;0
+93;23/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/02/2022;18.300,00;18.300,00;18.300,00;0
+92;22/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/02/2022;250;250;250;0
+91;22/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/02/2022;3.150,00;3.150,00;3.150,00;0
+90;22/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;23/02/2022;3.000,00;3.000,00;3.000,00;0
+89;22/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;23/02/2022;2.600,00;2.600,00;2.600,00;0
+88;21/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;22/02/2022;870;870;870;0
+87;21/02/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;22/02/2022;4.807,37;4.807,37;4.807,37;0
+86;21/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;22/02/2022;600;600;600;0
+85;18/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/02/2022;500;500;500;0
+84;17/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/02/2022;270;270;270;0
+83;17/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/02/2022;16.848,00;16.848,00;16.848,00;0
+82;17/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/02/2022;3.001,25;3.001,25;3.001,25;0
+81;17/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;18/02/2022;3.011,85;3.011,85;3.011,85;0
+80;17/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/02/2022;5.000,00;5.000,00;5.000,00;0
+79;17/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/02/2022;450;450;450;0
+78;17/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;18/02/2022;300;300;300;0
+77;16/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;17/02/2022;3.300,00;3.300,00;3.300,00;0
+76;15/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/02/2022;12.500,01;12.500,01;12.500,01;0
+75;15/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;16/02/2022;2.500,00;2.500,00;2.500,00;0
+74;15/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;16/02/2022;3.500,00;3.500,00;3.500,00;0
+73;14/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;15/02/2022;70;70;70;0
+72;14/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;15/02/2022;1.770,50;1.770,50;1.770,50;0
+71;14/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;15/02/2022;380;380;380;0
+70;11/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;13/02/2022;28.852,00;28.852,00;28.852,00;0
+69;11/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;13/02/2022;800;800;800;0
+68;10/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;13/02/2022;460;460;460;0
+67;10/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;13/02/2022;1.400,00;1.400,00;1.400,00;0
+66;09/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/02/2022;10.029,44;10.029,44;10.029,44;0
+65;09/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/02/2022;300;300;300;0
+64;09/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;10/02/2022;2.000,00;2.000,00;2.000,00;0
+63;08/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;09/02/2022;64,18;64,18;64,18;0
+62;07/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/02/2022;120;120;120;0
+61;07/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/02/2022;1.600,00;1.600,00;1.600,00;0
+60;07/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/02/2022;384;384;384;0
+59;07/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/02/2022;145;145;145;0
+58;07/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;08/02/2022;900;900;900;0
+57;07/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;08/02/2022;149,26;149,26;149,26;0
+56;04/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/02/2022;900;0;0;0
+55;04/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;07/02/2022;9.152,37;9.152,37;9.152,37;0
+54;03/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;04/02/2022;14.630,00;0;0;0
+53;03/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;04/02/2022;1.250,00;1.250,00;1.250,00;0
+52;03/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/02/2022;650;650;650;0
+51;03/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/02/2022;250;250;250;0
+50;03/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;04/02/2022;1.000,00;1.000,00;1.000,00;0
+49;02/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;03/02/2022;2.680,00;2.680,00;2.680,00;0
+48;02/02/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;03/02/2022;2.600,00;2.600,00;2.600,00;0
+47;31/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;01/02/2022;559;559;559;0
+46;31/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/02/2022;112.821,10;112.821,10;112.821,10;0
+45;31/01/2022;02011 - Superintendência Cajazeirense de Trânsito;469071 - Principal da Dívida Contratual Resgatado;01/02/2022;525,57;525,57;525,57;0
+44;31/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/02/2022;6.396,96;6.396,96;6.396,96;0
+43;31/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;01/02/2022;6.396,96;6.396,96;6.396,96;0
+42;28/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;31/01/2022;450;450;450;0
+41;28/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;31/01/2022;3.100,00;3.100,00;3.100,00;0
+40;28/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;31/01/2022;1.000,00;1.000,00;1.000,00;0
+39;28/01/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;31/01/2022;35.694,46;35.694,46;35.694,46;0
+38;28/01/2022;02011 - Superintendência Cajazeirense de Trânsito;319011 - Vencimentos e Vantagens Fixas - Pessoal Civil;31/01/2022;68.133,08;68.133,08;68.133,08;0
+37;27/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;28/01/2022;400;400;400;0
+36;26/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/01/2022;10.029,44;10.029,44;10.029,44;0
+35;26/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;27/01/2022;137,77;137,77;137,77;0
+34;25/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/01/2022;350;350;350;0
+33;25/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;26/01/2022;650;650;650;0
+32;25/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/01/2022;3.000,00;3.000,00;3.000,00;0
+31;25/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;26/01/2022;953,9;953,9;953,9;0
+30;24/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;25/01/2022;600;600;600;0
+29;21/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;24/01/2022;270;270;270;0
+28;20/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/01/2022;10.029,44;10.029,44;10.029,44;0
+27;20/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/01/2022;5.000,00;5.000,00;5.000,00;0
+26;20/01/2022;02011 - Superintendência Cajazeirense de Trânsito;319013 - Obrigações Patronais;21/01/2022;3.306,01;3.306,01;3.306,01;0
+25;20/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;21/01/2022;5.220,00;5.220,00;5.220,00;0
+24;20/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;21/01/2022;552;552;552;0
+23;19/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;20/01/2022;4.207,00;4.207,00;4.207,00;0
+22;18/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;506;506;506;0
+21;17/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;3.000,00;3.000,00;3.000,00;0
+20;14/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/01/2022;22.614,10;22.614,10;22.614,10;0
+19;14/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;38.996,75;38.996,75;38.996,75;0
+18;14/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/01/2022;2.240,00;2.240,00;2.240,00;0
+17;12/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;300;300;300;0
+16;12/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339035 - Serviços de Consultoria;19/01/2022;2.500,00;2.500,00;2.500,00;0
+15;12/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;18.300,00;18.300,00;18.300,00;0
+14;10/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339036 - Outros Serviços de Terceiros - Pessoa Física;19/01/2022;750;750;750;0
+13;07/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/01/2022;152;152;152;0
+12;07/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339014 - Diárias - Civil;19/01/2022;320;320;320;0
+11;06/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;45,83;45,83;45,83;0
+10;06/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;82,24;82,24;82,24;0
+9;06/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;3.500,00;3.500,00;3.500,00;0
+8;05/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;270;270;270;0
+7;05/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;160;160;160;0
+6;05/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;150;150;150;0
+5;05/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/01/2022;1.520,00;1.520,00;1.520,00;0
+4;05/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339030 - Material de Consumo;19/01/2022;425;425;425;0
+3;04/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;1.000,00;1.000,00;1.000,00;0
+2;03/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;2.500,00;2.345,90;2.345,90;0
+1;03/01/2022;02011 - Superintendência Cajazeirense de Trânsito;339039 - Outros Serviços de Terceiros - Pessoa Jurídica;19/01/2022;5.000,00;5.000,00;5.000,00;0

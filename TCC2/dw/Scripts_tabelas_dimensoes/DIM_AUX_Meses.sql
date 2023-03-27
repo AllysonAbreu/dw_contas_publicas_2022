@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[DIM_AUX_Meses]
+(
+    [id] TINYINT IDENTITY(1,1) PRIMARY KEY,
+    [nome_mes] VARCHAR(50) NOT NULL
+);

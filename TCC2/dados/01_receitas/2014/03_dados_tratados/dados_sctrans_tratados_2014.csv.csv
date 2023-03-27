@@ -1,0 +1,482 @@
+ Número Guia;Código;Receita;Data;Nome;CPF/CNPJ;Valor Previsto;Valor Lançado;Valor Arrecadado
+1;1919150000;Multas Previstas na Legislação de Trânsito;02/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;459.08
+2;1919150000;Multas Previstas na Legislação de Trânsito;03/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;245.39
+3;1919150000;Multas Previstas na Legislação de Trânsito;03/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;244.75
+4;1121300000;Taxa de Autorização de Funcionamento de Transporte;06/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;281
+6;1919150000;Multas Previstas na Legislação de Trânsito;07/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;697.69
+7;1121300000;Taxa de Autorização de Funcionamento de Transporte;07/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;60
+8;1919150000;Multas Previstas na Legislação de Trânsito;08/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;666.03
+9;1121300000;Taxa de Autorização de Funcionamento de Transporte;08/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+10;1919150000;Multas Previstas na Legislação de Trânsito;09/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;248.09
+11;1121300000;Taxa de Autorização de Funcionamento de Transporte;09/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;30
+12;1919150000;Multas Previstas na Legislação de Trânsito;10/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;437.51
+13;1121300000;Taxa de Autorização de Funcionamento de Transporte;10/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;161
+14;1919150000;Multas Previstas na Legislação de Trânsito;13/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;339.77
+15;1121300000;Taxa de Autorização de Funcionamento de Transporte;13/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;60
+16;1919150000;Multas Previstas na Legislação de Trânsito;14/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;796.49
+17;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;161
+18;1919150000;Multas Previstas na Legislação de Trânsito;15/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;20.91
+19;1121300000;Taxa de Autorização de Funcionamento de Transporte;15/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;273
+20;1919150000;Multas Previstas na Legislação de Trânsito;16/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;478.6
+21;1121300000;Taxa de Autorização de Funcionamento de Transporte;16/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;371
+22;1919150000;Multas Previstas na Legislação de Trânsito;17/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;470.58
+23;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;251
+24;1919150000;Multas Previstas na Legislação de Trânsito;20/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1198.54
+25;1121300000;Taxa de Autorização de Funcionamento de Transporte;20/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;821
+26;1919150000;Multas Previstas na Legislação de Trânsito;21/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;539.96
+27;1121300000;Taxa de Autorização de Funcionamento de Transporte;21/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;420
+28;1919150000;Multas Previstas na Legislação de Trânsito;22/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;93.06
+29;1121300000;Taxa de Autorização de Funcionamento de Transporte;22/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;600
+30;1919150000;Multas Previstas na Legislação de Trânsito;23/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;590.49
+31;1121300000;Taxa de Autorização de Funcionamento de Transporte;23/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;1340.00
+32;1919150000;Multas Previstas na Legislação de Trânsito;24/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;531.23
+33;1121300000;Taxa de Autorização de Funcionamento de Transporte;24/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;1001.00
+34;1919150000;Multas Previstas na Legislação de Trânsito;27/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;773.85
+35;1121300000;Taxa de Autorização de Funcionamento de Transporte;27/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;281
+36;1919150000;Multas Previstas na Legislação de Trânsito;28/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;387.99
+37;1121300000;Taxa de Autorização de Funcionamento de Transporte;28/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;30
+38;1919150000;Multas Previstas na Legislação de Trânsito;29/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;295.25
+39;1121300000;Taxa de Autorização de Funcionamento de Transporte;29/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;251
+40;1919150000;Multas Previstas na Legislação de Trânsito;30/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;931.67
+41;1121300000;Taxa de Autorização de Funcionamento de Transporte;30/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;161
+42;1919150000;Multas Previstas na Legislação de Trânsito;31/01/2014;SCTRANS;04.342.393/0001-72;120000.00;0;276.42
+43;1121300000;Taxa de Autorização de Funcionamento de Transporte;31/01/2014;SCTRANS;04.342.393/0001-72;100000.00;0;221
+44;1325020100;Receita de Remuneração de Depósitos de Poupança;31/01/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;92.53
+45;1121300000;Taxa de Autorização de Funcionamento de Transporte;03/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;90
+46;1919150000;Multas Previstas na Legislação de Trânsito;04/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1102.22
+47;1121300000;Taxa de Autorização de Funcionamento de Transporte;04/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;60
+48;1919150000;Multas Previstas na Legislação de Trânsito;05/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;744.91
+49;1919150000;Multas Previstas na Legislação de Trânsito;05/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;939.06
+50;1121300000;Taxa de Autorização de Funcionamento de Transporte;05/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;240
+51;1919150000;Multas Previstas na Legislação de Trânsito;06/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;234.6
+52;1121300000;Taxa de Autorização de Funcionamento de Transporte;06/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;30
+53;1919150000;Multas Previstas na Legislação de Trânsito;07/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;407.84
+54;1919150000;Multas Previstas na Legislação de Trânsito;10/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;589.42
+55;1121300000;Taxa de Autorização de Funcionamento de Transporte;10/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;251
+56;1919150000;Multas Previstas na Legislação de Trânsito;11/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;865.64
+57;1121300000;Taxa de Autorização de Funcionamento de Transporte;11/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;71
+58;1919150000;Multas Previstas na Legislação de Trânsito;12/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;642.44
+59;1121300000;Taxa de Autorização de Funcionamento de Transporte;12/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+60;1121300000;Taxa de Autorização de Funcionamento de Transporte;13/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;71
+61;1919150000;Multas Previstas na Legislação de Trânsito;13/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;347.54
+62;1919150000;Multas Previstas na Legislação de Trânsito;14/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;246.09
+63;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;60
+64;1919150000;Multas Previstas na Legislação de Trânsito;17/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;634.07
+65;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;90
+66;1919150000;Multas Previstas na Legislação de Trânsito;18/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;584.83
+67;1121300000;Taxa de Autorização de Funcionamento de Transporte;18/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;161
+68;1919150000;Multas Previstas na Legislação de Trânsito;19/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;525.81
+69;1121300000;Taxa de Autorização de Funcionamento de Transporte;19/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;41
+70;1919150000;Multas Previstas na Legislação de Trânsito;20/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;728.73
+71;1121300000;Taxa de Autorização de Funcionamento de Transporte;20/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;90
+72;1919150000;Multas Previstas na Legislação de Trânsito;21/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;264.92
+73;1121300000;Taxa de Autorização de Funcionamento de Transporte;21/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;251
+74;1919150000;Multas Previstas na Legislação de Trânsito;24/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;458.4
+75;1919150000;Multas Previstas na Legislação de Trânsito;25/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;916.77
+76;1121300000;Taxa de Autorização de Funcionamento de Transporte;25/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;90
+77;1919150000;Multas Previstas na Legislação de Trânsito;26/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;365.43
+78;1121300000;Taxa de Autorização de Funcionamento de Transporte;26/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;150
+79;1919150000;Multas Previstas na Legislação de Trânsito;27/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;787.43
+80;1121300000;Taxa de Autorização de Funcionamento de Transporte;27/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;251
+81;1919150000;Multas Previstas na Legislação de Trânsito;28/02/2014;SCTRANS;04.342.393/0001-72;120000.00;0;266.3
+82;1121300000;Taxa de Autorização de Funcionamento de Transporte;28/02/2014;SCTRANS;04.342.393/0001-72;100000.00;0;281
+83;1325020100;Receita de Remuneração de Depósitos de Poupança;28/02/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;242.18
+84;1919150000;Multas Previstas na Legislação de Trânsito;05/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;761.09
+85;1121300000;Taxa de Autorização de Funcionamento de Transporte;05/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+86;1919150000;Multas Previstas na Legislação de Trânsito;06/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1142.63
+87;1919150000;Multas Previstas na Legislação de Trânsito;06/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1617.17
+88;1121300000;Taxa de Autorização de Funcionamento de Transporte;07/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;210
+89;1919150000;Multas Previstas na Legislação de Trânsito;10/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;614.75
+90;1121300000;Taxa de Autorização de Funcionamento de Transporte;10/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;281
+91;1919150000;Multas Previstas na Legislação de Trânsito;11/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;794.76
+92;1121300000;Taxa de Autorização de Funcionamento de Transporte;11/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+93;1919150000;Multas Previstas na Legislação de Trânsito;12/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1495.76
+94;1121300000;Taxa de Autorização de Funcionamento de Transporte;12/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;584
+95;1919150000;Multas Previstas na Legislação de Trânsito;13/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;692.28
+96;1121300000;Taxa de Autorização de Funcionamento de Transporte;13/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;461
+97;1919150000;Multas Previstas na Legislação de Trânsito;14/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1264.61
+98;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;360
+99;1919150000;Multas Previstas na Legislação de Trânsito;17/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;386.92
+100;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;461
+101;1121300000;Taxa de Autorização de Funcionamento de Transporte;18/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;101
+102;1919150000;Multas Previstas na Legislação de Trânsito;18/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;306.75
+103;1919150000;Multas Previstas na Legislação de Trânsito;19/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;814.26
+104;1121300000;Taxa de Autorização de Funcionamento de Transporte;19/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+105;1919150000;Multas Previstas na Legislação de Trânsito;20/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;479.98
+106;1121300000;Taxa de Autorização de Funcionamento de Transporte;20/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;161
+107;1919150000;Multas Previstas na Legislação de Trânsito;21/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1233.61
+108;1121300000;Taxa de Autorização de Funcionamento de Transporte;21/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;251
+109;1919150000;Multas Previstas na Legislação de Trânsito;24/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;908.05
+110;1121300000;Taxa de Autorização de Funcionamento de Transporte;24/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;300
+111;1919150000;Multas Previstas na Legislação de Trânsito;25/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;433.47
+112;1919150000;Multas Previstas na Legislação de Trânsito;25/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;287.21
+113;1121300000;Taxa de Autorização de Funcionamento de Transporte;25/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;371
+114;1919150000;Multas Previstas na Legislação de Trânsito;26/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;502.28
+115;1121300000;Taxa de Autorização de Funcionamento de Transporte;26/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;262
+116;1919150000;Multas Previstas na Legislação de Trânsito;27/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;306.75
+117;1121300000;Taxa de Autorização de Funcionamento de Transporte;27/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;90
+118;1919150000;Multas Previstas na Legislação de Trânsito;28/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;573.04
+119;1121300000;Taxa de Autorização de Funcionamento de Transporte;28/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;210
+120;1919150000;Multas Previstas na Legislação de Trânsito;31/03/2014;SCTRANS;04.342.393/0001-72;120000.00;0;613.48
+121;1121300000;Taxa de Autorização de Funcionamento de Transporte;31/03/2014;SCTRANS;04.342.393/0001-72;100000.00;0;180
+122;1325020100;Receita de Remuneração de Depósitos de Poupança;31/03/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;117.57
+123;1919150000;Multas Previstas na Legislação de Trânsito;01/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;561.54
+124;1121300000;Taxa de Autorização de Funcionamento de Transporte;01/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;221
+125;1919150000;Multas Previstas na Legislação de Trânsito;02/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;20.91
+126;1919150000;Multas Previstas na Legislação de Trânsito;02/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;958.03
+127;1121300000;Taxa de Autorização de Funcionamento de Transporte;02/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;461
+128;1919150000;Multas Previstas na Legislação de Trânsito;03/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;275.04
+129;1919150000;Multas Previstas na Legislação de Trânsito;03/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;2107.60
+130;1121300000;Taxa de Autorização de Funcionamento de Transporte;03/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;311
+131;1121300000;Taxa de Autorização de Funcionamento de Transporte;11/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;232
+132;1919150000;Multas Previstas na Legislação de Trânsito;14/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;745.61
+133;1919150000;Multas Previstas na Legislação de Trânsito;04/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;804.89
+134;1121300000;Taxa de Autorização de Funcionamento de Transporte;04/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;221
+135;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;191
+136;1919150000;Multas Previstas na Legislação de Trânsito;08/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;828.54
+137;1121300000;Taxa de Autorização de Funcionamento de Transporte;08/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;90
+138;1919150000;Multas Previstas na Legislação de Trânsito;15/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;377.52
+139;1919150000;Multas Previstas na Legislação de Trânsito;09/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;726.76
+140;1121300000;Taxa de Autorização de Funcionamento de Transporte;09/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;131
+141;1121300000;Taxa de Autorização de Funcionamento de Transporte;15/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;303
+142;1919150000;Multas Previstas na Legislação de Trânsito;10/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;937.68
+143;1919150000;Multas Previstas na Legislação de Trânsito;10/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1079.20
+144;1919150000;Multas Previstas na Legislação de Trânsito;16/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;757.26
+145;1121300000;Taxa de Autorização de Funcionamento de Transporte;10/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;191
+146;1121300000;Taxa de Autorização de Funcionamento de Transporte;16/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;262
+147;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;232
+148;1919150000;Multas Previstas na Legislação de Trânsito;22/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;947.78
+149;1919150000;Multas Previstas na Legislação de Trânsito;22/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;947.78
+150;1919150000;Multas Previstas na Legislação de Trânsito;23/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1487.07
+151;1919150000;Multas Previstas na Legislação de Trânsito;23/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;827.18
+152;1919150000;Multas Previstas na Legislação de Trânsito;23/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;112.59
+153;1121300000;Taxa de Autorização de Funcionamento de Transporte;23/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;322
+154;1121300000;Taxa de Autorização de Funcionamento de Transporte;24/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;142
+155;1919150000;Multas Previstas na Legislação de Trânsito;25/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1029.36
+156;1121300000;Taxa de Autorização de Funcionamento de Transporte;25/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;352
+157;1919150000;Multas Previstas na Legislação de Trânsito;28/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;317.55
+158;1121300000;Taxa de Autorização de Funcionamento de Transporte;28/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;442
+159;1919150000;Multas Previstas na Legislação de Trânsito;29/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;473.93
+160;1919150000;Multas Previstas na Legislação de Trânsito;30/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;722.61
+161;1121300000;Taxa de Autorização de Funcionamento de Transporte;30/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;701
+162;1121300000;Taxa de Autorização de Funcionamento de Transporte;07/04/2014;SCTRANS;04.342.393/0001-72;100000.00;0;30
+163;1919150000;Multas Previstas na Legislação de Trânsito;11/04/2014;SCTRANS;04.342.393/0001-72;120000.00;0;438.17
+164;1325020100;Receita de Remuneração de Depósitos de Poupança;30/04/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;45.83
+165;1919150000;Multas Previstas na Legislação de Trânsito;02/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;534.78
+166;1121300000;Taxa de Autorização de Funcionamento de Transporte;02/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;451
+167;1919150000;Multas Previstas na Legislação de Trânsito;05/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;253.51
+168;1121300000;Taxa de Autorização de Funcionamento de Transporte;05/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+169;1121300000;Taxa de Autorização de Funcionamento de Transporte;06/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;280
+170;1919150000;Multas Previstas na Legislação de Trânsito;07/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;340.56
+171;1121300000;Taxa de Autorização de Funcionamento de Transporte;07/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;291
+172;1919150000;Multas Previstas na Legislação de Trânsito;08/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;805.55
+173;1121300000;Taxa de Autorização de Funcionamento de Transporte;08/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+174;1919150000;Multas Previstas na Legislação de Trânsito;09/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;160.83
+175;1121300000;Taxa de Autorização de Funcionamento de Transporte;09/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+177;1121300000;Taxa de Autorização de Funcionamento de Transporte;12/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;222
+178;1919150000;Multas Previstas na Legislação de Trânsito;13/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;404.06
+179;1121300000;Taxa de Autorização de Funcionamento de Transporte;13/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;502
+180;1919150000;Multas Previstas na Legislação de Trânsito;14/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;512.4
+181;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;393
+183;1121300000;Taxa de Autorização de Funcionamento de Transporte;15/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;273
+184;1919150000;Multas Previstas na Legislação de Trânsito;16/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;225.18
+185;1121300000;Taxa de Autorização de Funcionamento de Transporte;16/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;531
+187;1121300000;Taxa de Autorização de Funcionamento de Transporte;19/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;423
+188;1919150000;Multas Previstas na Legislação de Trânsito;20/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;539.95
+189;1121300000;Taxa de Autorização de Funcionamento de Transporte;20/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+190;1919150000;Multas Previstas na Legislação de Trânsito;21/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;738.14
+191;1121300000;Taxa de Autorização de Funcionamento de Transporte;21/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;473
+192;1919150000;Multas Previstas na Legislação de Trânsito;22/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;215.35
+193;1121300000;Taxa de Autorização de Funcionamento de Transporte;22/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;331
+194;1919150000;Multas Previstas na Legislação de Trânsito;23/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;406.18
+195;1121300000;Taxa de Autorização de Funcionamento de Transporte;23/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;451
+196;1919150000;Multas Previstas na Legislação de Trânsito;26/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;621.51
+197;1121300000;Taxa de Autorização de Funcionamento de Transporte;26/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;331
+198;1919150000;Multas Previstas na Legislação de Trânsito;27/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;96.76
+199;1121300000;Taxa de Autorização de Funcionamento de Transporte;27/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;252
+200;1919150000;Multas Previstas na Legislação de Trânsito;28/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;906.65
+201;1121300000;Taxa de Autorização de Funcionamento de Transporte;28/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;321
+202;1919150000;Multas Previstas na Legislação de Trânsito;29/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;91.68
+203;1919150000;Multas Previstas na Legislação de Trânsito;29/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;407.53
+204;1919150000;Multas Previstas na Legislação de Trânsito;29/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;91.68
+205;1919150000;Multas Previstas na Legislação de Trânsito;29/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;407.53
+206;1121300000;Taxa de Autorização de Funcionamento de Transporte;29/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;302
+207;1919150000;Multas Previstas na Legislação de Trânsito;30/05/2014;SCTRANS;04.342.393/0001-72;120000.00;0;336.75
+208;1121300000;Taxa de Autorização de Funcionamento de Transporte;30/05/2014;SCTRANS;04.342.393/0001-72;100000.00;0;262
+209;1325020100;Receita de Remuneração de Depósitos de Poupança;30/05/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;66.57
+210;1919150000;Multas Previstas na Legislação de Trânsito;02/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;621.15
+211;1121300000;Taxa de Autorização de Funcionamento de Transporte;02/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;452
+212;1919150000;Multas Previstas na Legislação de Trânsito;03/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;611.61
+213;1919150000;Multas Previstas na Legislação de Trânsito;03/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;30.55
+214;1121300000;Taxa de Autorização de Funcionamento de Transporte;03/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;262
+215;1919150000;Multas Previstas na Legislação de Trânsito;04/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;2300.20
+216;1919150000;Multas Previstas na Legislação de Trânsito;04/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;337.96
+217;1121300000;Taxa de Autorização de Funcionamento de Transporte;04/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;222
+218;1919150000;Multas Previstas na Legislação de Trânsito;05/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;91.68
+219;1919150000;Multas Previstas na Legislação de Trânsito;05/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;355.64
+220;1121300000;Taxa de Autorização de Funcionamento de Transporte;05/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;291
+221;1919150000;Multas Previstas na Legislação de Trânsito;06/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;326.27
+222;1121300000;Taxa de Autorização de Funcionamento de Transporte;06/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;212
+223;1919150000;Multas Previstas na Legislação de Trânsito;09/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;246.09
+224;1121300000;Taxa de Autorização de Funcionamento de Transporte;09/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;200
+225;1919150000;Multas Previstas na Legislação de Trânsito;10/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;337.07
+226;1121300000;Taxa de Autorização de Funcionamento de Transporte;10/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+227;1919150000;Multas Previstas na Legislação de Trânsito;11/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;313.23
+228;1121300000;Taxa de Autorização de Funcionamento de Transporte;11/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;31
+229;1121300000;Taxa de Autorização de Funcionamento de Transporte;12/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+230;1919150000;Multas Previstas na Legislação de Trânsito;13/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;367.4
+231;1121300000;Taxa de Autorização de Funcionamento de Transporte;13/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+232;1919150000;Multas Previstas na Legislação de Trânsito;16/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;99.52
+233;1919150000;Multas Previstas na Legislação de Trânsito;16/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;455.73
+234;1121300000;Taxa de Autorização de Funcionamento de Transporte;16/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;241
+235;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;291
+236;1121300000;Taxa de Autorização de Funcionamento de Transporte;18/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;382
+237;1919150000;Multas Previstas na Legislação de Trânsito;20/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;296.64
+238;1919150000;Multas Previstas na Legislação de Trânsito;20/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;313.9
+239;1121300000;Taxa de Autorização de Funcionamento de Transporte;20/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+240;1121300000;Taxa de Autorização de Funcionamento de Transporte;23/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;211
+241;1919150000;Multas Previstas na Legislação de Trânsito;25/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;326.28
+242;1919150000;Multas Previstas na Legislação de Trânsito;26/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;328.97
+243;1919150000;Multas Previstas na Legislação de Trânsito;26/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;151
+244;1121300000;Taxa de Autorização de Funcionamento de Transporte;26/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;82
+245;1121300000;Taxa de Autorização de Funcionamento de Transporte;27/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;171
+246;1919150000;Multas Previstas na Legislação de Trânsito;30/06/2014;SCTRANS;04.342.393/0001-72;120000.00;0;257.97
+247;1121300000;Taxa de Autorização de Funcionamento de Transporte;30/06/2014;SCTRANS;04.342.393/0001-72;100000.00;0;411
+248;1325020100;Receita de Remuneração de Depósitos de Poupança;30/06/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;40.95
+249;1919150000;Multas Previstas na Legislação de Trânsito;01/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;530.58
+250;1121300000;Taxa de Autorização de Funcionamento de Transporte;01/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;171
+251;1919150000;Multas Previstas na Legislação de Trânsito;02/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;603.38
+252;1121300000;Taxa de Autorização de Funcionamento de Transporte;02/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;400
+253;1919150000;Multas Previstas na Legislação de Trânsito;03/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1315.21
+254;1919150000;Multas Previstas na Legislação de Trânsito;03/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1102.90
+255;1121300000;Taxa de Autorização de Funcionamento de Transporte;03/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;313
+256;1121300000;Taxa de Autorização de Funcionamento de Transporte;04/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;240
+257;1919150000;Multas Previstas na Legislação de Trânsito;07/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;814.3
+258;1121300000;Taxa de Autorização de Funcionamento de Transporte;07/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;222
+259;1919150000;Multas Previstas na Legislação de Trânsito;08/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;601.98
+260;1919150000;Multas Previstas na Legislação de Trânsito;08/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;479.31
+261;1121300000;Taxa de Autorização de Funcionamento de Transporte;08/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+262;1919150000;Multas Previstas na Legislação de Trânsito;09/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;142.92
+263;1121300000;Taxa de Autorização de Funcionamento de Transporte;09/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+264;1919150000;Multas Previstas na Legislação de Trânsito;10/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;713.9
+265;1121300000;Taxa de Autorização de Funcionamento de Transporte;10/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;131
+266;1919150000;Multas Previstas na Legislação de Trânsito;11/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;316.16
+267;1121300000;Taxa de Autorização de Funcionamento de Transporte;11/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+268;1919150000;Multas Previstas na Legislação de Trânsito;14/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;592.58
+269;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+270;1919150000;Multas Previstas na Legislação de Trânsito;15/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;478.61
+271;1121300000;Taxa de Autorização de Funcionamento de Transporte;15/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+272;1919150000;Multas Previstas na Legislação de Trânsito;16/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;352.61
+273;1121300000;Taxa de Autorização de Funcionamento de Transporte;16/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;302
+274;1919150000;Multas Previstas na Legislação de Trânsito;17/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;849.35
+275;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;291
+276;1919150000;Multas Previstas na Legislação de Trânsito;18/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;163.83
+277;1121300000;Taxa de Autorização de Funcionamento de Transporte;18/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;240
+278;1919150000;Multas Previstas na Legislação de Trânsito;21/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;439.54
+279;1121300000;Taxa de Autorização de Funcionamento de Transporte;21/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;400
+280;1919150000;Multas Previstas na Legislação de Trânsito;22/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;163.83
+281;1121300000;Taxa de Autorização de Funcionamento de Transporte;22/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+282;1919150000;Multas Previstas na Legislação de Trânsito;23/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;415.29
+283;1121300000;Taxa de Autorização de Funcionamento de Transporte;23/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;411
+284;1919150000;Multas Previstas na Legislação de Trânsito;24/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;407.84
+285;1121300000;Taxa de Autorização de Funcionamento de Transporte;24/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;222
+286;1919150000;Multas Previstas na Legislação de Trânsito;25/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;306.74
+287;1121300000;Taxa de Autorização de Funcionamento de Transporte;25/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;684
+288;1919150000;Multas Previstas na Legislação de Trânsito;28/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;225.18
+289;1121300000;Taxa de Autorização de Funcionamento de Transporte;28/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;484
+290;1919150000;Multas Previstas na Legislação de Trânsito;29/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;459.08
+291;1121300000;Taxa de Autorização de Funcionamento de Transporte;29/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;594
+292;1919150000;Multas Previstas na Legislação de Trânsito;30/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;224.48
+293;1121300000;Taxa de Autorização de Funcionamento de Transporte;30/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;291
+294;1919150000;Multas Previstas na Legislação de Trânsito;31/07/2014;SCTRANS;04.342.393/0001-72;120000.00;0;438.87
+295;1121300000;Taxa de Autorização de Funcionamento de Transporte;31/07/2014;SCTRANS;04.342.393/0001-72;100000.00;0;491
+296;1325020100;Receita de Remuneração de Depósitos de Poupança;31/07/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;68.79
+298;1919150000;Multas Previstas na Legislação de Trânsito;01/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;505.19
+299;1121300000;Taxa de Autorização de Funcionamento de Transporte;01/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;433
+300;1919150000;Multas Previstas na Legislação de Trânsito;04/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;335.69
+301;1121300000;Taxa de Autorização de Funcionamento de Transporte;04/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;110
+302;1919150000;Multas Previstas na Legislação de Trânsito;05/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;51.24
+303;1919150000;Multas Previstas na Legislação de Trânsito;05/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;2107.17
+304;1121300000;Taxa de Autorização de Funcionamento de Transporte;05/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+305;1919150000;Multas Previstas na Legislação de Trânsito;06/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;234.6
+306;1121300000;Taxa de Autorização de Funcionamento de Transporte;06/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+307;1919150000;Multas Previstas na Legislação de Trânsito;07/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;474.88
+308;1121300000;Taxa de Autorização de Funcionamento de Transporte;07/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;533
+309;1919150000;Multas Previstas na Legislação de Trânsito;08/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;152.33
+310;1121300000;Taxa de Autorização de Funcionamento de Transporte;08/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;364
+311;1919150000;Multas Previstas na Legislação de Trânsito;11/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1247.18
+312;1121300000;Taxa de Autorização de Funcionamento de Transporte;11/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+313;1919150000;Multas Previstas na Legislação de Trânsito;12/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;411.87
+314;1121300000;Taxa de Autorização de Funcionamento de Transporte;12/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;281
+315;1919150000;Multas Previstas na Legislação de Trânsito;13/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;256.89
+316;1121300000;Taxa de Autorização de Funcionamento de Transporte;13/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;150
+317;1919150000;Multas Previstas na Legislação de Trânsito;14/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;211.02
+318;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;131
+319;1919150000;Multas Previstas na Legislação de Trânsito;15/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;215.07
+320;1121300000;Taxa de Autorização de Funcionamento de Transporte;15/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;331
+321;1919150000;Multas Previstas na Legislação de Trânsito;18/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;275.75
+322;1121300000;Taxa de Autorização de Funcionamento de Transporte;18/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;131
+323;1919150000;Multas Previstas na Legislação de Trânsito;19/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;396.34
+324;1121300000;Taxa de Autorização de Funcionamento de Transporte;19/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;182
+325;1121300000;Taxa de Autorização de Funcionamento de Transporte;20/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+326;1919150000;Multas Previstas na Legislação de Trânsito;21/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;854.74
+327;1121300000;Taxa de Autorização de Funcionamento de Transporte;21/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+328;1919150000;Multas Previstas na Legislação de Trânsito;22/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;414.6
+329;1121300000;Taxa de Autorização de Funcionamento de Transporte;22/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+330;1919150000;Multas Previstas na Legislação de Trânsito;25/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;335.69
+331;1919150000;Multas Previstas na Legislação de Trânsito;26/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;387.67
+332;1121300000;Taxa de Autorização de Funcionamento de Transporte;26/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+333;1919150000;Multas Previstas na Legislação de Trânsito;27/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;51.24
+334;1121300000;Taxa de Autorização de Funcionamento de Transporte;27/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;280
+335;1919150000;Multas Previstas na Legislação de Trânsito;28/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;357.99
+336;1121300000;Taxa de Autorização de Funcionamento de Transporte;28/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;291
+337;1919150000;Multas Previstas na Legislação de Trânsito;29/08/2014;SCTRANS;04.342.393/0001-72;120000.00;0;484.02
+338;1121300000;Taxa de Autorização de Funcionamento de Transporte;29/08/2014;SCTRANS;04.342.393/0001-72;100000.00;0;200
+339;1325020100;Receita de Remuneração de Depósitos de Poupança;29/08/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;50.39
+341;1919150000;Multas Previstas na Legislação de Trânsito;01/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;285.84
+342;1121300000;Taxa de Autorização de Funcionamento de Transporte;01/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;400
+343;1121300000;Taxa de Autorização de Funcionamento de Transporte;02/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+344;1919150000;Multas Previstas na Legislação de Trânsito;03/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1656.34
+345;1121300000;Taxa de Autorização de Funcionamento de Transporte;03/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;300
+346;1919150000;Multas Previstas na Legislação de Trânsito;04/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1263.96
+347;1121300000;Taxa de Autorização de Funcionamento de Transporte;04/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;280
+348;1919150000;Multas Previstas na Legislação de Trânsito;05/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;333.72
+349;1121300000;Taxa de Autorização de Funcionamento de Transporte;05/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;310
+350;1919150000;Multas Previstas na Legislação de Trânsito;08/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;285.83
+351;1121300000;Taxa de Autorização de Funcionamento de Transporte;08/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+352;1919150000;Multas Previstas na Legislação de Trânsito;09/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;102.48
+353;1919150000;Multas Previstas na Legislação de Trânsito;10/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;308.54
+354;1121300000;Taxa de Autorização de Funcionamento de Transporte;10/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;251
+355;1919150000;Multas Previstas na Legislação de Trânsito;11/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;482.64
+356;1121300000;Taxa de Autorização de Funcionamento de Transporte;12/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+357;1919150000;Multas Previstas na Legislação de Trânsito;15/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;417.25
+358;1919150000;Multas Previstas na Legislação de Trânsito;15/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;374.15
+359;1121300000;Taxa de Autorização de Funcionamento de Transporte;15/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;561
+360;1919150000;Multas Previstas na Legislação de Trânsito;16/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;508.93
+361;1919150000;Multas Previstas na Legislação de Trânsito;17/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;498.81
+362;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;302
+363;1919150000;Multas Previstas na Legislação de Trânsito;18/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;20.91
+364;1121300000;Taxa de Autorização de Funcionamento de Transporte;18/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;550
+365;1919150000;Multas Previstas na Legislação de Trânsito;19/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;684.93
+366;1919150000;Multas Previstas na Legislação de Trânsito;22/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;163.82
+367;1121300000;Taxa de Autorização de Funcionamento de Transporte;22/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;200
+368;1919150000;Multas Previstas na Legislação de Trânsito;23/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;255.51
+369;1121300000;Taxa de Autorização de Funcionamento de Transporte;23/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;300
+370;1919150000;Multas Previstas na Legislação de Trânsito;24/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;244.01
+371;1121300000;Taxa de Autorização de Funcionamento de Transporte;24/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+372;1919150000;Multas Previstas na Legislação de Trânsito;25/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;152.33
+373;1121300000;Taxa de Autorização de Funcionamento de Transporte;25/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+374;1919150000;Multas Previstas na Legislação de Trânsito;26/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1108.83
+375;1121300000;Taxa de Autorização de Funcionamento de Transporte;26/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;91
+376;1121300000;Taxa de Autorização de Funcionamento de Transporte;29/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;150
+377;1919150000;Multas Previstas na Legislação de Trânsito;30/09/2014;SCTRANS;04.342.393/0001-72;120000.00;0;102.47
+378;1121300000;Taxa de Autorização de Funcionamento de Transporte;30/09/2014;SCTRANS;04.342.393/0001-72;100000.00;0;200
+379;1325020100;Receita de Remuneração de Depósitos de Poupança;30/09/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;16.68
+380;1919150000;Multas Previstas na Legislação de Trânsito;01/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;464.77
+381;1121300000;Taxa de Autorização de Funcionamento de Transporte;01/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;211
+382;1919150000;Multas Previstas na Legislação de Trânsito;02/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;511.02
+383;1121300000;Taxa de Autorização de Funcionamento de Transporte;02/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+384;1919150000;Multas Previstas na Legislação de Trânsito;03/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;612.1
+385;1121300000;Taxa de Autorização de Funcionamento de Transporte;03/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+386;1919150000;Multas Previstas na Legislação de Trânsito;06/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;153.72
+387;1121300000;Taxa de Autorização de Funcionamento de Transporte;06/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;211
+388;1919150000;Multas Previstas na Legislação de Trânsito;07/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;142.92
+389;1121300000;Taxa de Autorização de Funcionamento de Transporte;07/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;331
+390;1919150000;Multas Previstas na Legislação de Trânsito;08/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;438.16
+391;1121300000;Taxa de Autorização de Funcionamento de Transporte;08/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+392;1919150000;Multas Previstas na Legislação de Trânsito;09/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;418.63
+393;1121300000;Taxa de Autorização de Funcionamento de Transporte;09/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+394;1919150000;Multas Previstas na Legislação de Trânsito;10/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;448.28
+395;1121300000;Taxa de Autorização de Funcionamento de Transporte;10/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;230
+396;1919150000;Multas Previstas na Legislação de Trânsito;13/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;140.24
+397;1919150000;Multas Previstas na Legislação de Trânsito;14/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;418.64
+398;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;211
+399;1919150000;Multas Previstas na Legislação de Trânsito;15/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;142.92
+400;1121300000;Taxa de Autorização de Funcionamento de Transporte;15/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;520
+401;1919150000;Multas Previstas na Legislação de Trânsito;16/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;389.01
+402;1121300000;Taxa de Autorização de Funcionamento de Transporte;16/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;280
+403;1919150000;Multas Previstas na Legislação de Trânsito;17/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;918.87
+404;1919150000;Multas Previstas na Legislação de Trânsito;20/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;357.99
+405;1919150000;Multas Previstas na Legislação de Trânsito;21/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;82.95
+406;1121300000;Taxa de Autorização de Funcionamento de Transporte;21/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;51
+407;1919150000;Multas Previstas na Legislação de Trânsito;22/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;267.04
+408;1121300000;Taxa de Autorização de Funcionamento de Transporte;22/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;240
+409;1919150000;Multas Previstas na Legislação de Trânsito;23/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;261.57
+410;1121300000;Taxa de Autorização de Funcionamento de Transporte;23/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+411;1919150000;Multas Previstas na Legislação de Trânsito;24/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;476.62
+412;1121300000;Taxa de Autorização de Funcionamento de Transporte;24/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;291
+413;1121300000;Taxa de Autorização de Funcionamento de Transporte;27/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;291
+414;1919150000;Multas Previstas na Legislação de Trânsito;28/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;370.75
+415;1121300000;Taxa de Autorização de Funcionamento de Transporte;28/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+416;1919150000;Multas Previstas na Legislação de Trânsito;29/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;358.71
+417;1919150000;Multas Previstas na Legislação de Trânsito;30/10/2014;SCTRANS;04.342.393/0001-72;120000.00;0;421.72
+418;1121300000;Taxa de Autorização de Funcionamento de Transporte;30/10/2014;SCTRANS;04.342.393/0001-72;100000.00;0;131
+419;1325020100;Receita de Remuneração de Depósitos de Poupança;31/10/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;25.37
+420;1919150000;Multas Previstas na Legislação de Trânsito;03/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;403.85
+421;1121300000;Taxa de Autorização de Funcionamento de Transporte;03/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;310
+422;1919150000;Multas Previstas na Legislação de Trânsito;04/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;378.25
+423;1919150000;Multas Previstas na Legislação de Trânsito;04/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;1035.57
+424;1121300000;Taxa de Autorização de Funcionamento de Transporte;04/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;110
+425;1919150000;Multas Previstas na Legislação de Trânsito;05/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;895.86
+426;1121300000;Taxa de Autorização de Funcionamento de Transporte;05/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;91
+427;1919150000;Multas Previstas na Legislação de Trânsito;06/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;922.83
+428;1121300000;Taxa de Autorização de Funcionamento de Transporte;06/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;371.22
+429;1919150000;Multas Previstas na Legislação de Trânsito;07/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;590.54
+430;1121300000;Taxa de Autorização de Funcionamento de Transporte;07/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+431;1919150000;Multas Previstas na Legislação de Trânsito;10/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;463.84
+432;1919150000;Multas Previstas na Legislação de Trânsito;11/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;275.04
+433;1121300000;Taxa de Autorização de Funcionamento de Transporte;11/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+434;1919150000;Multas Previstas na Legislação de Trânsito;12/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;255.51
+435;1121300000;Taxa de Autorização de Funcionamento de Transporte;12/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+436;1919150000;Multas Previstas na Legislação de Trânsito;13/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;204.27
+437;1121300000;Taxa de Autorização de Funcionamento de Transporte;13/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;51
+438;1919150000;Multas Previstas na Legislação de Trânsito;14/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;601.99
+439;1121300000;Taxa de Autorização de Funcionamento de Transporte;14/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+440;1919150000;Multas Previstas na Legislação de Trânsito;17/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;224.48
+441;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;150
+442;1919150000;Multas Previstas na Legislação de Trânsito;18/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;266.3
+443;1121300000;Taxa de Autorização de Funcionamento de Transporte;18/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;351
+444;1919150000;Multas Previstas na Legislação de Trânsito;19/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;159.09
+445;1121300000;Taxa de Autorização de Funcionamento de Transporte;19/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;360
+446;1919150000;Multas Previstas na Legislação de Trânsito;20/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;269.66
+447;1121300000;Taxa de Autorização de Funcionamento de Transporte;20/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;230
+448;1919150000;Multas Previstas na Legislação de Trânsito;21/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;379.64
+449;1121300000;Taxa de Autorização de Funcionamento de Transporte;21/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;220
+450;1919150000;Multas Previstas na Legislação de Trânsito;24/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;331.7
+451;1919150000;Multas Previstas na Legislação de Trânsito;25/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;255.51
+452;1121300000;Taxa de Autorização de Funcionamento de Transporte;25/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;263
+453;1919150000;Multas Previstas na Legislação de Trânsito;26/11/2014;SCTRANS;04.342.393/0001-72;120000.00;0;387.66
+454;1121300000;Taxa de Autorização de Funcionamento de Transporte;26/11/2014;SCTRANS;04.342.393/0001-72;100000.00;0;150
+455;1325020100;Receita de Remuneração de Depósitos de Poupança;30/11/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;16.12
+456;1919150000;Multas Previstas na Legislação de Trânsito;01/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;204.61
+457;1121300000;Taxa de Autorização de Funcionamento de Transporte;01/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;160
+458;1919150000;Multas Previstas na Legislação de Trânsito;02/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;91.72
+459;1121300000;Taxa de Autorização de Funcionamento de Transporte;02/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+460;1919150000;Multas Previstas na Legislação de Trânsito;03/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;163.83
+461;1919150000;Multas Previstas na Legislação de Trânsito;04/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;142.91
+462;1121300000;Taxa de Autorização de Funcionamento de Transporte;04/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;40
+463;1919150000;Multas Previstas na Legislação de Trânsito;05/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;427.37
+464;1121300000;Taxa de Autorização de Funcionamento de Transporte;05/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;51
+465;1919150000;Multas Previstas na Legislação de Trânsito;08/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;291
+466;1919150000;Multas Previstas na Legislação de Trânsito;09/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;321.85
+467;1121300000;Taxa de Autorização de Funcionamento de Transporte;09/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;80
+468;1919150000;Multas Previstas na Legislação de Trânsito;10/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;347.88
+469;1919150000;Multas Previstas na Legislação de Trânsito;10/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;488.01
+470;1919150000;Multas Previstas na Legislação de Trânsito;11/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;315.46
+471;1919150000;Multas Previstas na Legislação de Trânsito;12/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;438.16
+472;1919150000;Multas Previstas na Legislação de Trânsito;15/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;877.72
+473;1919150000;Multas Previstas na Legislação de Trânsito;16/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;275.03
+474;1919150000;Multas Previstas na Legislação de Trânsito;17/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;965.92
+475;1121300000;Taxa de Autorização de Funcionamento de Transporte;17/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;120
+476;1919150000;Multas Previstas na Legislação de Trânsito;18/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;640.35
+477;1919150000;Multas Previstas na Legislação de Trânsito;18/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;473.45
+478;1919150000;Multas Previstas na Legislação de Trânsito;19/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;210.33
+479;1121300000;Taxa de Autorização de Funcionamento de Transporte;19/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;171
+480;1919150000;Multas Previstas na Legislação de Trânsito;22/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;20.91
+481;1121300000;Taxa de Autorização de Funcionamento de Transporte;22/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;91
+482;1919150000;Multas Previstas na Legislação de Trânsito;23/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;337.07
+483;1919150000;Multas Previstas na Legislação de Trânsito;29/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;681.62
+484;1919150000;Multas Previstas na Legislação de Trânsito;30/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;153.71
+485;1919150000;Multas Previstas na Legislação de Trânsito;30/12/2014;SCTRANS;04.342.393/0001-72;120000.00;0;266.31
+486;1121300000;Taxa de Autorização de Funcionamento de Transporte;31/12/2014;SCTRANS;04.342.393/0001-72;100000.00;0;51
+487;1325020100;Receita de Remuneração de Depósitos de Poupança;31/12/2014;BANCO DO BRASIL S/A;00.000.000/0099-03;1000.00;0;32.38
