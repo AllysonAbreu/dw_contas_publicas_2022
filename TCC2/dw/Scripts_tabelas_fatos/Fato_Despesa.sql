@@ -8,9 +8,9 @@
 	[liquidado] FLOAT NOT NULL,
 	[pago] FLOAT NOT NULL,
 	[saldo] FLOAT NOT NULL,
-	[fonte_dados] INT NOT NULL,
+	[fonte_dados] TINYINT NOT NULL,
 
     CONSTRAINT FK_fato_despesa_id_data FOREIGN KEY (data_fato) REFERENCES Dim_Tempo(data),
-    CONSTRAINT FK_fato_despesa_id_contribuinte_receita FOREIGN KEY (entidade_despesa) REFERENCES Dim_Contribuinte_Despesa(cpf_cnpj),
+    CONSTRAINT FK_fato_despesa_id_contribuinte_receita FOREIGN KEY (entidade_despesa) REFERENCES Dim_Contribuinte_Despesa(codigo),
     CONSTRAINT FK_fato_despesa_id_fonte_dados FOREIGN KEY (fonte_dados) REFERENCES DIM_AUX_Fonte_Dados(id)
 );

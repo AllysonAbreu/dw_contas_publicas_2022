@@ -3,8 +3,8 @@ CODIGO;RECEITA
 1721010201;cotaparte do fundo de participacao dos municipios
 9722010101;deducao de receita para a formacao do fundef icms
 9721010201;deducao de receita do fpm fundef e redutor financeiro
-1113050002;sna  simples nacional
-1724010001;transferencias de recursos do fundo de manutencao e desenvolvimento da educacao basica e de valorizacao dos profissionais da educacao  fundeb
+1113050002;sna simples nacional
+1724010001;transferencias de recursos do fundo de manutencao e desenvolvimento da educacao basica e de valorizacao dos profissionais da educacao fundeb
 1722011301;cotaparte da contribuicao de intervenaeo no dominio economico
 9721010501;deducao de receita para a formacao do fundefitr
 1721010501;cotaparte do imposto sobre a propriedade territorial rural
@@ -17,13 +17,13 @@ CODIGO;RECEITA
 1121990001;outras taxas pelo exerc!cio do poder de pol!cia
 1121290001;taxa de licenca para execucao de obras
 1112080001;imposto sobre transmissao inter vivos de bens imoveis e de direitos reais sobre imoveis
-1931110001;receita da d!vida ativa do imposto sobre a propriedade predial e territorial urbana  iptu
+1931110001;receita da d!vida ativa do imposto sobre a propriedade predial e territorial urbana iptu
 1121250001;taxa de licenca para funcionamento de estabelecimentos comerciais indpsstrias e prestadoras de servios
 1931990001;receita da d!vida ativa de outros tributos
 1722010401;cotaparte do ipi sobre exportacao
-1325000002;remuneracao de depositos bancarios  fundeb
+1325000002;remuneracao de depositos bancarios fundeb
 2300990000;amortizacao de financiamentos diversos
-1220990100;outras contribuicoes economicas  principal
+1220990100;outras contribuicoes economicas principal
 2471990010;convogupav ruas 026030569cc 6470855174
 1230000000;contribuicao para o custeio do servico da iluminacao publica cip
 1722990003;fundo especial
@@ -31,79 +31,79 @@ CODIGO;RECEITA
 1761020001;transferencias de convenios da uniao destinadas a programas de educacao
 1325000003;rendimentos programa empreender
 1922990001;outras restituicoes
-1721350301;transferencias diretas do fnde referentes ao programa nacional de alimentacao escolar  pnae
+1721350301;transferencias diretas do fnde referentes ao programa nacional de alimentacao escolar pnae
 1721350302;pnac
 1721350401;transferencias diretas do fnde ref ao prog nac de apoio ao t escolarpnate
-1721360001;transferencia financeira do icms  desoneracao  lc no 8796
+1721360001;transferencia financeira do icms desoneracao lc no 8796
 9721360001;deducao de receita para a formacao do fundef icms desoneracaolei complementar 8796
 1600990001;concurso publico seletivo
 2421020000;transferencias de recursos destinados a programas de educacao
 1112043101;imposto de renda retido nas fontes sobre os rendimentos do trabalho
 1325000004;remuneracao de acoes e depositos bancarios
-1721350201;transferencias diretas do fnde referentes ao programa dinheiro direto na escola  pdde
+1721350201;transferencias diretas do fnde referentes ao programa dinheiro direto na escola pdde
 1762020001;transferencias de convenio dos estados destinadas a programas de educacao
-1721359903;outras transferencias diretas do  fnde programa nacional palfabetizaaeo de jovens e adultos  bralf
-1721227000;cotaparte do fundo especial do petroleo  fep
-1931130001;receita da d!vida ativa do imposto sobre servicos de qualquer natureza  iss
+1721359903;outras transferencias diretas do fnde programa nacional palfabetizaaeo de jovens e adultos bralf
+1721227000;cotaparte do fundo especial do petroleo fep
+1931130001;receita da d!vida ativa do imposto sobre servicos de qualquer natureza iss
 1600130200;servicos de venda de editais
-1721359905;outras transferencias diretas do fundo nacional do desenvolvimento da educacao  fnde
-1721990001;afm  apoio financeiro a munic!pio cc 198536 146
-2471990012;convenio ogu 634968  6470901175365
+1721359905;outras transferencias diretas do fundo nacional do desenvolvimento da educacao fnde
+1721990001;afm apoio financeiro a munic!pio cc 198536 146
+2471990012;convenio ogu 634968 6470901175365
 1990000001;receitas diversas
 9722010201;deducao de receita para a formacao do fundef ipva
 9722010401;deducao de receita para a formacao do fundef ipi exportacao
-1721330021;ceo  centro de especialidades odontologicas
-1721330002;pacs  programa agentes comunitarios de saude
+1721330021;ceo centro de especialidades odontologicas
+1721330002;pacs programa agentes comunitarios de saude
 1721330003;psf programas saude da familia
 1721330005;saude bucal
 1721330033;nucleo de apoio a saude da familianasf
 1721330050;programa melhoria de acesso de qualidade
 1721330007;farmacia basica
-1722330100;transferencia de recursos do estado para programas de saude  repasse fundo a fundo
-1721330016;saude mental  caps
-1721330053;teto municipal  de media e alta complexidade ambulatorial e hospitalar
+1722330100;transferencia de recursos do estado para programas de saude repasse fundo a fundo
+1721330016;saude mental caps
+1721330053;teto municipal de media e alta complexidade ambulatorial e hospitalar
 1721330052;piso fixo de vigilancia sanitaria e promocao da saudepfvisa
 1721330018;acoes estruturantes de vigilancia sanitaria produtos
 1721330058;rede brasil sem miseria
 1721330059;rede viver sem limites
 1721330056;incentivo de qualificacao das acoes de dengue
-1721330001;pab fixo  piso de atencao basica
+1721330001;pab fixo piso de atencao basica
 1721330024;farmacia popular do brasil
 1721330034;servico de atendimento movel as urgenciassamu
 1922000000;restituicoes
-2472010001;transferencias de convenios dos estados para o sistema unico de saude  sus
+2472010001;transferencias de convenios dos estados para o sistema unico de saude sus
 1721330061;faec aih cirurgia orofacial
 1721330064;acoes estruturantes de vigilancia sanitaria fns
 1721330065;piso estrategicogerenciamento de risco de vs fns
 1721330049;programa saude do escolar
 1721330066;teto municipal rede cegonha rcerceg
-2421010000;transferencias de recursos do sistema unico de saude  sus
+2421010000;transferencias de recursos do sistema unico de saude sus
 1721330025;outras transferencias fundo a fundo
-2471060000;transferencias de convenio da uniao  funasa
+2471060000;transferencias de convenio da uniao funasa
 1721340001;fmas pvmc programa peti
-1721340014;projovem adolescente  fnas
+1721340014;projovem adolescente fnas
 1721340009;paif cras
 1721340015;pfmc creas
-1721340017;acessuas  pronatec
+1721340017;acessuas pronatec
 1721340010;igd pbf bolsa familia
 1721340005;piso de transicao de media complexidade
 1721340016;igdsuas
 1721349900;outras transferencias de recursos do fnas
 1600130800;processo seletivo
-7210290102;contribuicao patronal intra orc  camara
-1210290702;contribuicao do servidor  camara
-7210291502;contribuicao previdenciaria regime de parcelamento de debito  camara
+7210290102;contribuicao patronal intra orc camara
+1210290702;contribuicao do servidor camara
+7210291502;contribuicao previdenciaria regime de parcelamento de debito camara
 1922100001;compensacao financeira
-1210290703;contribuicao do servidor  sctrans
-7210290103;contribuicao patronal intra orc  sctrans
-1210290701;contribuicao do servidor  prefeitura
-7210290101;contribuicao patronal intra orc  prefeitura
-1210290704;contribuicao do servidor  secretaria de saude
-7210290104;contribuicao patronal intra orc  secretaria de saude
-7210290105;contribuicao patronal intra orc  fundo municipal de assistsocial  fmas
-1210290705;contribuicao do servidor  fundo municipal de assistencia social  fmas
+1210290703;contribuicao do servidor sctrans
+7210290103;contribuicao patronal intra orc sctrans
+1210290701;contribuicao do servidor prefeitura
+7210290101;contribuicao patronal intra orc prefeitura
+1210290704;contribuicao do servidor secretaria de saude
+7210290104;contribuicao patronal intra orc secretaria de saude
+7210290105;contribuicao patronal intra orc fundo municipal de assistsocial fmas
+1210290705;contribuicao do servidor fundo municipal de assistencia social fmas
 9328200000;retificadora da remuneracao de investimentos regime proprio
-1210290707;contribuicao do servidor  ipam
+1210290707;contribuicao do servidor ipam
 1918000001;multas e juros de mora de outras receitas
 1121310001;taxa de utilizacao de area de dominio publico
 1113050000;imposto sobre servicos de qualquer natureza
@@ -112,101 +112,101 @@ CODIGO;RECEITA
 1922990000;outras restituicoes
 1325020000;remuneracao de depositos de recursos nao vinculados
 1325019900;receita de remuneracao de outros depositos bancarios de recursos vinculados
-1325010200;receita de remuneracao de depositos bancarios de recursos vinculados  fundeb
-1721340200;piso basico fixo  craspaif
-1721340400;piso fixo de media complexidade  creas  pfmc e  pfmc iii
-1721341200;igd  suas
-1325010300;receita de remuneracao de depositos bancarios de recursos vinculados  sus
+1325010200;receita de remuneracao de depositos bancarios de recursos vinculados fundeb
+1721340200;piso basico fixo craspaif
+1721340400;piso fixo de media complexidade creas pfmc e pfmc iii
+1721341200;igd suas
+1325010300;receita de remuneracao de depositos bancarios de recursos vinculados sus
 1721010200;cotaparte do fundo de participacao dos municipiosfpm
-9721010200;deducao de receita do fpm  fundeb e redutor financeiro
-9721360000;deducao de receita p a formacao do fundeb  icms desoneracao  lc no 8796
-1721010500;cotaparte do imposto sobre a propriedade territorial rural  itr
-9721010500;deducao de receita para a formacao do fundeb  itr
+9721010200;deducao de receita do fpm fundeb e redutor financeiro
+9721360000;deducao de receita p a formacao do fundeb icms desoneracao lc no 8796
+1721010500;cotaparte do imposto sobre a propriedade territorial rural itr
+9721010500;deducao de receita para a formacao do fundeb itr
 1722010100;cotaparte do icms
-9722010100;deducao de receita para a formacao do fundeb  icms
+9722010100;deducao de receita para a formacao do fundeb icms
 1724010000;transferencias de recursos do fundeb
 1722010200;cotaparte do ipva
-1721350100;quota municipal do salario educacao  qse
+1721350100;quota municipal do salario educacao qse
 1724020000;transferencias de recursos da complementacao do fundeb
 1112080000;imposto sobre transmissao inter vivos de bens imoveis e de direitos reais sobr
 1121990000;outras taxas pelo exercicio do poder de policia
 1931110000;receita da divida ativa do imposto sobre a propriedade predial e territorial urb
 1722010400;cotaparte do ipi sobre exportacao
-1721090200;outras transferencias da uniao  fex
-1722011300;cotaparte da contribuicao de intervencao no dominio economico  cide
+1721090200;outras transferencias da uniao fex
+1722011300;cotaparte da contribuicao de intervencao no dominio economico cide
 1721359900;outras programas do fnde
 1721360000;transferencia financeira do icmsdesoneracao lc no 8796
 1121250000;taxa de licenca para funcionamento de estabelecimentos comerciais industrias e 
-1600120100;servicos  de incricao em  concurso publico    
-1721330300;acoes estruturantes  de vigilancia sanitaria
-1721331800;piso estrategico  gerenciamento de risco de vs
-1721330600;piso fixo de vigilancia e promocao da saude  pfvps
+1600120100;servicos de incricao em concurso publico 
+1721330300;acoes estruturantes de vigilancia sanitaria
+1721331800;piso estrategico gerenciamento de risco de vs
+1721330600;piso fixo de vigilancia e promocao da saude pfvps
 1721330900;programa farmacia popular do brasil
 1721330500;programa de assistencia farmaceutica basica
 1721339900;outros programas do sus
-1721330100;piso de atencao basica fixo pab  fixo
-1721330800;saude bucal  sb
-1721330700;saude da familia  sf
+1721330100;piso de atencao basica fixo pab fixo
+1721330800;saude bucal sb
+1721330700;saude da familia sf
 1721330400;agentes comunitarios de saudeacs
-1721331600;nucleo de apoio a saude da familia  nasf
+1721331600;nucleo de apoio a saude da familia nasf
 1721341400;piso basico variavelscfv
-1721341300;piso de transicao de media complexidade  ptmc
-1721331100;centros de especialidades odontologicas  ceo
-1721330200;media e alta complexidade ambulatorial e hospitalar  mac
+1721341300;piso de transicao de media complexidade ptmc
+1721331100;centros de especialidades odontologicas ceo
+1721330200;media e alta complexidade ambulatorial e hospitalar mac
 1721331000;rede saude mental caps
 1121170000;taxa de fiscalizacao de vigilancia sanitaria
 1121290000;taxa de licenca para execucao de obras
 1121260000;taxa de publicidade comercial
-1931130000;receita da divida ativa do imposto sobre servicos de qualquer natureza  iss
-2421010100;transferencias de recursos do sistema unico de saude  sus
+1931130000;receita da divida ativa do imposto sobre servicos de qualquer natureza iss
+2421010100;transferencias de recursos do sistema unico de saude sus
 1931990000;receita da divida ativa de outros tributos
-1721331200;servicos de atendimento movel as urgencias  samu 192
-1721341000;indice de gestao descentralizada  igd
+1721331200;servicos de atendimento movel as urgencias samu 192
+1721341000;indice de gestao descentralizada igd
 2471020000;transferencias de convenio da uniao destinadas a programas de educacao
-1721350300;programa nacional de alimentacao escolar  pnae
+1721350300;programa nacional de alimentacao escolar pnae
 1112020000;imposto sobre a propriedade predial e territorial urbana
-1721350400;programa nacional de apoio ao transporte do escolar  pnate
-2471070000;transferencias de convenio da uniao  ministerio das cidades
+1721350400;programa nacional de apoio ao transporte do escolar pnate
+2471070000;transferencias de convenio da uniao ministerio das cidades
 1721099900;demais transferencias da uniao
 1762020100;convenio transporte escolar
-1721350200;programa dinheiro direto na escola  pdde
+1721350200;programa dinheiro direto na escola pdde
 1913130000;multas e juros de mora da divida ativa do imposto sobre servicos de qualquer nat
-1721331400;fundo de acoes estrategicas e compensacao  faec
+1721331400;fundo de acoes estrategicas e compensacao faec
 1990990000;outras receitas
-9722010200;deducao de receita para a formacao do fundeb  ipva
-9722010400;deducao de receita para a formacao do fundeb  ipi  exportacao
-1721331300;programa saude na escola  pse
-7210290200;contribuicao patronal  camara  intraorcamentaria
+9722010200;deducao de receita para a formacao do fundeb ipva
+9722010400;deducao de receita para a formacao do fundeb ipi exportacao
+1721331300;programa saude na escola pse
+7210290200;contribuicao patronal camara intraorcamentaria
 1922100000;compensacoes financentre o reggeral e os regimes propde prevdos servidores
-7210290100;contribuicao patronal  prefeitura  intraorcamentaria
-7210290300;contribuicao patronal  sctrans  intraorcamentaria
-7210290500;contribuicao patronal  fmas  intraorcamentaria
-7210290400;contribuicao patronal  fms  intraorcamentaria
+7210290100;contribuicao patronal prefeitura intraorcamentaria
+7210290300;contribuicao patronal sctrans intraorcamentaria
+7210290500;contribuicao patronal fmas intraorcamentaria
+7210290400;contribuicao patronal fms intraorcamentaria
 1919150000;multas previstas na legislacao de transito
 1121300000;taxa de autorizacao de funcionamento de transporte
 1325020100;receita de remuneracao de depositos de poupanca
 1325029900;remuneracao de outros depositos de recursos nao vinculados
-1721341800;piso basico variavel  scfv
+1721341800;piso basico variavel scfv
 1762990000;outras transferencias de convenio dos estados
 1750000000;transferencias de pessoas
-2471120000;transferencias de convenio da uniao  funasa
+2471120000;transferencias de convenio da uniao funasa
 1721341700;acessuas trabalho
-1721341600;acoes estrategicas do  peti
-1721341500;piso de alta complexidade i  criancaadolescente
+1721341600;acoes estrategicas do peti
+1721341500;piso de alta complexidade i criancaadolescente
 2471990000;outras transferencias de convenio da uniao
 1210290900;contribuicoes de servidor inativo civil
 1210299900;outras contribuicoes previdenciarias
 1210291100;contribuicoes de pensionista civil
-2471090000;transferencias de convenio da uniao  ministerio do desenvolvimento agrario
+2471090000;transferencias de convenio da uniao ministerio do desenvolvimento agrario
 2472020000;transferencias de convenio dos estados destinadas a programas de educacao
 2471200000;transferencias de convenios da uniao destinadas a programas de assistencia social
-1721010400;cotaparte do fundo de participacao dos municipios  1 cota entregue no mes de julho
-1721010300;cotaparte do fundo de participacao dos municipios  1 cota entregue no mes de dezembro
+1721010400;cotaparte do fundo de participacao dos municipios 1 cota entregue no mes de julho
+1721010300;cotaparte do fundo de participacao dos municipios 1 cota entregue no mes de dezembro
 1761990000;outras transferencias de convenios da uniao
-1722990200;outras transferencias dos estados  feas
+1722990200;outras transferencias dos estados feas
 1121310000;taxa de utilizacao de area de dominio publico
-1721222000;cotaparte da compensacao financeira de recursos minerais  cfem
-2471010000;transferencias de convenio da uniao para o sistema unico de saude  sus
+1721222000;cotaparte da compensacao financeira de recursos minerais cfem
+2471010000;transferencias de convenio da uniao para o sistema unico de saude sus
 1361010000;receita de cessao do direito de operacionalizacao da folha de pagamento de pessoal
 1112043400;imposto de renda retido nas fontes sobre outros rendimentos
 1722990000;outras transferencias dos estados
@@ -214,90 +214,90 @@ CODIGO;RECEITA
 1721331900;pab variavel
 1122990000;outras taxas pela prestacao de servicos
 7210291500;contribuicao previdenciaria em regime de parcelamento de debitos
-1718032101;servicos de atendimento movel as urgencias  samu 192
-1718031100;piso de atencao basica fixo  pab fixo
-1118023100;imposto sobre servicos de qualquer natureza  iss
+1718032101;servicos de atendimento movel as urgencias samu 192
+1718031100;piso de atencao basica fixo pab fixo
+1118023100;imposto sobre servicos de qualquer natureza iss
 1728011100;cotaparte do icms estadual
-9728011100;deducao da receita do icms estadual  fundeb e redutor financeiro
+9728011100;deducao da receita do icms estadual fundeb e redutor financeiro
 1758011100;transferencias de recursos do fundeb
-2300061100;amortizacao de emprestimos contratuais  principal
+2300061100;amortizacao de emprestimos contratuais principal
 1118011100;imposto sobre a propriedade predial e territorial urbana
 1121011104;taxa de licenca para funcionamento de estabelecimentos comerciais industrias e 
 1118014100;imposto sobre transmissao inter vivos de bens imoveis e de direitos reais sobre imoveis
 1220991100;outras contribuicoes economicas
-1113031100;imposto sobre a renda  retido na fonte  trabalho
+1113031100;imposto sobre a renda retido na fonte trabalho
 1121011100;taxas de fiscalizacao de vigilancia sanitaria
 1121011101;taxa de licenca para execucao de obras
 1122011102;outras taxas pelo exercicio do poder de policia
 1728012100;cotaparte do ipva
-1113034100;imposto sobre a renda  retido na fonte  outros rendimentos
-1718034100;transferencia de recursos do sus  assistencia farmaceutica
-1718015100;cotaparte do imposto sobre a propriedade territorial rural  itr
-1718012100;cotaparte do fundo de participacao dos municipios  cota mensal  fpm
-1718032100;atencao de media e alta complexidade ambulatorial e hospitalar  mac
-1728014100;cotaparte da contribuicao de intervencao no dominio economico  cide
+1113034100;imposto sobre a renda retido na fonte outros rendimentos
+1718034100;transferencia de recursos do sus assistencia farmaceutica
+1718015100;cotaparte do imposto sobre a propriedade territorial rural itr
+1718012100;cotaparte do fundo de participacao dos municipios cota mensal fpm
+1718032100;atencao de media e alta complexidade ambulatorial e hospitalar mac
+1728014100;cotaparte da contribuicao de intervencao no dominio economico cide
 1718039100;outros programas do sus financ por transf fundo a fundo
-1718031103;saude bucal  sb
+1718031103;saude bucal sb
 1922991102;outras restituicoes
-9718012100;deducao da receita do fpm  fundeb e redutor financeiro
-9718015100;deducao da receita do itr  fundeb e redutor financeiro
-1718051100;transferencias do salarioeducacao  qse
-1718026100;cotaparte do fundo especial do petroleo  fep
+9718012100;deducao da receita do fpm fundeb e redutor financeiro
+9718015100;deducao da receita do itr fundeb e redutor financeiro
+1718051100;transferencias do salarioeducacao qse
+1718026100;cotaparte do fundo especial do petroleo fep
 1718091100;transferencias de recursos da complementacao do fundeb
-1321001101;receita de remuneracao de depositos bancarios de recursos vinculados  sus
+1321001101;receita de remuneracao de depositos bancarios de recursos vinculados sus
 1321001103;remuneracao de outros depositos de recursos nao vinculados
 1321001102;receita de remuneracao de outros depositos bancarios de recursos vinculados
-1321001100;remuneracao de depositos bancarios  fundeb
-1718121101;indice de gestao descentralizada  igdbf
-1718033100;transferencia de recursos do sus  vigilancia em saude
+1321001100;remuneracao de depositos bancarios fundeb
+1718121101;indice de gestao descentralizada igdbf
+1718033100;transferencia de recursos do sus vigilancia em saude
 1718031101;agentes comunitarios de saudeacs
-1718031104;nucleo de apoio a saude da familia  nasf
-9728012100;deducao da receita do ipva  fundeb e redutor financeiro
+1718031104;nucleo de apoio a saude da familia nasf
+9728012100;deducao da receita do ipva fundeb e redutor financeiro
 1240001100;contribuicao para o custeio do servico de iluminacao publica
-1718121104;piso de alta complexidade i  criancaadolescente
-1718121107;piso basico variavel  scfv
-1718121100;fnas  piso basico fixo  craspaif
-1718053100;programa nacional de alimentacao escolar  pnae
-1718054100;programa nacional de apoio ao transporte do escolar  pnate
+1718121104;piso de alta complexidade i criancaadolescente
+1718121107;piso basico variavel scfv
+1718121100;fnas piso basico fixo craspaif
+1718053100;programa nacional de alimentacao escolar pnae
+1718054100;programa nacional de apoio ao transporte do escolar pnate
 1122011100;taxa de publicidade comercial
 1990991103;outras receitas
-1718031102;saude da familia  sf
-1610021100;inscricao em concursos e processos seletivos  principal
+1718031102;saude da familia sf
+1610021100;inscricao em concursos e processos seletivos principal
 2418031100;transferencia de recursos do sus destinados a atencao basica
-1718121103;piso de alta complexidade ii  residencia inclusiva
-1718121110;piso fixo de media complexidade  paeficreas mse e piso fixo transicao
+1718121103;piso de alta complexidade ii residencia inclusiva
+1718121110;piso fixo de media complexidade paeficreas mse e piso fixo transicao
 1728031100;transferencia de recursos do estado para programas de saude
-1718121102;igd  suas
+1718121102;igd suas
 1718121108;outros programas do fnas
-1718052100;programa dinheiro direto na escola  pdde
-1118011300;imposto sobre a propriedade predial e territorial urbana  divida ativa
-1718031105;acoes estruturantes  de vigilancia sanitaria
-1718014100;cotaparte do fundo de participacao dos municipios  1 cota entregue no mes de julho
+1718052100;programa dinheiro direto na escola pdde
+1118011300;imposto sobre a propriedade predial e territorial urbana divida ativa
+1718031105;acoes estruturantes de vigilancia sanitaria
+1718014100;cotaparte do fundo de participacao dos municipios 1 cota entregue no mes de julho
 1990991300;receitas da divida ativa de outros tributos
-2418101102;transferencias de convenio da uniao  funasa
-2418109106;transferencias de convenio da uniao  ministerio das cidades
+2418101102;transferencias de convenio da uniao funasa
+2418109106;transferencias de convenio da uniao ministerio das cidades
 2418051100;transferencias de recursos destinados a programas de educacao
 1610011100;servicos de venda de editais
 1718031112;pab variavel
-2418101100;transferencias de convenio da uniao para o sistema unico de saude  sus
-1718013100;cotaparte do fundo de participacao do municipios  1 cota entregue no mes de dezembro
+2418101100;transferencias de convenio da uniao para o sistema unico de saude sus
+1718013100;cotaparte do fundo de participacao do municipios 1 cota entregue no mes de dezembro
 1718059102;outras programas do fnde
-2213001101;alienacao de bens moveis e semoventes  principal
-1728071100;transferencias de estados destinadas a assistencia social  principal
-1718991101;outras transferencias da uniao  presal
-1728013100;cotaparte do ipi  municipios
-9728013100;deducao da receita do ipi  fundeb e redutor financeiro
-1218011102;contribuicao de servidor ativo civil  sctrans
-7218041101;cpsss patronal  parcelamentos  servidor civil ativo
+2213001101;alienacao de bens moveis e semoventes principal
+1728071100;transferencias de estados destinadas a assistencia social principal
+1718991101;outras transferencias da uniao presal
+1728013100;cotaparte do ipi municipios
+9728013100;deducao da receita do ipi fundeb e redutor financeiro
+1218011102;contribuicao de servidor ativo civil sctrans
+7218041101;cpsss patronal parcelamentos servidor civil ativo
 1990031100;compensacoes financeiras entre o regime geral e os regimes proprios de previdencia dos servidores
 1219991100;demais contribuicoes previdenciarias
-1218011101;contribuicao de servidor ativo civil  prefeitura
-7218031102;cpsss patronal  servidor civil ativo  sctrans
-1218011100;contribuicao de servidor ativo civil  camara
-7218031101;cpsss patronal  servidor civil ativo  camara
-7218031100;cpsss patronal  servidor civil ativo  prefeitura
+1218011101;contribuicao de servidor ativo civil prefeitura
+7218031102;cpsss patronal servidor civil ativo sctrans
+1218011100;contribuicao de servidor ativo civil camara
+7218031101;cpsss patronal servidor civil ativo camara
+7218031100;cpsss patronal servidor civil ativo prefeitura
 1218012100;contribuicao do servidor civil inativo
-1321004100;remuneracao dos recursos do regime proprio de previdencia social  rpps
+1321004100;remuneracao dos recursos do regime proprio de previdencia social rpps
 1922051101;restituicao de contribuicoes previdenciarias complementares
 1218013100;contribuicao de pensionista civil
 1922031100;restituicao de beneficios previdenciarios
@@ -306,112 +306,112 @@ CODIGO;RECEITA
 1990991100;outras receitas
 2418109104;outras transferencias de convenio da uniao
 1122011101;taxa de utilizacao de area de dominio publico
-1718121109;programa primeira infancia no suas  crianca feliz
+1718121109;programa primeira infancia no suas crianca feliz
 1718991102;outras transferencias da uniao
-1718991103;outras transferencias da uniao  lc 1732020 art 5o inc i saude e assist social
-1718991104;outras transferencias da uniao  lc 1732020 art 5o inc ii  livre
-2418109102;transferencias de convenio da uniao  ministerio da agricultura pecuaria e abastecimento
-1718991105;outras transferencias da uniao  lei aldir blanc
+1718991103;outras transferencias da uniao lc 1732020 art 5o inc i saude e assist social
+1718991104;outras transferencias da uniao lc 1732020 art 5o inc ii livre
+2418109102;transferencias de convenio da uniao ministerio da agricultura pecuaria e abastecimento
+1718991105;outras transferencias da uniao lei aldir blanc
 1121041101;taxa de controle e fiscalizacao ambiental
 2418042100;transferencias de recursos do sus destinados a atencao especializada
 175801111; transferencias de recursos do fundo de manutencao e desenvolvimento da educacao basica e de valorizacao dos profissionais da 
-132100111; remuneracao de depositos bancarios  principal
+132100111; remuneracao de depositos bancarios principal
 171809111; transferencias de recursos da complementacao da uniao ao fundo de manutencao e desenvolvimento da educacao basica e 
-111303111; imposto sobre a renda  retido na fonte  trabalho  principal
-192299111; outras restituicoes  principal
-111801111; imposto sobre a propriedade predial e territorial urbana  principal
-171812111; transferencias de recursos do fundo nacional de assistencia social  fnas  principal
-111802311; imposto sobre servicos de qualquer natureza  principal
-111801411; imposto sobre transmissao inter vivos de bens imoveis e de direitos reais sobre imoveis  principal
-112201111; taxas pela prestacao de servicos  principal
-112101111; taxas de inspecao controle e fiscalizacao  principal
-221300111; alienacao de bens moveis e semoventes  principal
-199099111; outras receitas  primarias  principal
-171805911; outras transferencias diretas do fundo nacional do desenvolvimento da educacao  fnde  principal
-171803111; transferencia de recursos do sus  atencao basica  principal
-171803911; transferencia de recursos do sus  outros programas financiados por transferencias fundo a fundo  principal
-241805111; transferencias de recursos destinados a programas de educacao  principal
-172803111; transferencia de recursos do estado para programas de saude  repasse fundo a fundo  principal
-230006111; amortizacao de emprestimos contratuais  principal
-172801211; cotaparte do ipva  principal
-171803311; transferencia de recursos do sus  vigilancia em saude  principal
-122099111; outras contribuicoes economicas  principal
-171899111; outras transferencias da uniao  principal
-171801513; deducao do fundeb de cotaparte do imposto sobre a propriedade territorial rural  principal
-171801213; deducao do fundeb de cotaparte do fundo de participacao dos municipios  cota mensal  principal
-171801511; cotaparte do imposto sobre a propriedade territorial rural  principal
-171801211; cotaparte do fundo de participacao dos municipios  cota mensal  principal
-172801113; deducao do fundeb de cotaparte do icms  principal
-172801111; cotaparte do icms  principal
-171802611; cotaparte do fundo especial do petroleo  fep  principal
-171805111; transferencias do salarioeducacao  principal
-171805411; transferencias diretas do fnde referentes ao programa nacional de apoio ao transporte do escolar  pnate  principal
-172801311; cotaparte do ipi  municipios  principal
-171803411; transferencia de recursos do sus  assistencia farmaceutica  principal
-171805311; transferencias diretas do fnde referentes ao programa nacional de alimentacao escolar  pnae  principal
-241810911; outras transferencias de convenios da uniao  principal
-111801131; imposto sobre a propriedade predial e territorial urbana  divida ativa
-172801411; cotaparte da contribuicao de intervencao no dominio economico  principal
-241810111; transferencias de convenio da uniao para o sistema unico de saude  sus  principal
-171805211; transferencias diretas do fnde referentes ao programa dinheiro direto na escola  pdde  principal
-199099131; outras receitas  primarias  divida ativa
-111303411; imposto sobre a renda  retido na fonte  outros rendimentos  principal
-113802111; contribuicao de melhoria para expansao da rede de iluminacao publica na cidade  principal
-136001111; cessao do direito de operacionalizacao de pagamentos  principal
-121801111; cpsss do servidor civil ativo  principal
-132100411; remuneracao dos recursos do regime proprio de previdencia social  rpps  principal
-121801211; cpsss do servidor civil inativo  principal
-721803111; cpsss patronal  servidor civil ativo  intraorcamentaria  principal
-721804111; cpsss patronal  parcelamentos  servidor civil ativo  intraorcamentaria  principal
-192199111; outras indenizacoes  principal
-799001111; aportes periodicos para amortizacao de deficit atuarial do rpps  intraorcamentaria  principal
-191001111; multas previstas em legislacao especifica  principal
-122199111; outras contribuicoes economicas  nao arrecadadas e nao projetadas pela rfb  principal
-132101011; remuneracao de depositos bancarios  principal
-171450011; transferencias do salarioeducacao  principal
-171499011; outras transferencias diretas do fundo nacional do desenvolvimento da educacao  fnde  principal
-241499011; outras transferencias de convenios da uniao e de suas entidades  principal
-241250111; transferencias para o programa de apoio ao transporte escolar para educacao basica  caminho da escola  principal
-111451111; imposto sobre servicos de qualquer natureza  issqn  principal
-192299011; outras restituicoes  principal
-111250011; imposto sobre a propriedade predial e territorial urbana  principal
-172151011; cotaparte do ipva  principal
+111303111; imposto sobre a renda retido na fonte trabalho principal
+192299111; outras restituicoes principal
+111801111; imposto sobre a propriedade predial e territorial urbana principal
+171812111; transferencias de recursos do fundo nacional de assistencia social fnas principal
+111802311; imposto sobre servicos de qualquer natureza principal
+111801411; imposto sobre transmissao inter vivos de bens imoveis e de direitos reais sobre imoveis principal
+112201111; taxas pela prestacao de servicos principal
+112101111; taxas de inspecao controle e fiscalizacao principal
+221300111; alienacao de bens moveis e semoventes principal
+199099111; outras receitas primarias principal
+171805911; outras transferencias diretas do fundo nacional do desenvolvimento da educacao fnde principal
+171803111; transferencia de recursos do sus atencao basica principal
+171803911; transferencia de recursos do sus outros programas financiados por transferencias fundo a fundo principal
+241805111; transferencias de recursos destinados a programas de educacao principal
+172803111; transferencia de recursos do estado para programas de saude repasse fundo a fundo principal
+230006111; amortizacao de emprestimos contratuais principal
+172801211; cotaparte do ipva principal
+171803311; transferencia de recursos do sus vigilancia em saude principal
+122099111; outras contribuicoes economicas principal
+171899111; outras transferencias da uniao principal
+171801513; deducao do fundeb de cotaparte do imposto sobre a propriedade territorial rural principal
+171801213; deducao do fundeb de cotaparte do fundo de participacao dos municipios cota mensal principal
+171801511; cotaparte do imposto sobre a propriedade territorial rural principal
+171801211; cotaparte do fundo de participacao dos municipios cota mensal principal
+172801113; deducao do fundeb de cotaparte do icms principal
+172801111; cotaparte do icms principal
+171802611; cotaparte do fundo especial do petroleo fep principal
+171805111; transferencias do salarioeducacao principal
+171805411; transferencias diretas do fnde referentes ao programa nacional de apoio ao transporte do escolar pnate principal
+172801311; cotaparte do ipi municipios principal
+171803411; transferencia de recursos do sus assistencia farmaceutica principal
+171805311; transferencias diretas do fnde referentes ao programa nacional de alimentacao escolar pnae principal
+241810911; outras transferencias de convenios da uniao principal
+111801131; imposto sobre a propriedade predial e territorial urbana divida ativa
+172801411; cotaparte da contribuicao de intervencao no dominio economico principal
+241810111; transferencias de convenio da uniao para o sistema unico de saude sus principal
+171805211; transferencias diretas do fnde referentes ao programa dinheiro direto na escola pdde principal
+199099131; outras receitas primarias divida ativa
+111303411; imposto sobre a renda retido na fonte outros rendimentos principal
+113802111; contribuicao de melhoria para expansao da rede de iluminacao publica na cidade principal
+136001111; cessao do direito de operacionalizacao de pagamentos principal
+121801111; cpsss do servidor civil ativo principal
+132100411; remuneracao dos recursos do regime proprio de previdencia social rpps principal
+121801211; cpsss do servidor civil inativo principal
+721803111; cpsss patronal servidor civil ativo intraorcamentaria principal
+721804111; cpsss patronal parcelamentos servidor civil ativo intraorcamentaria principal
+192199111; outras indenizacoes principal
+799001111; aportes periodicos para amortizacao de deficit atuarial do rpps intraorcamentaria principal
+191001111; multas previstas em legislacao especifica principal
+122199111; outras contribuicoes economicas nao arrecadadas e nao projetadas pela rfb principal
+132101011; remuneracao de depositos bancarios principal
+171450011; transferencias do salarioeducacao principal
+171499011; outras transferencias diretas do fundo nacional do desenvolvimento da educacao fnde principal
+241499011; outras transferencias de convenios da uniao e de suas entidades principal
+241250111; transferencias para o programa de apoio ao transporte escolar para educacao basica caminho da escola principal
+111451111; imposto sobre servicos de qualquer natureza issqn principal
+192299011; outras restituicoes principal
+111250011; imposto sobre a propriedade predial e territorial urbana principal
+172151011; cotaparte do ipva principal
 175150011; transferencias de recursos do fundo de manutencao e desenvolvimento da educacao basica e de valorizacao dos profissionais da 
-171152011; cotaparte do imposto sobre a propriedade territorial rural  principal
-171152013; deducao do fundeb de cotaparte do imposto sobre a propriedade territorial rural  principal
-171151113; deducao do fundeb de cotaparte do fundo de participacao dos municipios  cota mensal  principal
-171151111; cotaparte do fundo de participacao dos municipios  cota mensal  principal
-124150011; contribuicao para o custeio do servico de iluminacao publica  principal
-231106011; amortizacao de emprestimos contratuais  principal
-171999011; outras transferencias de recursos da uniao e de suas entidades  principal
-171453011; transferencias referentes ao programa nacional de apoio ao transporte do escolar  pnate  principal
-172152011; cotaparte do ipi  municipios  principal
-172150013; deducao do fundeb de cotaparte do icms  principal
-172150011; cotaparte do icms  principal
-171551011; transferencias de recursos de complementacao da uniao ao fundeb  vaaf  principal
-171550011; transferencias de recursos de complementacao da uniao ao fundeb  vaat  principal
-171252411; cotaparte do fundo especial do petroleo  fep  principal
-171452011; transferencias referentes ao programa nacional de alimentacao escolar  pnae  principal
-112201011; taxas pela prestacao de servicos em geral  principal
-112101011; taxas de inspecao controle e fiscalizacao  principal
-111253011; impostos sobre transmissao inter vivos de bens imoveis e de direitos reais sobre imoveis  principal
-172153011; cotaparte da contribuicao de intervencao no dominio economico  principal
-199999211; outras receitas nao arrecadadas e nao projetadas pela rfb  primarias    principal
-171650011; transferencias de recursos do fundo nacional de assistencia social  fnas  principal
-242251011; transferencias de convenios dos estados destinadas a programas de educacao  principal
-171451011; transferencias diretas do fnde referentes ao programa dinheiro direto na escola  pdde  principal
-111451131; imposto sobre servicos de qualquer natureza  issqn  divida ativa
-242299011; outras transferencias de convenios dos estados e df e de suas entidades  principal
-111250041; imposto sobre a propriedade predial e territorial urbana  divida ativa  multas e juros de mora da divida ativa
-171350411; transferencias de recursos do bloco de manutencao das acoes e servicos publicos de saude  assistencia farmaceutica  principal
-171350111; transferencias de recursos do bloco de manutencao das acoes e servicos publicos de saude  atencao primaria  principal
-241151111; transferencias de recursos do bloco de estruturacao da rede de servicos publicos de saude  atencao primaria  principal
-241151211; transferencias de recursos do bloco de estruturacao da rede de servicos publicos de saude  atencao especializada  principal
-171350311; transferencias de recursos do bloco de manutencao das acoes e servicos publicos de saude  vigilancia em saude  principal
-171350911; transferencias de recursos do bloco de manutencao das acoes e servicos publicos de saude  outros programas  principal
-721502111; contribuicao patronal  servidor civil ativo  principal  intraorcamentaria
-121501111; contribuicao do servidor civil ativo  principal
-721551111; contribuicao patronal  servidor civil ativo  parcelamentos  principal  intraorcamentaria
-121501211; contribuicao do servidor civil inativo  principal
-132104011; remuneracao dos recursos do regime proprio de previdencia social  rpps  principal
-191101011; multas previstas em legislacao especifica  principal
+171152011; cotaparte do imposto sobre a propriedade territorial rural principal
+171152013; deducao do fundeb de cotaparte do imposto sobre a propriedade territorial rural principal
+171151113; deducao do fundeb de cotaparte do fundo de participacao dos municipios cota mensal principal
+171151111; cotaparte do fundo de participacao dos municipios cota mensal principal
+124150011; contribuicao para o custeio do servico de iluminacao publica principal
+231106011; amortizacao de emprestimos contratuais principal
+171999011; outras transferencias de recursos da uniao e de suas entidades principal
+171453011; transferencias referentes ao programa nacional de apoio ao transporte do escolar pnate principal
+172152011; cotaparte do ipi municipios principal
+172150013; deducao do fundeb de cotaparte do icms principal
+172150011; cotaparte do icms principal
+171551011; transferencias de recursos de complementacao da uniao ao fundeb vaaf principal
+171550011; transferencias de recursos de complementacao da uniao ao fundeb vaat principal
+171252411; cotaparte do fundo especial do petroleo fep principal
+171452011; transferencias referentes ao programa nacional de alimentacao escolar pnae principal
+112201011; taxas pela prestacao de servicos em geral principal
+112101011; taxas de inspecao controle e fiscalizacao principal
+111253011; impostos sobre transmissao inter vivos de bens imoveis e de direitos reais sobre imoveis principal
+172153011; cotaparte da contribuicao de intervencao no dominio economico principal
+199999211; outras receitas nao arrecadadas e nao projetadas pela rfb primarias principal
+171650011; transferencias de recursos do fundo nacional de assistencia social fnas principal
+242251011; transferencias de convenios dos estados destinadas a programas de educacao principal
+171451011; transferencias diretas do fnde referentes ao programa dinheiro direto na escola pdde principal
+111451131; imposto sobre servicos de qualquer natureza issqn divida ativa
+242299011; outras transferencias de convenios dos estados e df e de suas entidades principal
+111250041; imposto sobre a propriedade predial e territorial urbana divida ativa multas e juros de mora da divida ativa
+171350411; transferencias de recursos do bloco de manutencao das acoes e servicos publicos de saude assistencia farmaceutica principal
+171350111; transferencias de recursos do bloco de manutencao das acoes e servicos publicos de saude atencao primaria principal
+241151111; transferencias de recursos do bloco de estruturacao da rede de servicos publicos de saude atencao primaria principal
+241151211; transferencias de recursos do bloco de estruturacao da rede de servicos publicos de saude atencao especializada principal
+171350311; transferencias de recursos do bloco de manutencao das acoes e servicos publicos de saude vigilancia em saude principal
+171350911; transferencias de recursos do bloco de manutencao das acoes e servicos publicos de saude outros programas principal
+721502111; contribuicao patronal servidor civil ativo principal intraorcamentaria
+121501111; contribuicao do servidor civil ativo principal
+721551111; contribuicao patronal servidor civil ativo parcelamentos principal intraorcamentaria
+121501211; contribuicao do servidor civil inativo principal
+132104011; remuneracao dos recursos do regime proprio de previdencia social rpps principal
+191101011; multas previstas em legislacao especifica principal
