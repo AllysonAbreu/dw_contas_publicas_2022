@@ -60,8 +60,7 @@
     <Folder Include="Scripts_tabelas_fatos" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Scripts_tabelas_dimensoes\Dim_Contribuinte_Receita.sql" />
-    <Build Include="Scripts_tabelas_dimensoes\Dim_Contribuinte_Despesa.sql" />
+    <Build Include="Scripts_tabelas_dimensoes\Dim_Contribuintes.sql" />
     <Build Include="Scripts_tabelas_dimensoes\Dim_Classes_Receitas.sql" />
     <Build Include="Scripts_tabelas_dimensoes\DIM_AUX_Fonte_Dados.sql" />
     <Build Include="Scripts_tabelas_dimensoes\Dim_Tempo.sql" />

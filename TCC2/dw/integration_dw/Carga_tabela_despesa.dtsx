@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="3/27/2023 1:54:34 PM"
+  DTS:CreationDate="3/28/2023 11:08:57 AM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-M0N474H"
   DTS:CreatorName="DESKTOP-M0N474H\MacInBox"
-  DTS:DTSID="{F64DAC3B-26E3-4BF1-B39A-2571782F60E3}"
+  DTS:DTSID="{2C76A5F3-09FC-4E6A-B8C7-EEA9496AEE67}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5131.0"
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{70F3A196-8A51-4770-BC84-FF35D441EE6C}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{BDF179A6-7EF4-43A0-B520-26E2D42382EE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[dados_fato_receita]"
+      DTS:refId="Package.ConnectionManagers[dados_fato_despesa]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{26F84F7F-6859-4ECC-83E4-29988B7695F9}"
-      DTS:ObjectName="dados_fato_receita">
+      DTS:ObjectName="dados_fato_despesa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_receitas.csv">
+          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_despesas.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -38,8 +38,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="COD_RECEITA"
-              DTS:DTSID="{6E8CBF70-2B29-4D8D-B471-2A7267296124}"
+              DTS:ObjectName="COD_DESPESA"
+              DTS:DTSID="{AEB30702-5028-4B23-904C-1754BACB3B9B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DATA"
-              DTS:DTSID="{13A1CCAD-CFD8-4A0C-B550-3B136EFA1518}"
+              DTS:DTSID="{B2A03FFA-EB7C-45A6-B3EF-59CD0D6C4E9B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_CONTRIBUINTE"
-              DTS:DTSID="{D87D8D2B-49D0-4062-89A0-641447AA093A}"
+              DTS:DTSID="{1A982974-F5AA-459E-880B-CBA2985F3D50}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,8 +65,35 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="VALOR_ARRECADADO"
-              DTS:DTSID="{9BBC2DE3-2D6A-410D-A697-35D8E27EB51B}"
+              DTS:ObjectName="VALOR"
+              DTS:DTSID="{DE4C8A15-0341-4829-98DC-0DAFD5E6C126}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LIQUIDADO"
+              DTS:DTSID="{B4F6B709-944B-487A-A66C-56F1D9E58900}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PAGO"
+              DTS:DTSID="{B0000EAB-795A-4FE4-ACF1-FC321D7BBACB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SALDO"
+              DTS:DTSID="{D65D30FC-686E-4C98-B43B-B603F1ACC5EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +102,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FONTE_DADOS"
-              DTS:DTSID="{3C02ECAC-F7CE-4E78-BDE1-DFA1E5B7D001}"
+              DTS:DTSID="{BE0D13D5-1875-4A38-BE76-DA92DDE981DC}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -97,13 +124,13 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Carga_Tabela_Receitas"
+      DTS:refId="Package\Carga_Tabela_Despesa"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:DTSID="{0b60a114-9b5e-4e04-beca-120e04108113}"
+      DTS:DTSID="{c9bca829-dc43-41e0-ad52-0e267deabf21}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Carga_Tabela_Receitas"
+      DTS:ObjectName="Carga_Tabela_Despesa"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -111,12 +138,12 @@
           version="1">
           <components>
             <component
-              refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita"
+              refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Origem de Arquivo Simples;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;1"
               description="Origem de Arquivo Simples"
               localeId="1046"
-              name="Carga_Fato_Receita"
+              name="Carga_Dados_Despesa"
               usesDispositions="true"
               version="1">
               <properties>
@@ -131,26 +158,26 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[dados_fato_receita]"
-                  connectionManagerRefId="Package.ConnectionManagers[dados_fato_receita]"
+                  refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[dados_fato_despesa]"
+                  connectionManagerRefId="Package.ConnectionManagers[dados_fato_despesa]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples]"
+                  refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples]"
                   name="Saída de Origem de Arquivo Simples">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_RECEITA]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_DESPESA]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_RECEITA]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_DESPESA]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_RECEITA]"
-                      name="COD_RECEITA"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_DESPESA]"
+                      name="COD_DESPESA"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -164,14 +191,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DATA]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DATA]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]"
                       name="DATA"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -186,14 +213,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_CONTRIBUINTE]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_CONTRIBUINTE]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]"
                       name="COD_CONTRIBUINTE"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -208,15 +235,15 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_ARRECADADO]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_ARRECADADO]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_ARRECADADO]"
-                      name="VALOR_ARRECADADO"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR]"
+                      name="VALOR"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -230,14 +257,80 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[LIQUIDADO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FONTE_DADOS]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[LIQUIDADO]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[LIQUIDADO]"
+                      name="LIQUIDADO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[PAGO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[PAGO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[PAGO]"
+                      name="PAGO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SALDO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SALDO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SALDO]"
+                      name="SALDO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FONTE_DADOS]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]"
                       name="FONTE_DADOS"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -255,31 +348,49 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_RECEITA]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_DESPESA]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="COD_RECEITA" />
+                      name="COD_DESPESA" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DATA]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DATA]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="DATA" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_CONTRIBUINTE]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_CONTRIBUINTE]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="COD_CONTRIBUINTE" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_ARRECADADO]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="VALOR_ARRECADADO" />
+                      name="VALOR" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FONTE_DADOS]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[LIQUIDADO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="LIQUIDADO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[PAGO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="PAGO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SALDO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="SALDO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FONTE_DADOS]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -287,27 +398,27 @@
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples]"
+                  refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples]"
                   isErrorOut="true"
                   name="Saída de Erro de Origem de Arquivo Simples">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
                       codePage="1252"
                       dataType="text"
                       description="Coluna de Saída de Erro de Origem de Arquivo Simples"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
                       name="Coluna de Saída de Erro de Origem de Arquivo Simples" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -316,11 +427,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita"
+              refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
               description="Destino OLE DB"
-              name="Tabela_DIM_Contribuinte_Receita"
+              name="Tabela_Fato_Despesa"
               usesDispositions="true"
               version="4">
               <properties>
@@ -331,7 +442,7 @@
                 <property
                   dataType="System.String"
                   description="Especifica o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
-                  name="OpenRowset">[dbo].[Fato_Receita]</property>
+                  name="OpenRowset">[dbo].[Fato_Despesa]</property>
                 <property
                   dataType="System.String"
                   description="Especifica a variável que contém o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
@@ -373,7 +484,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Connections[OleDbConnection]"
+                  refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
@@ -381,85 +492,121 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB]"
                   errorOrTruncationOperation="Inserir"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[COD_RECEITA]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[VALOR]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="COD_RECEITA"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_receita]"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_RECEITA]" />
+                      cachedName="VALOR"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[FONTE_DADOS]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[LIQUIDADO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="LIQUIDADO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[liquidado]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[LIQUIDADO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[PAGO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PAGO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[pago]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[PAGO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[SALDO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SALDO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[saldo]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SALDO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[FONTE_DADOS]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="FONTE_DADOS"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[DATA]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[DATA]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="DATA"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[COD_CONTRIBUINTE]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[COD_DESPESA]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="COD_DESPESA"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[classe_despesa]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_DESPESA]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[COD_CONTRIBUINTE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="COD_CONTRIBUINTE"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[entidade_receita]"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]" />
-                    <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[VALOR_ARRECADADO]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="VALOR_ARRECADADO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_ARRECADADO]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[entidade_despesa]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
                       dataType="i4"
                       name="id" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_fato_receita]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_fato_despesa]"
                       dataType="guid"
-                      name="uid_fato_receita" />
+                      name="uid_fato_despesa" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_receita]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[entidade_despesa]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="cod_receita" />
+                      name="entidade_despesa" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[classe_despesa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="classe_despesa" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
                       dataType="dbTimeStamp"
                       name="data_fato" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[entidade_receita]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="entidade_receita" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
                       dataType="r8"
                       name="valor" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[liquidado]"
+                      dataType="r8"
+                      name="liquidado" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[pago]"
+                      dataType="r8"
+                      name="pago" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[saldo]"
+                      dataType="r8"
+                      name="saldo" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
                       dataType="ui1"
                       name="fonte_dados" />
                   </externalMetadataColumns>
@@ -467,22 +614,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Outputs[Saída de Erro de Destino OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Destino OLE DB"
-                  synchronousInputId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]">
+                  synchronousInputId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -493,10 +640,10 @@
           </components>
           <paths>
             <path
-              refId="Package\Carga_Tabela_Receitas.Paths[Saída de Origem de Arquivo Simples]"
-              endId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]"
+              refId="Package\Carga_Tabela_Despesa.Paths[Saída de Origem de Arquivo Simples]"
+              endId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB]"
               name="Saída de Origem de Arquivo Simples"
-              startId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples]" />
+              startId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -516,33 +663,33 @@
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
           Size="198,42"
-          Id="Package\Carga_Tabela_Receitas"
+          Id="Package\Carga_Tabela_Despesa"
           TopLeft="60,60" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Carga_Tabela_Receitas">
+    design-time-name="Package\Carga_Tabela_Despesa">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="248,42"
-          Id="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita"
-          TopLeft="137.5,146.5" />
-        <NodeLayout
-          Size="180,42"
-          Id="Package\Carga_Tabela_Receitas\Carga_Fato_Receita"
+          Size="196,42"
+          Id="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa"
           TopLeft="27.5,39.5" />
+        <NodeLayout
+          Size="190,42"
+          Id="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa"
+          TopLeft="137.5,146.5" />
         <EdgeLayout
-          Id="Package\Carga_Tabela_Receitas.Paths[Saída de Origem de Arquivo Simples]"
-          TopLeft="117.5,81.5">
+          Id="Package\Carga_Tabela_Despesa.Paths[Saída de Origem de Arquivo Simples]"
+          TopLeft="125.5,81.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="144,65"
+              EndConnector="107,65"
               Start="0,0"
-              End="144,57.5">
+              End="107,57.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -553,13 +700,13 @@
                     Point2="0,32.5"
                     Point3="4,32.5" />
                   <mssgle:LineSegment
-                    End="140,32.5" />
+                    End="103,32.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="140,32.5"
-                    Point2="144,32.5"
-                    Point3="144,36.5" />
+                    Point1="103,32.5"
+                    Point2="107,32.5"
+                    Point3="107,36.5" />
                   <mssgle:LineSegment
-                    End="144,57.5" />
+                    End="107,57.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -572,7 +719,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita">
+    design-time-name="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

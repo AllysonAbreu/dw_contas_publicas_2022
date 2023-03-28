@@ -5,22 +5,22 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-M0N474H"
   DTS:CreatorName="DESKTOP-M0N474H\MacInBox"
-  DTS:DTSID="{92DA54BC-834B-45D0-91BD-7838CE78B2A6}"
+  DTS:DTSID="{D2FFC3B6-37D5-4F4E-B5DC-97A00E137508}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5131.0"
   DTS:LocaleID="1046"
-  DTS:ObjectName="Carga_tabela_contribuinte_receitas"
+  DTS:ObjectName="Carga_tabela_contribuinte"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{6460211C-CE4E-4553-B1F9-2FA4FA3D69C7}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{0B6BD159-C0C8-4878-8A68-0FCA23F055F7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[dados_dim_contribuinte_receita]"
+      DTS:refId="Package.ConnectionManagers[dados_dim_contribuintes]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{26F84F7F-6859-4ECC-83E4-29988B7695F9}"
-      DTS:ObjectName="dados_dim_contribuinte_receita">
+      DTS:ObjectName="dados_dim_contribuintes">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\01_receitas\dados_para_carga\dados_contribuintes.csv">
+          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_contribuintes.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -38,17 +38,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="CODIGO"
-              DTS:DTSID="{784042BE-60F3-461D-8A4E-AEC76F5C6A8C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
               DTS:ObjectName="CPF CNPJ"
-              DTS:DTSID="{04783B00-7F8C-4AED-9560-ACAB954A1849}"
+              DTS:DTSID="{A31B3CCB-F370-4292-A885-9FE4CCCD9C75}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +48,16 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CONTRIBUINTE"
-              DTS:DTSID="{445F0C6C-A3D9-410D-AA57-811CF31228C0}"
+              DTS:DTSID="{962996FC-5562-4218-99E1-B5204F2464FD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TIPO"
+              DTS:DTSID="{3C25C2F0-24C3-4AD6-9D24-55B5CE3E2359}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,8 +65,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="TIPO"
-              DTS:DTSID="{4619B62C-FB8A-49C7-9954-D86B9A9195FD}"
+              DTS:ObjectName="CODIGO"
+              DTS:DTSID="{BA17C9E2-1BA3-4A6E-A402-38567766C7E1}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -88,13 +88,13 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Carga_Tabela_Contribuinte_Receitas"
+      DTS:refId="Package\Carga_Tabela_Contribuinte"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
       DTS:DTSID="{7b067419-6bc9-4948-855f-3ec035f2c23d}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Carga_Tabela_Contribuinte_Receitas"
+      DTS:ObjectName="Carga_Tabela_Contribuinte"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -102,12 +102,12 @@
           version="1">
           <components>
             <component
-              refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita"
+              refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Origem de Arquivo Simples;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;1"
               description="Origem de Arquivo Simples"
               localeId="1046"
-              name="Carga_Dim_Conrtribuinte_Receita"
+              name="Carga_Dim_Conrtribuintes"
               usesDispositions="true"
               version="1">
               <properties>
@@ -122,25 +122,25 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[dados_dim_contribuinte_receita]"
-                  connectionManagerRefId="Package.ConnectionManagers[dados_dim_contribuinte_receita]"
+                  refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[dados_dim_contribuintes]"
+                  connectionManagerRefId="Package.ConnectionManagers[dados_dim_contribuintes]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples]"
+                  refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples]"
                   name="Saída de Origem de Arquivo Simples">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
                       name="CODIGO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -155,14 +155,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CPF CNPJ]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CPF CNPJ]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]"
                       name="CPF CNPJ"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -177,14 +177,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CONTRIBUINTE]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CONTRIBUINTE]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CONTRIBUINTE]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CONTRIBUINTE]"
                       length="200"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CONTRIBUINTE]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CONTRIBUINTE]"
                       name="CONTRIBUINTE"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -199,14 +199,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[TIPO]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[TIPO]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]"
                       name="TIPO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -224,25 +224,25 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="CODIGO" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CPF CNPJ]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CPF CNPJ]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="CPF CNPJ" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CONTRIBUINTE]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CONTRIBUINTE]"
                       codePage="1252"
                       dataType="str"
                       length="200"
                       name="CONTRIBUINTE" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[TIPO]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[TIPO]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -250,27 +250,27 @@
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples]"
+                  refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Erro de Origem de Arquivo Simples]"
                   isErrorOut="true"
                   name="Saída de Erro de Origem de Arquivo Simples">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
                       codePage="1252"
                       dataType="text"
                       description="Coluna de Saída de Erro de Origem de Arquivo Simples"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
                       name="Coluna de Saída de Erro de Origem de Arquivo Simples" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -279,11 +279,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita"
+              refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
               description="Destino OLE DB"
-              name="Tabela_DIM_Contribuinte_Receita"
+              name="Tabela_DIM_Contribuintes"
               usesDispositions="true"
               version="4">
               <properties>
@@ -294,7 +294,7 @@
                 <property
                   dataType="System.String"
                   description="Especifica o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
-                  name="OpenRowset">[dbo].[Dim_Contribuinte_Receita]</property>
+                  name="OpenRowset">[dbo].[Dim_Contribuintes]</property>
                 <property
                   dataType="System.String"
                   description="Especifica a variável que contém o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
@@ -336,7 +336,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Connections[OleDbConnection]"
+                  refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
@@ -344,96 +344,98 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB]"
                   errorOrTruncationOperation="Inserir"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[CODIGO]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[CODIGO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="CODIGO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[codigo]"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[codigo]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[CONTRIBUINTE]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[CONTRIBUINTE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="200"
                       cachedName="CONTRIBUINTE"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[contribuinte]"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CONTRIBUINTE]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[contribuinte]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CONTRIBUINTE]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[CPF CNPJ]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[CPF CNPJ]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="CPF CNPJ"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[cpf_cnpj]"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[cpf_cnpj]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[TIPO]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[TIPO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="TIPO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[id_fonte_dados]"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[id_fonte_dados]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
                       dataType="i4"
                       name="id" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[codigo]"
-                      dataType="i4"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[codigo]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="codigo" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[cpf_cnpj]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[cpf_cnpj]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="cpf_cnpj" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[contribuinte]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[contribuinte]"
                       codePage="1252"
                       dataType="str"
                       length="500"
                       name="contribuinte" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[id_fonte_dados]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[id_fonte_dados]"
                       dataType="ui1"
                       name="id_fonte_dados" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_contribuinte_receitas]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_contribuintes]"
                       dataType="guid"
-                      name="uid_contribuinte_receitas" />
+                      name="uid_contribuintes" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Destino OLE DB"
-                  synchronousInputId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]">
+                  synchronousInputId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -444,10 +446,10 @@
           </components>
           <paths>
             <path
-              refId="Package\Carga_Tabela_Contribuinte_Receitas.Paths[Saída de Origem de Arquivo Simples]"
-              endId="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]"
+              refId="Package\Carga_Tabela_Contribuinte.Paths[Saída de Origem de Arquivo Simples]"
+              endId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB]"
               name="Saída de Origem de Arquivo Simples"
-              startId="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita.Outputs[Saída de Origem de Arquivo Simples]" />
+              startId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -466,28 +468,28 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="263,42"
-          Id="Package\Carga_Tabela_Contribuinte_Receitas"
+          Size="214,42"
+          Id="Package\Carga_Tabela_Contribuinte"
           TopLeft="60,60" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Carga_Tabela_Contribuinte_Receitas">
+    design-time-name="Package\Carga_Tabela_Contribuinte">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="247,42"
-          Id="Package\Carga_Tabela_Contribuinte_Receitas\Carga_Dim_Conrtribuinte_Receita"
-          TopLeft="27.5,39.5" />
-        <NodeLayout
-          Size="248,42"
-          Id="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita"
+          Size="210,42"
+          Id="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes"
           TopLeft="137.5,146.5" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes"
+          TopLeft="27.5,39.5" />
         <EdgeLayout
-          Id="Package\Carga_Tabela_Contribuinte_Receitas.Paths[Saída de Origem de Arquivo Simples]"
-          TopLeft="151,81.5">
+          Id="Package\Carga_Tabela_Contribuinte.Paths[Saída de Origem de Arquivo Simples]"
+          TopLeft="132,81.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -523,7 +525,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga_Tabela_Contribuinte_Receitas\Tabela_DIM_Contribuinte_Receita">
+    design-time-name="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

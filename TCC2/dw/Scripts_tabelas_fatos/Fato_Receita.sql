@@ -10,6 +10,6 @@
 
 	CONSTRAINT FK_fato_receita_id_cod_receita FOREIGN KEY (cod_receita) REFERENCES Dim_Classes_Receitas(cod_classe_receita),
     CONSTRAINT FK_fato_receita_id_data FOREIGN KEY (data_fato) REFERENCES Dim_Tempo(data),
-    CONSTRAINT FK_fato_receita_id_contribuinte_receita FOREIGN KEY (entidade_receita) REFERENCES Dim_Contribuinte_Receita(codigo),
+    CONSTRAINT FK_fato_receita_id_contribuintes FOREIGN KEY (entidade_receita) REFERENCES Dim_Contribuintes(codigo),
     CONSTRAINT FK_fato_receita_id_fonte_dados FOREIGN KEY (fonte_dados) REFERENCES DIM_AUX_Fonte_Dados(id)
 );
