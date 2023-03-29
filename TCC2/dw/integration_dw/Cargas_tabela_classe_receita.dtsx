@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{FCDF71FC-46E1-4A1C-B02F-9E1EE6601BD4}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{8E2A84AC-51FD-49EA-AD98-814360B3ECFA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -55,15 +55,15 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
+      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{65DFA794-CD24-4F07-9305-1A0ED2337533}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1">
+      DTS:DTSID="{FD189439-3119-44E0-9D0E-12E5DF16F732}"
+      DTS:ObjectName="DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{65DFA794-CD24-4F07-9305-1A0ED2337533}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{FD189439-3119-44E0-9D0E-12E5DF16F732}DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -261,8 +261,8 @@
               <connections>
                 <connection
                   refId="Package\Carga_Tab_Dim_Calsse_Receita\Tab_Dim_Classe_Receita.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -376,13 +376,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="220,42"
-          Id="Package\Carga_Tab_Dim_Calsse_Receita\Dados_Dim_Classe_Receita"
-          TopLeft="30.5,4.5" />
-        <NodeLayout
           Size="207,42"
           Id="Package\Carga_Tab_Dim_Calsse_Receita\Tab_Dim_Classe_Receita"
           TopLeft="264.5,167.5" />
+        <NodeLayout
+          Size="220,42"
+          Id="Package\Carga_Tab_Dim_Calsse_Receita\Dados_Dim_Classe_Receita"
+          TopLeft="30.5,4.5" />
         <EdgeLayout
           Id="Package\Carga_Tab_Dim_Calsse_Receita.Paths[Saída de Origem de Arquivo Simples]"
           TopLeft="140.5,46.5">

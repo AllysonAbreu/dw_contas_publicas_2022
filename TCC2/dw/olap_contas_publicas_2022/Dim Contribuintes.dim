@@ -1,0 +1,256 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f187ab46-b650-483c-9aa7-c182c1c26f41" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Contribuintes</ID>
+  <Name>Dim Contribuintes</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2215" scrolltop="-1839" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7805" y="7250" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Contribuintes" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000060d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Contribuintes" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2215</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1839</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d9a6a0ca-508d-4776-a38f-a32afb2d0f45">
+    <DataSourceViewID>DW Contas Publicas</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="1cc54166-42c9-4fe0-ac66-79e0bdbd30c8">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="785da2ec-69ef-4d66-9f83-75425558f368">
+      <ID>Id</ID>
+      <Name>Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ea6ce87-ec3b-4305-a474-b4f278a45940">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29ad974c-ab08-4243-9d6e-198342baf29c">
+            <TableID>dbo_Dim_Contribuintes</TableID>
+            <ColumnID>id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="596060f4-f949-46e0-a1fe-967f71688eb9">
+          <AttributeID>Codigo</AttributeID>
+          <Name>Codigo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb294033-2a1f-4f81-80cd-e5d0bbb0d939">
+          <AttributeID>Cpf Cnpj</AttributeID>
+          <Name>Cpf Cnpj</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="80869d25-3001-442e-9a99-402fc2d3d116">
+          <AttributeID>Contribuinte</AttributeID>
+          <Name>Contribuinte</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="efafd5c3-7de6-4e80-b260-a30ea5626186">
+          <AttributeID>Id Fonte Dados</AttributeID>
+          <Name>Id Fonte Dados</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9bc01aed-dab0-48d6-aa45-b882574b2bfa">
+      <ID>Codigo</ID>
+      <Name>Codigo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d4d2c5fc-d633-4554-b0f3-c236d1f85dfa">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="72703c59-6a70-448f-8a75-20dd4d932d60">
+            <TableID>dbo_Dim_Contribuintes</TableID>
+            <ColumnID>codigo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0773ed43-c31b-44af-a7b6-fa60eb04d04a">
+      <ID>Cpf Cnpj</ID>
+      <Name>Cpf Cnpj</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1ef50fb8-3645-4e15-b0c3-1b90cf73742f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="539d883a-e731-4b62-bdc1-1f649cc01182">
+            <TableID>dbo_Dim_Contribuintes</TableID>
+            <ColumnID>cpf_cnpj</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d10f41a-339e-46ce-9b8c-9de56893bf68">
+      <ID>Contribuinte</ID>
+      <Name>Contribuinte</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0a11aed0-8d06-4c5c-9c36-3983203fd78f">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="14c3af39-900b-4fd2-a15a-472394d67831">
+            <TableID>dbo_Dim_Contribuintes</TableID>
+            <ColumnID>contribuinte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d9dc0dbb-10bb-4774-8c80-8cd8b2e0c17f">
+      <ID>Id Fonte Dados</ID>
+      <Name>Id Fonte Dados</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a2fb00aa-4ed6-4269-a1d7-5c52c62302f1">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d9781401-c28c-46f6-ac64-b2256388ccf8">
+            <TableID>dbo_Dim_Contribuintes</TableID>
+            <ColumnID>id_fonte_dados</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="237cbbcf-8066-4027-a521-dcbbb80d6844">
+      <ID>Hierarquia</ID>
+      <Name>Hierarquia</Name>
+      <Levels>
+        <Level dwd:design-time-name="f22bbbe2-3035-4669-8776-e5134f0398a1">
+          <ID>Id</ID>
+          <Name>Id</Name>
+          <SourceAttributeID>Id</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="46119cca-df5e-4084-a0b1-dbf5365fef79">
+      <ID>Hierarquia 1</ID>
+      <Name>Hierarquia 1</Name>
+      <Levels>
+        <Level dwd:design-time-name="12578880-dd7b-4ae4-bb36-91a78c967531">
+          <ID>Cpf Cnpj</ID>
+          <Name>Cpf Cnpj</Name>
+          <SourceAttributeID>Cpf Cnpj</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="060365e1-c904-44a3-9c49-71aef2d1d159">
+          <ID>Contribuinte</ID>
+          <Name>Contribuinte</Name>
+          <SourceAttributeID>Contribuinte</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="f592cd28-220f-46a7-aaa6-b44f7355afb9">
+      <ID>Hierarquia 2</ID>
+      <Name>Hierarquia 2</Name>
+      <Levels>
+        <Level dwd:design-time-name="a2681710-ad54-4ae5-80b1-361b10383ca5">
+          <ID>Codigo</ID>
+          <Name>Codigo</Name>
+          <SourceAttributeID>Codigo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3c10b820-5d8c-4be3-ba16-bb43ea02fe9e">
+          <ID>Cpf Cnpj</ID>
+          <Name>Cpf Cnpj</Name>
+          <SourceAttributeID>Cpf Cnpj</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ac177a48-61df-4584-9b51-e52635f5a7ee">
+          <ID>Contribuinte</ID>
+          <Name>Contribuinte</Name>
+          <SourceAttributeID>Contribuinte</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="a9f799ac-6ea9-4c64-8641-b234baf4ed85">
+      <ID>Hierarquia 3</ID>
+      <Name>Hierarquia 3</Name>
+      <Levels>
+        <Level dwd:design-time-name="080a086e-fd27-4855-bd5d-633dfeffc4c0">
+          <ID>Cpf Cnpj</ID>
+          <Name>Cpf Cnpj</Name>
+          <SourceAttributeID>Cpf Cnpj</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d19ee665-7c25-4a9f-bb23-08d3d85c838c">
+          <ID>Contribuinte</ID>
+          <Name>Contribuinte</Name>
+          <SourceAttributeID>Contribuinte</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="354f4586-16eb-4fe9-9dc0-f17aa98c37b0">
+          <ID>Id Fonte Dados</ID>
+          <Name>Id Fonte Dados</Name>
+          <SourceAttributeID>Id Fonte Dados</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

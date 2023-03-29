@@ -1,0 +1,145 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="89fd71c4-71d3-4e9e-9d52-db460d07e6a2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cubo_Contas_Publicas_2013_2022</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DIM AUX Fonte Dados</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="cde283dc-fa7e-45a4-8057-75e5abd4ff26">
+          <ID>DIM AUX Fonte Dados</ID>
+          <Name>DIM AUX Fonte Dados</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ef631883-121d-47d9-88c4-e7cce0745736">
+            <DataSourceViewID>DW Contas Publicas</DataSourceViewID>
+            <TableID>dbo_DIM_AUX_Fonte_Dados</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Classes Despesas</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4e1e62eb-659a-430e-8a5b-06c9607353ef">
+          <ID>Dim Classes Despesas</ID>
+          <Name>Dim Classes Despesas</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="04ad060f-453e-4de5-b162-1f65aeb93610">
+            <DataSourceViewID>DW Contas Publicas</DataSourceViewID>
+            <TableID>dbo_Dim_Classes_Despesas</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Classes Receitas</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8166b1f8-7ed1-488d-ac6e-c0210be5a5fe">
+          <ID>Dim Classes Receitas</ID>
+          <Name>Dim Classes Receitas</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="08489c00-18ad-4ea2-8c82-470a823935eb">
+            <DataSourceViewID>DW Contas Publicas</DataSourceViewID>
+            <TableID>dbo_Dim_Classes_Receitas</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Contribuintes</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7e1c45fe-c46e-4b9c-b56a-78dfdf695972">
+          <ID>Dim Contribuintes</ID>
+          <Name>Dim Contribuintes</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="55838981-f16e-4564-8507-5c004ee5187e">
+            <DataSourceViewID>DW Contas Publicas</DataSourceViewID>
+            <TableID>dbo_Dim_Contribuintes</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Tempo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1f209650-c882-4d66-b385-12983c23f35e">
+          <ID>Dim Tempo</ID>
+          <Name>Dim Tempo</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d591b082-a4f9-4ebd-8fcb-0b3936b67071">
+            <DataSourceViewID>DW Contas Publicas</DataSourceViewID>
+            <TableID>dbo_Dim_Tempo</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fato Despesa</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ddd679b7-9776-46b9-9efa-3c0d0c110dd8">
+          <ID>Fato Despesa</ID>
+          <Name>Fato Despesa</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6d57fb7d-62bb-4933-9c78-b2696759498c">
+            <DataSourceViewID>DW Contas Publicas</DataSourceViewID>
+            <TableID>dbo_Fato_Despesa</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fato Receita</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="36c0b9ab-bff0-4c0b-b437-b56f13e01865">
+          <ID>Fato Receita</ID>
+          <Name>Fato Receita</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f718d1c7-04e1-4167-90a0-7ba2396b22a2">
+            <DataSourceViewID>DW Contas Publicas</DataSourceViewID>
+            <TableID>dbo_Fato_Receita</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

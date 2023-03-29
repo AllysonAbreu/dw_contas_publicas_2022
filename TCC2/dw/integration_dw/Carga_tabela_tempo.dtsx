@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{E5082812-1E8E-45C2-AC5F-8BAC74AFCFCD}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{970B77DC-4B27-44CB-8554-459EAA9B1677}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -236,158 +236,15 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS]"
+      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{08B1AB6B-C525-476D-AAF6-A419DD52FEC3}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS">
+      DTS:DTSID="{A8CF1A13-EE32-461F-A001-418D7F5EF7A8}"
+      DTS:ObjectName="DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{456A2B12-C4A8-41E5-A1B7-9D85E34F7FA6}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{456A2B12-C4A8-41E5-A1B7-9D85E34F7FA6}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{65DFA794-CD24-4F07-9305-1A0ED2337533}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{65DFA794-CD24-4F07-9305-1A0ED2337533}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 10]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{61829476-08A8-4AC2-865A-726B282E8513}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 10">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{61829476-08A8-4AC2-865A-726B282E8513}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 10;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 2]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{C242F51F-4BCD-4CD5-B138-1CD2982B6667}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 2">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{C242F51F-4BCD-4CD5-B138-1CD2982B6667}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 2;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 3]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{934C8818-9261-48B2-8018-49988CF67F57}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 3">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{934C8818-9261-48B2-8018-49988CF67F57}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 3;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 4]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{D03725B1-7191-4E86-940F-3D62CBBFDCEF}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 4">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{D03725B1-7191-4E86-940F-3D62CBBFDCEF}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 4;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 5]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{038CED2B-1D51-45DD-8472-2CE7AF065394}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 5">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package-{038CED2B-1D51-45DD-8472-2CE7AF065394}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 5;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 6]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{A6D18C86-5E8B-459E-9865-A2B0A7EC5967}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 6">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{A6D18C86-5E8B-459E-9865-A2B0A7EC5967}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 6;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 7]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{423B418E-4D15-42B3-A166-6FFAE30635FF}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 7">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{423B418E-4D15-42B3-A166-6FFAE30635FF}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 7;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 8]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{C279F931-2A86-47F8-B7EE-FA2BA8ADCFB9}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 8">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{C279F931-2A86-47F8-B7EE-FA2BA8ADCFB9}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 8;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 9]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{6914DD9E-0DFF-4DAD-A614-0FEAA08A6B58}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 9">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[{E40E78BF-3AE6-4B7C-BE47-CD09C5902E0E\}]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{E40E78BF-3AE6-4B7C-BE47-CD09C5902E0E}"
-      DTS:ObjectName="{E40E78BF-3AE6-4B7C-BE47-CD09C5902E0E}">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5" />
+          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{A8CF1A13-EE32-461F-A001-418D7F5EF7A8}DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -699,8 +556,8 @@
               <connections>
                 <connection
                   refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>

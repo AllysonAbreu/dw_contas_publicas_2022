@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{02CE3D6E-040F-498D-9C4E-7050A1CF28D5}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{AB8AA706-A8D6-4343-8334-407741AF4614}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -55,15 +55,15 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
+      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{65DFA794-CD24-4F07-9305-1A0ED2337533}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1">
+      DTS:DTSID="{C0B54C30-7A3E-4C78-A630-18AFD1B45529}"
+      DTS:ObjectName="DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{65DFA794-CD24-4F07-9305-1A0ED2337533}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{C0B54C30-7A3E-4C78-A630-18AFD1B45529}DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -205,11 +205,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes"
+              refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
               description="Destino OLE DB"
-              name="Tabela_DIM_Contribuintes"
+              name="Tabela_DIM_Classe_Despesa"
               usesDispositions="true"
               version="4">
               <properties>
@@ -262,55 +262,55 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
+                  refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB]"
                   errorOrTruncationOperation="Inserir"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[COD_DESPESA]"
+                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB].Columns[COD_DESPESA]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="COD_DESPESA"
-                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_classe_despesa]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_classe_despesa]"
                       lineageId="Package\Carga_Tabela_Classe_Despesa\Carga_Dim_Classe_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_DESPESA]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[TIPO_DESPESA]"
+                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB].Columns[TIPO_DESPESA]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="200"
                       cachedName="TIPO_DESPESA"
-                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao_despesa]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao_despesa]"
                       lineageId="Package\Carga_Tabela_Classe_Despesa\Carga_Dim_Classe_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO_DESPESA]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
+                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
                       dataType="i4"
                       name="id" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_dim_classe_receita]"
+                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_dim_classe_receita]"
                       dataType="guid"
                       name="uid_dim_classe_receita" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_classe_despesa]"
+                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_classe_despesa]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="cod_classe_despesa" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao_despesa]"
+                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao_despesa]"
                       codePage="1252"
                       dataType="str"
                       length="150"
@@ -320,22 +320,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Outputs[Saída de Erro de Destino OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Destino OLE DB"
-                  synchronousInputId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB]">
+                  synchronousInputId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -347,7 +347,7 @@
           <paths>
             <path
               refId="Package\Carga_Tabela_Classe_Despesa.Paths[Saída de Origem de Arquivo Simples]"
-              endId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB]"
+              endId="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa.Inputs[Entrada de Destino OLE DB]"
               name="Saída de Origem de Arquivo Simples"
               startId="Package\Carga_Tabela_Classe_Despesa\Carga_Dim_Classe_Despesa.Outputs[Saída de Origem de Arquivo Simples]" />
           </paths>
@@ -380,22 +380,22 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="216,42"
+          Id="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa"
+          TopLeft="137.5,146.5" />
+        <NodeLayout
           Size="224,42"
           Id="Package\Carga_Tabela_Classe_Despesa\Carga_Dim_Classe_Despesa"
           TopLeft="27.5,39.5" />
-        <NodeLayout
-          Size="210,42"
-          Id="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes"
-          TopLeft="137.5,146.5" />
         <EdgeLayout
           Id="Package\Carga_Tabela_Classe_Despesa.Paths[Saída de Origem de Arquivo Simples]"
           TopLeft="139.5,81.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="103,65"
+              EndConnector="100,65"
               Start="0,0"
-              End="103,57.5">
+              End="100,57.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -406,13 +406,13 @@
                     Point2="0,32.5"
                     Point3="4,32.5" />
                   <mssgle:LineSegment
-                    End="99,32.5" />
+                    End="96,32.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="99,32.5"
-                    Point2="103,32.5"
-                    Point3="103,36.5" />
+                    Point1="96,32.5"
+                    Point2="100,32.5"
+                    Point3="100,36.5" />
                   <mssgle:LineSegment
-                    End="103,57.5" />
+                    End="100,57.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -425,7 +425,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Contribuintes">
+    design-time-name="Package\Carga_Tabela_Classe_Despesa\Tabela_DIM_Classe_Despesa">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{70F3A196-8A51-4770-BC84-FF35D441EE6C}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{7634374B-5E1D-42B3-87B2-7350203F19BD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -82,15 +82,15 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
+      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{65DFA794-CD24-4F07-9305-1A0ED2337533}"
-      DTS:ObjectName="DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1">
+      DTS:DTSID="{F91F0C05-B9BA-4144-85AE-758576558E74}"
+      DTS:ObjectName="DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\SQLEXPRESS;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{65DFA794-CD24-4F07-9305-1A0ED2337533}DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{F91F0C05-B9BA-4144-85AE-758576558E74}DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -374,8 +374,8 @@
               <connections>
                 <connection
                   refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\SQLEXPRESS.DW_Contas_Publicas 1]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
