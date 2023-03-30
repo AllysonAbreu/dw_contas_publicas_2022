@@ -61,13 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Scripts_tabelas_dimensoes\Dim_Contribuintes.sql" />
-    <Build Include="Scripts_tabelas_dimensoes\Dim_Classes_Receitas.sql" />
-    <Build Include="Scripts_tabelas_dimensoes\DIM_AUX_Fonte_Dados.sql" />
     <Build Include="Scripts_tabelas_dimensoes\Dim_Tempo.sql" />
-    <Build Include="Scripts_tabelas_dimensoes\DIM_AUX_Meses.sql" />
-    <Build Include="Scripts_tabelas_dimensoes\DIM_AUX_Trimestre.sql" />
-    <Build Include="Scripts_tabelas_dimensoes\DIM_AUX_Semestre.sql" />
-    <Build Include="Scripts_tabelas_dimensoes\Dim_Classes_Despesas.sql" />
+    <Build Include="Scripts_tabelas_dimensoes\Dim_Classes_Despesas_Receitas.sql" />
     <Build Include="Scripts_tabelas_fatos\Fato_Receita.sql" />
     <Build Include="Scripts_tabelas_fatos\Fato_Despesa.sql" />
   </ItemGroup>

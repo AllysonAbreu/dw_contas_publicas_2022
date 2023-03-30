@@ -11,11 +11,28 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{7634374B-5E1D-42B3-87B2-7350203F19BD}">
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{207C2D9E-9F3E-4859-8899-4F70945A2223}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{5E014141-ACAA-4AFC-BC8A-9E5A53482AC4}"
+      DTS:ObjectName="ALLYSON\DEVSERV.DW_Contas_Publicas.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package1-{5E014141-ACAA-4AFC-BC8A-9E5A53482AC4}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADhnRNfRESalJeMhbu1S4LymQtiuP03oNH618K90ADORAAAAAAOgAAAAAIAACAAAADD+NUd8fyhDTdkynRE4HmW6xgwxy5Fpm4YB5tkl6FrXRAAAADr9iBtPK+BIpKRMBWYR6FGQAAAAHlnd+lT/mH2kX78JJYfSfQUASIInM8gVXlQVfMhoyijhYlPAV30w81r0mJeYMOLYK9iSeewu493uCPFiztUU7w</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[dados_fato_receita]"
       DTS:CreationName="FLATFILE"
@@ -30,7 +47,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_receitas.csv">
+          DTS:ConnectionString="C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_receitas.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +56,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_RECEITA"
-              DTS:DTSID="{6E8CBF70-2B29-4D8D-B471-2A7267296124}"
+              DTS:DTSID="{874EF9A9-4C13-4ABC-962F-4C84E4C46513}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +65,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DATA"
-              DTS:DTSID="{13A1CCAD-CFD8-4A0C-B550-3B136EFA1518}"
+              DTS:DTSID="{A29CB426-09A2-4E62-8505-849496B06E57}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +74,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_CONTRIBUINTE"
-              DTS:DTSID="{D87D8D2B-49D0-4062-89A0-641447AA093A}"
+              DTS:DTSID="{BA11083F-8C26-4810-B705-DB130F020782}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +83,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="VALOR_ARRECADADO"
-              DTS:DTSID="{9BBC2DE3-2D6A-410D-A697-35D8E27EB51B}"
+              DTS:DTSID="{70482F3E-343E-4C06-95D9-A0A11182A80C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,22 +92,10 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FONTE_DADOS"
-              DTS:DTSID="{3C02ECAC-F7CE-4E78-BDE1-DFA1E5B7D001}"
+              DTS:DTSID="{EFA7FB53-B7D1-4DF8-A107-F6DF23BC3A74}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{F91F0C05-B9BA-4144-85AE-758576558E74}"
-      DTS:ObjectName="DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{F91F0C05-B9BA-4144-85AE-758576558E74}DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -374,8 +379,8 @@
               <connections>
                 <connection
                   refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
+                  connectionManagerID="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -460,7 +465,9 @@
                       name="valor" />
                     <externalMetadataColumn
                       refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
-                      dataType="ui1"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="fonte_dados" />
                   </externalMetadataColumns>
                 </input>
@@ -515,7 +522,7 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="198,42"
+          Size="198.4,41.6"
           Id="Package\Carga_Tabela_Receitas"
           TopLeft="60,60" />
       </GraphLayout>
@@ -527,11 +534,11 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="248,42"
+          Size="248,41.6"
           Id="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita"
           TopLeft="137.5,146.5" />
         <NodeLayout
-          Size="180,42"
+          Size="180,41.6"
           Id="Package\Carga_Tabela_Receitas\Carga_Fato_Receita"
           TopLeft="27.5,39.5" />
         <EdgeLayout

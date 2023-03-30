@@ -11,11 +11,28 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Carga_tabela_contribuinte"
   DTS:PackageType="5"
-  DTS:VersionBuild="18"
-  DTS:VersionGUID="{E8F25F3F-8AEA-42BD-97D8-EADC1025EFF2}">
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{29E0A384-5FC8-4766-ADB2-7E91B8F07C14}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{9B1AF372-DEC0-48BC-B12A-F2E561DD67C7}"
+      DTS:ObjectName="ALLYSON\DEVSERV.DW_Contas_Publicas.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Carga_tabela_contribuinte-{9B1AF372-DEC0-48BC-B12A-F2E561DD67C7}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADWVQuG+0+ynrIIGcfONnSfIX8fdFSjtDyXG2QGaq63wwAAAAAOgAAAAAIAACAAAABY80VnnglnmQarbe500qXZ2IzAYHxxNcp9kAzAzi0zbBAAAACGlPN+hzyOqGNNlatT685yQAAAANtLp8qyAsE/xQcEUtxtP4qcPcgkVu1RqaBlOEKfmZ/a+eAYLpPm7H8270LvaeGLcKEPsxODMx742g1oXJQeQSI</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[dados_dim_contribuintes]"
       DTS:CreationName="FLATFILE"
@@ -30,7 +47,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_contribuintes.csv">
+          DTS:ConnectionString="C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_contribuintes.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +56,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CPF CNPJ"
-              DTS:DTSID="{A31B3CCB-F370-4292-A885-9FE4CCCD9C75}"
+              DTS:DTSID="{2770657A-2826-4ACD-B950-78D1A9FE5964}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +65,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CONTRIBUINTE"
-              DTS:DTSID="{962996FC-5562-4218-99E1-B5204F2464FD}"
+              DTS:DTSID="{B2673BB6-512F-4A9C-89B4-84329686E0DD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +74,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TIPO"
-              DTS:DTSID="{3C25C2F0-24C3-4AD6-9D24-55B5CE3E2359}"
+              DTS:DTSID="{C8C05076-F7FC-4037-8A94-5ED8ADE53775}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,22 +83,10 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CODIGO"
-              DTS:DTSID="{BA17C9E2-1BA3-4A6E-A402-38567766C7E1}"
+              DTS:DTSID="{66C45123-E84F-4278-8AB0-B808F399440D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{D8ACE471-B552-4497-9791-286FAC44BE62}"
-      DTS:ObjectName="DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Carga_tabela_contribuinte-{D8ACE471-B552-4497-9791-286FAC44BE62}DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -337,8 +342,8 @@
               <connections>
                 <connection
                   refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
+                  connectionManagerID="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -380,7 +385,7 @@
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="TIPO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[id_fonte_dados]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
                       lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]" />
                   </inputColumns>
                   <externalMetadataColumns
@@ -408,13 +413,15 @@
                       length="500"
                       name="contribuinte" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[id_fonte_dados]"
-                      dataType="ui1"
-                      name="id_fonte_dados" />
-                    <externalMetadataColumn
                       refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_contribuintes]"
                       dataType="guid"
                       name="uid_contribuintes" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="fonte_dados" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -468,7 +475,7 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="214,42"
+          Size="214.4,41.6"
           Id="Package\Carga_Tabela_Contribuinte"
           TopLeft="60,60" />
       </GraphLayout>
@@ -480,11 +487,11 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="210,42"
+          Size="209.6,41.6"
           Id="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes"
           TopLeft="137.5,146.5" />
         <NodeLayout
-          Size="209,42"
+          Size="208.8,41.6"
           Id="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes"
           TopLeft="27.5,39.5" />
         <EdgeLayout

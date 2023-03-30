@@ -11,153 +11,25 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{970B77DC-4B27-44CB-8554-459EAA9B1677}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{EC877C1C-5715-4DA2-A966-197809ABB802}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[dados_aux_fonte_dados]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{60DF210F-DEB8-4BBC-9B0A-B9CFBF24F117}"
-      DTS:ObjectName="dados_aux_fonte_dados">
+      DTS:refId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{60705137-A83F-4C35-A93E-B2CD6D266E4F}"
+      DTS:ObjectName="ALLYSON\DEVSERV.DW_Contas_Publicas.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1046"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_tab_aux_fonte_dados.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="FONTE_DADOS"
-              DTS:DTSID="{E7E84C39-316B-40CC-AEC4-E169D21DA7B9}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[dados_aux_meses]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{ABFDE17E-F1BF-4D44-AA96-6E61FDABD0B6}"
-      DTS:ObjectName="dados_aux_meses">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1046"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_tab_aux_meses.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="MES"
-              DTS:DTSID="{39A25ABF-953B-4358-A910-BF531FA6E009}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[dados_aux_meses_correto]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{3EFF88F7-02F9-46D3-A768-DD323277CFA5}"
-      DTS:ObjectName="dados_aux_meses_correto">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1046"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_tab_aux_meses.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="MES"
-              DTS:DTSID="{A668791D-62B7-4658-9817-9991CAC95B53}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[dados_aux_semestre]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{BAF97DD2-6091-4C17-AAF5-1250E203E98F}"
-      DTS:ObjectName="dados_aux_semestre">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1046"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_tab_aux_semestre.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="SEMESTRE"
-              DTS:DTSID="{B08273B8-4E4D-4936-9BFC-55AC1BDEE739}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[dados_aux_trimestre]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{2385B573-F1CD-4074-BC04-1806D86A3BB3}"
-      DTS:ObjectName="dados_aux_trimestre">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1046"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_tab_aux_trimestre.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="TRIMESTRE"
-              DTS:DTSID="{76C916D5-90EF-41BF-9C78-F1ED576D827F}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package-{60705137-A83F-4C35-A93E-B2CD6D266E4F}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUzZ71EEs6LXsNzolRXGh2HV5QSwoTzW55d4whE/hcUQAAAAAOgAAAAAIAACAAAAATyaD2EvAufAlwj9Yd7VVuOmos9wsMFoZYlNdjxQanqhAAAACLCGB9hcHiRKUTXdIHbfiIQAAAADDzqgqX9xH9zr8B/7deo+hKMAhwvpGZtT7PV6brH3iHg9r9sZ6cVhtEdauH2JjX/3K0gSPr1K7FjmZDBGnUZOw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -175,7 +47,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_tempo_tratados.csv">
+          DTS:ConnectionString="C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_tempo_tratados.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -184,7 +56,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DATA"
-              DTS:DTSID="{88B26603-860E-479B-9F99-3A7405DA53AB}"
+              DTS:DTSID="{1BEEAE11-A5A5-493D-A2F9-53CA48CB6F8D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -193,7 +65,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ANO"
-              DTS:DTSID="{D30EC989-F8C1-47FD-8C99-1F3B1293FDEB}"
+              DTS:DTSID="{9677C39D-F36C-48F7-A4CC-23693CBD3079}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -202,7 +74,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MES"
-              DTS:DTSID="{0C14EFAB-7271-4FB5-ACF3-6390A0141727}"
+              DTS:DTSID="{F8AFA936-B306-47B0-9832-845B32EDF326}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -211,7 +83,16 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DIA"
-              DTS:DTSID="{095B609B-A60D-408D-83E5-44E2AA73011A}"
+              DTS:DTSID="{480656E3-AE25-49A5-9D36-1FED8668681A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TRIMESTRE"
+              DTS:DTSID="{E15A3191-238C-4879-9AD0-653A92F91BC3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -220,7 +101,16 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_TRIMESTRE"
-              DTS:DTSID="{7AE6C133-FBCF-4999-9F3C-CBDC241B8364}"
+              DTS:DTSID="{3C9E38A2-8227-4A4B-B891-9B21044B6C04}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SEMESTRE"
+              DTS:DTSID="{B4C05DD2-7C8C-4F32-9474-13718E1DD1C3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -229,22 +119,10 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_SEMESTRE"
-              DTS:DTSID="{8478B35D-21AA-4FDD-A642-3732349A9E0B}"
+              DTS:DTSID="{E6FF9B5F-DF2D-4E4F-B078-20E83654E47F}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{A8CF1A13-EE32-461F-A001-418D7F5EF7A8}"
-      DTS:ObjectName="DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{A8CF1A13-EE32-461F-A001-418D7F5EF7A8}DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -427,6 +305,50 @@
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].Columns[TRIMESTRE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[TRIMESTRE]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].Columns[TRIMESTRE]"
+                      name="TRIMESTRE"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].Columns[SEMESTRE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SEMESTRE]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].Columns[SEMESTRE]"
+                      name="SEMESTRE"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -466,6 +388,18 @@
                       dataType="str"
                       length="50"
                       name="COD_SEMESTRE" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[TRIMESTRE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TRIMESTRE" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SEMESTRE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="SEMESTRE" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -556,8 +490,8 @@
               <connections>
                 <connection
                   refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
+                  connectionManagerID="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -617,6 +551,22 @@
                       cachedName="COD_SEMESTRE"
                       externalMetadataColumnId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_semestre]"
                       lineageId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_SEMESTRE]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].Columns[TRIMESTRE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="TRIMESTRE"
+                      externalMetadataColumnId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].ExternalColumns[trimestre]"
+                      lineageId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].Columns[TRIMESTRE]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].Columns[SEMESTRE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SEMESTRE"
+                      externalMetadataColumnId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].ExternalColumns[semestre]"
+                      lineageId="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo.Outputs[Saída de Origem de Arquivo Simples].Columns[SEMESTRE]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -638,7 +588,9 @@
                       name="ano" />
                     <externalMetadataColumn
                       refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].ExternalColumns[mes]"
-                      dataType="ui1"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="mes" />
                     <externalMetadataColumn
                       refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].ExternalColumns[dia]"
@@ -652,6 +604,18 @@
                       refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_semestre]"
                       dataType="ui1"
                       name="cod_semestre" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].ExternalColumns[trimestre]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="trimestre" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo.Inputs[Entrada de Destino OLE DB].ExternalColumns[semestre]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="semestre" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -705,7 +669,7 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="189,42"
+          Size="188.8,41.6"
           Id="Package\Carga_Tabela_Tempo"
           TopLeft="47.5,17.5" />
       </GraphLayout>
@@ -717,11 +681,11 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="205,42"
+          Size="204.8,41.6"
           Id="Package\Carga_Tabela_Tempo\Carga_Dimensao_Tempo"
           TopLeft="27.5,39.5" />
         <NodeLayout
-          Size="179,42"
+          Size="179.2,41.6"
           Id="Package\Carga_Tabela_Tempo\Tabela_DIM_Tempo"
           TopLeft="137.5,146.5" />
         <EdgeLayout

@@ -8,92 +8,82 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Cubo_Contas_Publicas_2013_2022.cube</Name>
-      <FullPath>Cubo_Contas_Publicas_2013_2022.cube</FullPath>
+      <Name>Cubo_Despesas.cube</Name>
+      <FullPath>Cubo_Despesas.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo_Contas_Publicas_2013_2022.partitions</Name>
-          <FullPath>Cubo_Contas_Publicas_2013_2022.partitions</FullPath>
+          <Name>Cubo_Despesas.partitions</Name>
+          <FullPath>Cubo_Despesas.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo_Receitas.cube</Name>
+      <FullPath>Cubo_Receitas.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo_Receitas.partitions</Name>
+          <FullPath>Cubo_Receitas.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>DIM AUX Fonte Dados.dim</Name>
-      <FullPath>DIM AUX Fonte Dados.dim</FullPath>
+      <Name>Dim Classes Despesas Receitas.dim</Name>
+      <FullPath>Dim Classes Despesas Receitas.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Tempo.dim</Name>
       <FullPath>Dim Tempo.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM AUX Semestre.dim</Name>
-      <FullPath>DIM AUX Semestre.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DIM AUX Trimestre.dim</Name>
-      <FullPath>DIM AUX Trimestre.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Classes Despesas.dim</Name>
-      <FullPath>Dim Classes Despesas.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Classes Receitas.dim</Name>
-      <FullPath>Dim Classes Receitas.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Contribuintes.dim</Name>
       <FullPath>Dim Contribuintes.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DIM AUX Meses.dim</Name>
-      <FullPath>DIM AUX Meses.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Fato Receita.dim</Name>
-      <FullPath>Fato Receita.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Fato Despesa.dim</Name>
       <FullPath>Fato Despesa.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Fato Receita.dim</Name>
+      <FullPath>Fato Receita.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Fonte_DW_CP.ds</Name>
-      <FullPath>Fonte_DW_CP.ds</FullPath>
+      <Name>DS_ContasPublicas.ds</Name>
+      <FullPath>DS_ContasPublicas.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>DW_Contas_Publicas.dsv</Name>
-      <FullPath>DW_Contas_Publicas.dsv</FullPath>
+      <Name>DSV_ContasPublicas.dsv</Name>
+      <FullPath>DSV_ContasPublicas.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Adm_role.role</Name>
+      <FullPath>Adm_role.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>DW Contas Publicas</Id>
-            <Name>DW Contas Publicas</Name>
-            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL.1;Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Integrated Security=SSPI;Initial Catalog=DW_Contas_Publicas</Value>
+            <Id>DS_ContasPublicas</Id>
+            <Name>DS_ContasPublicas</Name>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=ALLYSON\DEVSERV;Persist Security Info=True;Password=;User ID=;Initial Catalog=DW_Contas_Publicas</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
-        <ConnectionProviderMappings>
-          <ConfigurationSetting>
-            <Id>DW Contas Publicas</Id>
-            <Name>DW Contas Publicas</Name>
-          </ConfigurationSetting>
-        </ConnectionProviderMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>DW Contas Publicas</Id>
-            <Name>DW Contas Publicas</Name>
-            <Value xsi:type="xsd:int">0</Value>
+            <Id>DS_ContasPublicas</Id>
+            <Name>DS_ContasPublicas</Name>
+            <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>

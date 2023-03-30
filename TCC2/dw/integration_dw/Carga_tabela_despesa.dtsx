@@ -11,11 +11,28 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{51296336-182C-4F5E-A387-6D8EAE976E32}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{BDD79F6F-B324-43C2-AC4A-2025CAF2086A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{754A80A7-35A4-46D5-B882-07E8D8EB9FE8}"
+      DTS:ObjectName="ALLYSON\DEVSERV.DW_Contas_Publicas.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package1-{754A80A7-35A4-46D5-B882-07E8D8EB9FE8}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAqTEVLRlG+7EvQd8ScEfB1VMm9EbGLqH26RmfbSKS6FwAAAAAOgAAAAAIAACAAAABfgEgstFPgHJQBMPR3+HxsSR7bS2BFdpT1e9J8dOrc4RAAAABLDy/Krok0+EiDenJ0y1MgQAAAAC8tumm8/6IV1l5+25paGC1eS0i5CAmOOQ8dZ7KzhFMDI3j+rg+LQrOZcJ95S+pf4bc01ZQU0E0RtrW69w+Samo</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[dados_fato_despesa]"
       DTS:CreationName="FLATFILE"
@@ -30,7 +47,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Repos\estudos\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_despesas.csv">
+          DTS:ConnectionString="C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_despesas.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +56,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_DESPESA"
-              DTS:DTSID="{AEB30702-5028-4B23-904C-1754BACB3B9B}"
+              DTS:DTSID="{E9D3957B-F898-44E7-95B3-D7C401CA4A47}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +65,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DATA"
-              DTS:DTSID="{B2A03FFA-EB7C-45A6-B3EF-59CD0D6C4E9B}"
+              DTS:DTSID="{4DC92127-D6E0-43BC-A887-2E83EA6C8A55}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +74,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_CONTRIBUINTE"
-              DTS:DTSID="{1A982974-F5AA-459E-880B-CBA2985F3D50}"
+              DTS:DTSID="{3FEABD37-F810-435C-8E47-EB0E51F9EFF4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +83,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="VALOR"
-              DTS:DTSID="{DE4C8A15-0341-4829-98DC-0DAFD5E6C126}"
+              DTS:DTSID="{7D203C8F-5F0E-4A5B-BFC4-206D50CFD65F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +92,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LIQUIDADO"
-              DTS:DTSID="{B4F6B709-944B-487A-A66C-56F1D9E58900}"
+              DTS:DTSID="{5240109C-A24C-4931-BD55-47C0AD63B6B3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +101,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PAGO"
-              DTS:DTSID="{B0000EAB-795A-4FE4-ACF1-FC321D7BBACB}"
+              DTS:DTSID="{03849874-ECE7-44D4-881E-660C880688BB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +110,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SALDO"
-              DTS:DTSID="{D65D30FC-686E-4C98-B43B-B603F1ACC5EA}"
+              DTS:DTSID="{E23D60BC-AAFA-4556-87E1-D7786EC280CC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,22 +119,10 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FONTE_DADOS"
-              DTS:DTSID="{BE0D13D5-1875-4A38-BE76-DA92DDE981DC}"
+              DTS:DTSID="{F1CB622F-8219-4BD7-8BF6-06AA856B8328}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{354C1E26-AAC1-480B-B3D3-E36CB041A7C5}"
-      DTS:ObjectName="DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-M0N474H\DEVELOPSERVER;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{354C1E26-AAC1-480B-B3D3-E36CB041A7C5}DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -485,8 +490,8 @@
               <connections>
                 <connection
                   refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-M0N474H\DEVELOPSERVER.DW_Contas_Publicas]"
+                  connectionManagerID="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
                   name="OleDbConnection" />
               </connections>
@@ -607,7 +612,9 @@
                       name="saldo" />
                     <externalMetadataColumn
                       refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
-                      dataType="ui1"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="fonte_dados" />
                   </externalMetadataColumns>
                 </input>
@@ -662,9 +669,9 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="198,42"
+          Size="198.4,41.6"
           Id="Package\Carga_Tabela_Despesa"
-          TopLeft="60,60" />
+          TopLeft="60,58.4705882366348" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -674,11 +681,11 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="196,42"
+          Size="196,41.6"
           Id="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa"
           TopLeft="27.5,39.5" />
         <NodeLayout
-          Size="190,42"
+          Size="190.4,41.6"
           Id="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa"
           TopLeft="138.5,146.5" />
         <EdgeLayout

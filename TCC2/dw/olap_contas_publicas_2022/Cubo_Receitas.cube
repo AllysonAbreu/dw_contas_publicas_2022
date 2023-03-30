@@ -1,0 +1,417 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1cdf5aae-cad3-4082-b464-b650dfb91cac" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DSV_ContasPublicas 1</ID>
+  <Name>Cubo_Receitas</Name>
+  <CreatedTimestamp>0001-01-01T03:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T03:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11359" scrolltop="2696" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24807" y="6541" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fato_Receita" left="909" top="5427" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3323" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fb0c00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fato_Receita" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="20" top="11214" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="4212" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00007410000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Classes_Despesas_Receitas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Tempo" left="6632" top="4888" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3112" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000280c000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Tempo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Contribuintes" left="866" top="0" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3366" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000260d0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Contribuintes" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2150" top="2528" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_fato_receita_id_contribuintes]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2549" y="3027" />
+              <point x="2549" y="4227" />
+              <point x="2570" y="4227" />
+              <point x="2570" y="5427" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1727" top="8514" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="1143" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_fato_receita_id_cod_receita]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2126" y="11214" />
+              <point x="2126" y="10014" />
+              <point x="2570" y="10014" />
+              <point x="2570" y="8814" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3932" top="6722" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_fato_receita_id_data]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="16" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6632" y="7121" />
+              <point x="5432" y="7121" />
+              <point x="5432" y="7120" />
+              <point x="4232" y="7120" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-11359</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>2696</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T03:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="1ce5c4b1-84f1-45dc-a4aa-4956417689e4">
+      <ID>Fato Receita</ID>
+      <Name>Fato Receita</Name>
+      <DimensionID>Fato Receita</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="558af845-9cbd-4513-aa4e-1981d0cff1af">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ab96679-6733-4a93-9335-ea1f9525e562">
+          <AttributeID>Entidade Receita</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86f9ae56-eaee-4f10-b562-8cc5d4e21c97">
+          <AttributeID>Cod Receita</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="228f234d-7bf8-4b00-9a6f-ba2a488e8bab">
+          <AttributeID>Data Fato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4a72adf-d9d3-473b-bc2f-216e36ca6546">
+          <AttributeID>Valor</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a3e4f807-5026-4407-bebf-dc19f731b156">
+          <AttributeID>Fonte Dados</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="615f90e0-d44b-41ad-b7d8-62be1b783410">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="efed889a-e4e8-4afa-b066-22b50b9eb7d1">
+          <HierarchyID>Hierarquia 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="a161450f-3a42-4acc-a1bf-aa7524fd9137">
+          <HierarchyID>Hierarquia 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="b2ea7fb4-abe3-4fd4-99da-7105d0cf67c9">
+          <HierarchyID>Hierarquia 3</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="701ccc34-eae0-4f0c-8d82-a4586f7603b0">
+      <ID>Dim Contribuintes</ID>
+      <Name>Dim Contribuintes</Name>
+      <DimensionID>Dim Contribuintes</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="16200d7f-f960-4d3a-be73-412b4e56a4f0">
+          <AttributeID>Codigo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d134e1bd-b813-4522-a218-a132414bfc24">
+          <AttributeID>Cpf Cnpj</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3810c288-3f38-4df2-9b32-31cf9b456c0b">
+          <AttributeID>Contribuinte</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c57c2439-a0b8-49ab-b213-c6810ad388a9">
+          <AttributeID>Fonte Dados</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="4e1f56f9-5b67-45f9-a078-c5d1b92936f9">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="e452c1a9-9d79-4d1f-9100-a4e2b58a51ac">
+          <HierarchyID>Hierarquia 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="dfce1a42-8ea6-4505-a196-6c64b8ac4100">
+          <HierarchyID>Hierarquia 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d9c22ef4-769d-4aa3-aab8-56705346b117">
+      <ID>Dim Classes Despesas Receitas</ID>
+      <Name>Dim Classes Despesas Receitas</Name>
+      <DimensionID>Dim Classes Despesas Receitas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ec0b7287-eeb3-40b7-b792-6fcb94f787b9">
+          <AttributeID>Cod Classe</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e14fe9b-6c96-457d-9d27-efe0621f6825">
+          <AttributeID>Descricao</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5521ee6e-6d62-4c57-8623-678dceeb155a">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="dbcfb1c9-7c9f-4677-aa01-5d43f8d92f81">
+      <ID>Dim Tempo</ID>
+      <Name>Dim Tempo</Name>
+      <DimensionID>Dim Tempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d56c7b6d-fcd1-44f0-9a88-ae37dc787b25">
+          <AttributeID>Data</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c59c26e-a455-495d-929b-7eb79e175578">
+          <AttributeID>Ano</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2885a52e-82fb-4f34-858f-62ee6a330382">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ec2a971-ddaf-411a-bc67-3f0ea1eb7bec">
+          <AttributeID>Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4a2201c-aa3d-4167-b9e0-775d6d495700">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e79d0f19-e66a-42d9-b026-7f3412e9a91f">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c2f68339-8efc-4de2-8e73-bd086ec13d2c">
+          <AttributeID>Cod Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1189e7e6-1476-4315-bfea-931fae085d37">
+          <AttributeID>Cod Semestre</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="50311c7f-e6d2-40a0-94de-c6a33771d3aa">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="fd3cd245-19bc-4ab5-baaf-a1bcc111de3c">
+          <HierarchyID>Hierarquia 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8f9e5078-97fa-4b52-a06c-acac2337cb81">
+          <HierarchyID>Hierarquia 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="82a8b1ab-1d89-4fc8-94a6-d3454fd82810">
+          <HierarchyID>Hierarquia 4</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="0ea9d54f-76d8-40b4-9d75-0830fd04b5ee">
+          <HierarchyID>Hierarquia 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="c50e001c-b770-49c7-a955-16550504a01c">
+      <ID>Fato Receita</ID>
+      <Name>Fato Receita</Name>
+      <CreatedTimestamp>0001-01-01T03:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T03:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T03:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f504d4e5-157a-47e7-ad52-ac5bd553c13b">
+          <ID>Valor</ID>
+          <Name>Valor</Name>
+          <Source dwd:design-time-name="8e606691-344d-48c2-a347-17c310a7c43e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0b180bd5-285b-4090-b426-92fa3d7f06e3">
+              <TableID>dbo_Fato_Receita</TableID>
+              <ColumnID>valor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6d23fedc-de68-4511-b82e-15c9e5caab2d">
+          <ID>Contagem Fato Receita</ID>
+          <Name>Contagem Fato Receita</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="f6a3bc75-0eb0-45b9-91f0-0be2d15f890e">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="00d48032-9811-4186-a8d7-edd09734ec29">
+              <TableID>dbo_Fato_Receita</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e04f4680-95e9-4e66-8a8d-426e211123bb">
+          <CubeDimensionID>Fato Receita</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="490be908-ba13-4d35-ab53-209e0c85a5f6">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0d360a58-21e7-4b42-a23c-a40f32b445d0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="77d90e21-5d03-44b8-be5e-4f2db2c5f835">
+                    <TableID>dbo_Fato_Receita</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="20684bac-8475-4346-a212-76c659771733">
+          <CubeDimensionID>Dim Contribuintes</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="34168d1e-b357-4ef5-8330-e7169023d655">
+              <AttributeID>Codigo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="39e6283e-fd11-4c3b-8108-232f8b21dabe">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4b9194c5-b651-4951-86ed-080b5e267ea3">
+                    <TableID>dbo_Fato_Receita</TableID>
+                    <ColumnID>entidade_receita</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="091577d2-5a89-4c10-809c-9337408d1750">
+          <CubeDimensionID>Dim Classes Despesas Receitas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d89ab231-3957-4502-a775-29f796e4155a">
+              <AttributeID>Cod Classe</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4825681e-3552-467a-8de3-53fb94628f12">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="28abf94e-b673-4c9f-9088-57d98debd958">
+                    <TableID>dbo_Fato_Receita</TableID>
+                    <ColumnID>cod_receita</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c37a34c7-2a27-4d79-9e36-d9e2d255c9df">
+          <CubeDimensionID>Dim Tempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1096465d-16c4-4dd9-90d1-a527955a66ac">
+              <AttributeID>Data</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e31a1f68-1cd6-4ff1-a239-61f2236fe822">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ccca4ace-1eca-4c0b-9026-bf7a73b7f889">
+                    <TableID>dbo_Fato_Receita</TableID>
+                    <ColumnID>data_fato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6f51f8cc-df89-416c-a597-e5030337d9fb">
+    <DataSourceViewID>DSV_ContasPublicas</DataSourceViewID>
+  </Source>
+</Cube>
