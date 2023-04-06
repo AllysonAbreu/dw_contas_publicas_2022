@@ -1,5 +1,3 @@
-# Ignorar arquivos CSV
-*.csv
 
 # Ignorar arquivos de ambiente
 .env
