@@ -62,8 +62,13 @@
   <ItemGroup>
     <Build Include="Scripts_tabelas_dimensoes\Dim_Contribuintes.sql" />
     <Build Include="Scripts_tabelas_dimensoes\Dim_Tempo.sql" />
-    <Build Include="Scripts_tabelas_dimensoes\Dim_Classes_Despesas_Receitas.sql" />
+    <Build Include="Scripts_tabelas_dimensoes\Dim_Classes_Receitas.sql" />
     <Build Include="Scripts_tabelas_fatos\Fato_Receita.sql" />
     <Build Include="Scripts_tabelas_fatos\Fato_Despesa.sql" />
+    <Build Include="Scripts_tabelas_dimensoes\Dim_Classe_Elemento_Despesa.sql" />
+    <Build Include="Scripts_tabelas_dimensoes\Dim_Classe_Subelemento_Despesa.sql" />
+    <Build Include="Scripts_tabelas_dimensoes\Dim_Classe_Funcao_Despesa.sql" />
+    <Build Include="Scripts_tabelas_dimensoes\Dim_Classe_Subfuncao_Despesa.sql" />
+    <Build Include="Scripts_tabelas_dimensoes\Dim_Classe_Natureza_Despesa.sql" />
   </ItemGroup>
 </Project>

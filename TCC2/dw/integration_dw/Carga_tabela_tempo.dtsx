@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{EC877C1C-5715-4DA2-A966-197809ABB802}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{F3AB6B21-3EDF-4A86-B1CF-FEABCCB5CF64}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,11 +25,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Package-{60705137-A83F-4C35-A93E-B2CD6D266E4F}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{60705137-A83F-4C35-A93E-B2CD6D266E4F}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUzZ71EEs6LXsNzolRXGh2HV5QSwoTzW55d4whE/hcUQAAAAAOgAAAAAIAACAAAAATyaD2EvAufAlwj9Yd7VVuOmos9wsMFoZYlNdjxQanqhAAAACLCGB9hcHiRKUTXdIHbfiIQAAAADDzqgqX9xH9zr8B/7deo+hKMAhwvpGZtT7PV6brH3iHg9r9sZ6cVhtEdauH2JjX/3K0gSPr1K7FjmZDBGnUZOw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAYbWb0iaMioYe8Z/4++ToeA+quVAFMxbrkCv7kvRXGXAAAAAAOgAAAAAIAACAAAACp5a5cSIoPNtIUEBfiEFPnsuZ7IDAVjk+Zv15s5yNABhAAAACrZ3sSRg2dx86CF8GBNJHVQAAAAI2hQYxe6+wZ0157IVs+Ux46l8DOKsANsLltSGrHscBwlfJuzdCGp+WT0sUM8t8ybQ5rhd+kzcFcz3A38KIb3hs</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,7 +56,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DATA"
-              DTS:DTSID="{1BEEAE11-A5A5-493D-A2F9-53CA48CB6F8D}"
+              DTS:DTSID="{4F7C4934-C17A-41E2-B956-8528B56F1921}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,7 +65,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ANO"
-              DTS:DTSID="{9677C39D-F36C-48F7-A4CC-23693CBD3079}"
+              DTS:DTSID="{DB702305-B870-41F0-AE9C-9D52381CBD64}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MES"
-              DTS:DTSID="{F8AFA936-B306-47B0-9832-845B32EDF326}"
+              DTS:DTSID="{CC3CCE21-9CBA-40BD-AA48-420B07B67E62}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DIA"
-              DTS:DTSID="{480656E3-AE25-49A5-9D36-1FED8668681A}"
+              DTS:DTSID="{4B335B64-2F0E-483D-AA5A-87B36D9E7A5F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TRIMESTRE"
-              DTS:DTSID="{E15A3191-238C-4879-9AD0-653A92F91BC3}"
+              DTS:DTSID="{3DF66AF8-F1C8-4FAC-B1E2-6111C9FCD614}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_TRIMESTRE"
-              DTS:DTSID="{3C9E38A2-8227-4A4B-B891-9B21044B6C04}"
+              DTS:DTSID="{E0ACCE37-79DC-42CA-827B-4E4FF877AB3B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -110,7 +110,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SEMESTRE"
-              DTS:DTSID="{B4C05DD2-7C8C-4F32-9474-13718E1DD1C3}"
+              DTS:DTSID="{968CFA79-218F-4F8D-8D6B-028827F85B68}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -119,7 +119,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COD_SEMESTRE"
-              DTS:DTSID="{E6FF9B5F-DF2D-4E4F-B078-20E83654E47F}"
+              DTS:DTSID="{D954AABA-2759-46B7-89FA-C0E2321172CC}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>

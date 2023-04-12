@@ -36,7 +36,6 @@ COD_ELEMENTO;ELEMENTO
 339031;premiacoes culturais, artisticas, cientificas, desportivas e outras
 4;contratacao por tempo determinado
 11;vencimentos e vantagens fixas - pessoal civil
-13;contribuicoes patronais (19)(i)
 30;material de consumo
 39;outros servicos de terceiros - pessoa juridica
 1;aposentadorias, reserva remunerada e reformas
@@ -52,13 +51,11 @@ COD_ELEMENTO;ELEMENTO
 47;obrigacoes tributarias e contributivas
 48;outros auxilios financeiros a pessoas fisicas
 31;premiacoes culturais, artisticas, cientificas, desportivas e outras (6)(i)
-71;principal da divida contratual resgatado
 51;obras e instalacoes
 14;diarias - civil
 35;servicos de consultoria
 93;indenizacoes e restituicoes
 71;outras amortizacoes da divida contratada
-92;despesas de exercicios anteriores (25)(i)
 92;despesas de exercicios anteriores
 43;subvencoes sociais
 5;outros beneficios previdenciarios

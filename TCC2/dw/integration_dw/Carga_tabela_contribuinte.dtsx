@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Carga_tabela_contribuinte"
   DTS:PackageType="5"
-  DTS:VersionBuild="21"
-  DTS:VersionGUID="{29E0A384-5FC8-4766-ADB2-7E91B8F07C14}">
+  DTS:VersionBuild="23"
+  DTS:VersionGUID="{DB6A7185-D823-43CA-A637-2F5CA8C0ACA2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,11 +25,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Carga_tabela_contribuinte-{9B1AF372-DEC0-48BC-B12A-F2E561DD67C7}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Carga_tabela_contribuinte-{9B1AF372-DEC0-48BC-B12A-F2E561DD67C7}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADWVQuG+0+ynrIIGcfONnSfIX8fdFSjtDyXG2QGaq63wwAAAAAOgAAAAAIAACAAAABY80VnnglnmQarbe500qXZ2IzAYHxxNcp9kAzAzi0zbBAAAACGlPN+hzyOqGNNlatT685yQAAAANtLp8qyAsE/xQcEUtxtP4qcPcgkVu1RqaBlOEKfmZ/a+eAYLpPm7H8270LvaeGLcKEPsxODMx742g1oXJQeQSI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAALFKpYxADPZVpE7pcrzsscSs/7tbzq2tWInY6s08bWQwAAAAAOgAAAAAIAACAAAAAmWJMLD/KROJLF0+7gRqHNRxsD0TU0j5G4Ivz6yk+meBAAAAAg0H9S5CV2NeS6pROYp0cwQAAAAMNhZ+U+bALKuI1VRPYosTnCQmc89l7gFScLmniVS8DNxhDS2RePezpiab0FqC1r0dVuDaS8ISKhJ/v0vXvD+08</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -55,17 +55,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="CPF CNPJ"
-              DTS:DTSID="{2770657A-2826-4ACD-B950-78D1A9FE5964}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x003B_"
-              DTS:MaximumWidth="200"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CONTRIBUINTE"
-              DTS:DTSID="{B2673BB6-512F-4A9C-89B4-84329686E0DD}"
+              DTS:ObjectName="CPF_CNPJ"
+              DTS:DTSID="{D82089AD-C22B-45BE-B76F-DBE16F8CDE2D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -73,8 +64,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="TIPO"
-              DTS:DTSID="{C8C05076-F7FC-4037-8A94-5ED8ADE53775}"
+              DTS:ObjectName="CONTRIBUINTE"
+              DTS:DTSID="{6F82D2B8-CD07-49BA-B17D-927BCEBEB130}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +74,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CODIGO"
-              DTS:DTSID="{66C45123-E84F-4278-8AB0-B808F399440D}"
+              DTS:DTSID="{2DF52949-61B6-486F-8693-0442648CFF14}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -160,28 +151,6 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CPF CNPJ]"
-                      length="50"
-                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]"
-                      name="CPF CNPJ"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se os dados estão em formato binário."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CONTRIBUINTE]"
                       codePage="1252"
                       dataType="str"
@@ -204,15 +173,15 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF_CNPJ]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[TIPO]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CPF_CNPJ]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]"
-                      name="TIPO"
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF_CNPJ]"
+                      name="CPF_CNPJ"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -235,23 +204,17 @@
                       length="50"
                       name="CODIGO" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CPF CNPJ]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="CPF CNPJ" />
-                    <externalMetadataColumn
                       refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CONTRIBUINTE]"
                       codePage="1252"
                       dataType="str"
-                      length="200"
+                      length="50"
                       name="CONTRIBUINTE" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[TIPO]"
+                      refId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CPF_CNPJ]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="TIPO" />
+                      name="CPF_CNPJ" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -372,21 +335,13 @@
                       externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[contribuinte]"
                       lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CONTRIBUINTE]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[CPF CNPJ]"
+                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[CPF_CNPJ]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="CPF CNPJ"
+                      cachedName="CPF_CNPJ"
                       externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[cpf_cnpj]"
-                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF CNPJ]" />
-                    <inputColumn
-                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].Columns[TIPO]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="TIPO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
-                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[TIPO]" />
+                      lineageId="Package\Carga_Tabela_Contribuinte\Carga_Dim_Conrtribuintes.Outputs[Saída de Origem de Arquivo Simples].Columns[CPF_CNPJ]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -416,12 +371,6 @@
                       refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_contribuintes]"
                       dataType="guid"
                       name="uid_contribuintes" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Contribuinte\Tabela_DIM_Contribuintes.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="fonte_dados" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
