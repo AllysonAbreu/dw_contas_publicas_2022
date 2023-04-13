@@ -12,9 +12,10 @@
 	[cod_funcao] BIGINT NOT NULL,
 	[cod_subfuncao] BIGINT NOT NULL,
 	[cod_natureza] BIGINT NOT NULL,
-	[valor] FLOAT NOT NULL,
-	[liquidado] FLOAT NOT NULL,
-	[pago] FLOAT NOT NULL,
+	[valor_fixado] FLOAT NOT NULL,
+	[valor_empenhado] FLOAT NOT NULL,
+	[valor_liquidado] FLOAT NOT NULL,
+	[valor_pago] FLOAT NOT NULL,
 	[saldo] FLOAT NOT NULL,
 
     CONSTRAINT FK_fato_despesa_id_data FOREIGN KEY (data_fato) REFERENCES Dim_Tempo(data),

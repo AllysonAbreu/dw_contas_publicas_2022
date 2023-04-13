@@ -81,44 +81,24 @@ COD_SUBELEMENTO;SUBELEMENTO
 1028;construcao de abastecimento d'agua
 2092;promocao de eventos sociais e culturais
 2044;manutencao do ensino fundamental - fnde
-2061;manutencao da assistencia farmaceutica basica
-2062;manutencao do bloco de vigilancia em saude (vigilancia sanitaria, vigilancia em saude e outras)
-2066;manutencao do bloco de atencao de media e alta complexidade ambulatorial e hospitalar- recursos proprios
-2068;bloco da protecao social especial de media complexidade
 2072;bloco da protecao social especial de alta complexidade
 2063;manutencao do programa estrategia de saude da familia - esf
 2006;manutencao da publicidade institucional do municipio
-2052;manutencao das atividades da secretaria municipal de juventude, esporte e turismo
-2065;manutencao do bloco da atencao basica - recursos proprios
 2016;manutencao da banda de musica municipal santa cecilia
-2064;manutencao do bloco de atencao de media e alta complexidade ambulatorial e hospitalar
 9;pagamento da divida com a energisa
 2018;manutencao da secretaria executiva de politicas publicas para as mulheres
 2051;promocao de eventos sociais e culturais
 1038;construcao e/ou recuperacao de estradas vicinais
 2060;manutencao dos agentes comunitarios de saude - acs
-2059;manutencao do bloco da atencao basica
 2003;contribuicao as entidades municipalistas
 1049;ampliacao da policlinica orcino guedes
 2080;doacoes diversas a pessoas fisicas - instituidas em lei municipal
-2007;manutencao da superintendencia cajazeirense de transito
-2043;manutencao da secretaria municipal de saude
-2013;manutencao das atividades da secretaria municipal da fazenda publica
-2011;manutencao das atividades da secretaria de administracao
-2059;manutencao da estrategia saude da familia - esf
 2020;manutencao da secretaria executiva de politicas publicas para as mulheres
-2061;manutencao da media e alta complexidade ambulatorial e hospitalar - mac
-2082;manutencao das atividades da secretaria municipal de cidadania e promocao social
 1035;construcao, ampliacao e reforma das unidades de estrategia saude da familia
 2046;promocao de eventos sociais e culturais
-2047;manutencao das atividades da secretaria municipal de juventude, esporte e turismo
 2054;manutencao do bloco da atencao basica
-2016;manutencao das atividades da secretaria municipal de infra-estrutura
-2062;manutencao do programa saude bucal
 2010;manutencao da procuradoria geral do municipio
-2014;manutencao das atividades da secretaria municipal de planejamento
 2048;apoio ao desporto amador e profissional
-2;compromissos decorrentes de sentencas judiciais
 13;pagamento de sentencas judiciais
 9775;subsidios - agentes politicos - vinculado ao inss
 9701;vencimentos e salarios - vinculado ao inss
@@ -132,13 +112,11 @@ COD_SUBELEMENTO;SUBELEMENTO
 299;generos de alimentacao
 817;material de processamento de dados
 9999;outros servicos de tic
-9999;outras despesas de exercicios anteriores
 9902;contribuicoes previdenciarias - inss
 9908;contribuicoes previdenciarias - rpps - ativo
 5799;servicos bancarios
 9900;servicos de consultoria
 2099;servicos tecnicos profissionais
-9900;diarias - civil
 8099;outros materiais permanentes
 9901;locacao de equipamentos e softwares
 9950;multas e juros
@@ -156,48 +134,32 @@ COD_SUBELEMENTO;SUBELEMENTO
 1921;material de limpeza e producao de higienizacao
 4399;locacao de maquinas e equipamentos
 101;combustiveis e lubrificantes automotivos
-9900;obrigacoes tributarias e contributivas
 1099;material para manutencao de bens imoveis
-9900;passagens e despesas com locomocao
 1199;material para manutencao de bens moveis
 4699;manutencao e conservacao de veiculos
 4199;locacao de imoveis
 4899;festividades e homenagens
 4299;locacao de softwares
-9901;pensoes civis
-9901;proventos - civil
 8999;servico notarial e registral
 999;uniformes, tecidos e aviamentos
 2599;locacao de imoveis
 3899;outros servicos de pessoa fisica
 2799;manutencao e conservacao de equipamentos
 5150;servico medico, hospital, odontologico e laboratoriais
-9999;outros beneficios eventuais
-9900;contribuicoes
-9999;outras sentencas judiciais
-9900;auxilio financeiro a estudantes
-9999;outras indenizacoes e restituicoes
 5399;servicos de telecomunicacoes
-9902;restituicoes
-9902;medicamentos para uso domiciliar
 1399;material para manutencao de veiculos
 8699;seguros
 8539;outros servicos de terceiros - pj
 9913;obrigacoes patronais
 9991;obras em andamento
 9599;locacao de veiculos
-9999;outras obrigacoes patronais
-9999;outros materiais de distribuicao gratuita
 8494;indenizacoes e restituicoes trabalhistas
-9901;amortizacao da divida contratual
 9905;contribuicoes previdenciarias - rpps - pessoal ativo do plano previdenciario
 9199;servico de acesso a internet
 6178;limpeza e conservacao
 3999;assinaturas de periodicos e anuidades
 9920;aliquota suplementar de contribuicao previdenciaria - pessoal ativo - plano previdenciario
 9993;indenizacoes e restituicoes
-9901;salario contrato temporario
-9999;outras amortizacoes da divida contratada
 9903;ajuda de custo
 1236;material hospitalar
 6499;aparelhos e utensilios domesticos
@@ -206,8 +168,6 @@ COD_SUBELEMENTO;SUBELEMENTO
 6999;maquinas, utensilios e equipamentos diversos
 5699;limpeza e conservacao
 6172;vale - transporte
-9908;sentenca judicial - ativo civil
-9920;depositos judiciais
 410;material odontologico
 1935;material laboratorial
 5155;servicos laboratoriais
@@ -218,28 +178,21 @@ COD_SUBELEMENTO;SUBELEMENTO
 1920;material de cama, mesa e banho
 6308;aparelhos, equipamentos, utensilios medicoodontologico, laboratorial e hospitalar
 2699;locacao de bens moveis e intangiveis
-9900;aquisicao de imoveis
 2999;manutencao e conservacao de bens moveis de outras naturezas
 9904;material educacional e cultural
 6299;aparelhos e equipamentos de comunicacao
-9999;outras obras e instalacoes
-9900;concessao de emprestimos e financiamentos
-9914;ressarcimento de passagens e desp.c/locomocao
 2199;estagiarios
 9909;sentenca judicial - inativo civil
 5253;servicos de assistencia social
 514;material educativo e esportivo
 9710;adicional de insalubridade - vinculado ao inss
 8899;multa e juros
-9905;sentencas judiciais de pequeno valor
 9610;adicional de insalubridade - vinculado ao rpps
 9951;adicionais de contrato temporario
 923;material de uniformes, tecidos e aviamentos
 4499;manutencao e conservacao de bens imoveis
 5465;servicos de apoio ao ensino
 7799;veiculos de tracao mecanica
-9901;indenizacoes
-9913;13. salario - contrato temporario
 7199;equipamentos e utensilios hidraulicos e eletricos
 7899;acessorios para automoveis
 699;material para festividades e homenagens
@@ -249,12 +202,9 @@ COD_SUBELEMENTO;SUBELEMENTO
 2499;conferencias e exposicoes
 7299;maquinas e equipamentos agricolas e rodoviarios
 2299;bolsa de iniciacao ao trabalho
-9900;subvencoes sociais
 6599;colecoes e materiais bibliograficos
-9903;precatorios judicias
 6799;maquinas e equipam. de natureza industrial
 9921;aliquota suplementar de contribuicao previdenciaria - pessoal inativo e pensionista - plano previdenciario
-9900;premiacoes culturais, artisticas, cientificas, desportivas e outras
 9930;material de consumo
 8536;outros servicos de terceiros - pessoa fisica
 3199;fornecimento de alimentacao

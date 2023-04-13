@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{207C2D9E-9F3E-4859-8899-4F70945A2223}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{3D8C3703-4517-42D4-91B4-9065ED0FB206}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADhnRNfRESalJeMhbu1S4LymQtiuP03oNH618K90ADORAAAAAAOgAAAAAIAACAAAADD+NUd8fyhDTdkynRE4HmW6xgwxy5Fpm4YB5tkl6FrXRAAAADr9iBtPK+BIpKRMBWYR6FGQAAAAHlnd+lT/mH2kX78JJYfSfQUASIInM8gVXlQVfMhoyijhYlPAV30w81r0mJeYMOLYK9iSeewu493uCPFiztUU7w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA4Hxejfw/4QXMVfibIPHz2e6+Hp+tyb1CkqsUHjYISjQAAAAAOgAAAAAIAACAAAAC8N5ZtxkOwwgwsn7SedYAnymLc4mM5P4JWPt1jfhg+FRAAAAArrBtGJAcEUVJvnRItHiDTQAAAAHP6gZeQHTfGaEsmTboaGjCZBz926aCvqeKLKiFYlN64MQgpU0WupmiPr/R/WzyGDNbogk9TNGUi7DIRvaHpD6s</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -321,11 +321,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita"
+              refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
               description="Destino OLE DB"
-              name="Tabela_DIM_Contribuinte_Receita"
+              name="Tabela_Fato_Receita"
               usesDispositions="true"
               version="4">
               <properties>
@@ -378,7 +378,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Connections[OleDbConnection]"
+                  refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
@@ -386,110 +386,94 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB]"
                   errorOrTruncationOperation="Inserir"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[COD_RECEITA]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].Columns[COD_RECEITA]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="COD_RECEITA"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_receita]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_receita]"
                       lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_RECEITA]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[FONTE_DADOS]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="FONTE_DADOS"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]" />
-                    <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[DATA]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].Columns[DATA]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="DATA"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
                       lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[COD_CONTRIBUINTE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="COD_CONTRIBUINTE"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[entidade_receita]"
-                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]" />
-                    <inputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].Columns[VALOR_ARRECADADO]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].Columns[VALOR_ARRECADADO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="VALOR_ARRECADADO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
                       lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_ARRECADADO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].Columns[COD_CONTRIBUINTE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="COD_CONTRIBUINTE"
+                      externalMetadataColumnId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[contribuinte_receita]"
+                      lineageId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
                       dataType="i4"
                       name="id" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_fato_receita]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_fato_receita]"
                       dataType="guid"
                       name="uid_fato_receita" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_receita]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_receita]"
+                      dataType="i8"
                       name="cod_receita" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
                       dataType="dbTimeStamp"
                       name="data_fato" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[entidade_receita]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="entidade_receita" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
                       dataType="r8"
                       name="valor" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB].ExternalColumns[contribuinte_receita]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="fonte_dados" />
+                      name="contribuinte_receita" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Outputs[Saída de Erro de Destino OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Destino OLE DB"
-                  synchronousInputId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]">
+                  synchronousInputId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -501,7 +485,7 @@
           <paths>
             <path
               refId="Package\Carga_Tabela_Receitas.Paths[Saída de Origem de Arquivo Simples]"
-              endId="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita.Inputs[Entrada de Destino OLE DB]"
+              endId="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita.Inputs[Entrada de Destino OLE DB]"
               name="Saída de Origem de Arquivo Simples"
               startId="Package\Carga_Tabela_Receitas\Carga_Fato_Receita.Outputs[Saída de Origem de Arquivo Simples]" />
           </paths>
@@ -534,8 +518,8 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="248,41.6"
-          Id="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita"
+          Size="176,41.6"
+          Id="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita"
           TopLeft="137.5,146.5" />
         <NodeLayout
           Size="180,41.6"
@@ -543,30 +527,30 @@
           TopLeft="27.5,39.5" />
         <EdgeLayout
           Id="Package\Carga_Tabela_Receitas.Paths[Saída de Origem de Arquivo Simples]"
-          TopLeft="117.5,81.5">
+          TopLeft="117.5,81.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="144,65"
+              EndConnector="108,65.4"
               Start="0,0"
-              End="144,57.5">
+              End="108,57.9">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.5" />
+                    End="0,28.7" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,28.5"
-                    Point2="0,32.5"
-                    Point3="4,32.5" />
+                    Point1="0,28.7"
+                    Point2="0,32.7"
+                    Point3="4,32.7" />
                   <mssgle:LineSegment
-                    End="140,32.5" />
+                    End="104,32.7" />
                   <mssgle:CubicBezierSegment
-                    Point1="140,32.5"
-                    Point2="144,32.5"
-                    Point3="144,36.5" />
+                    Point1="104,32.7"
+                    Point2="108,32.7"
+                    Point3="108,36.7" />
                   <mssgle:LineSegment
-                    End="144,57.5" />
+                    End="108,57.9" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -579,7 +563,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga_Tabela_Receitas\Tabela_DIM_Contribuinte_Receita">
+    design-time-name="Package\Carga_Tabela_Receitas\Tabela_Fato_Receita">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

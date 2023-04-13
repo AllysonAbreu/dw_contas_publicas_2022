@@ -5,39 +5,39 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-M0N474H"
   DTS:CreatorName="DESKTOP-M0N474H\MacInBox"
-  DTS:DTSID="{98E3C624-D281-4311-B61D-CCA23A0A8309}"
+  DTS:DTSID="{400BFC17-B5C3-439A-B22A-876ADDE77384}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5131.0"
   DTS:LocaleID="1046"
-  DTS:ObjectName="Carga_tabela_classe_elemento_despesa"
+  DTS:ObjectName="Carga_tabela_classe_funcao_despesa"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{80D29C0E-0E64-452B-92C6-2C2A1F8DD3D0}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{D4625734-FF5C-4479-8A32-1CF2AA89F0FB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{0B4D4BF0-7D5D-4E72-B9E7-9E381669F928}"
+      DTS:DTSID="{DA808FBE-98D6-4E27-93CB-255A6D4F4479}"
       DTS:ObjectName="ALLYSON\DEVSERV.DW_Contas_Publicas.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{0B4D4BF0-7D5D-4E72-B9E7-9E381669F928}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;">
+          DTS:ConnectionString="Data Source=ALLYSON\DEVSERV;User ID=sa;Initial Catalog=DW_Contas_Publicas;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package1-{DA808FBE-98D6-4E27-93CB-255A6D4F4479}ALLYSON\DEVSERV.DW_Contas_Publicas.sa;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADGw4lGAd3tR0lJkJdqw2n9BcO9OcftE+QMbWoBcxlkywAAAAAOgAAAAAIAACAAAAA4invj73WHoHlev/e6zYwzSyL8RMk30/p4F5F5IUNWvhAAAADlJty1fLoxOAClde2xEapyQAAAAA9AU5L5C23O0XJ7uuhEcEscrMEnxjDnBpXfKxZFGI6TVISyPZLDPUn2cNxZ2hb98QZkUyVwHy/MhzqSkAdVTvA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC7j70yv9FMTpvnZst9V6LhE8Aurj7CDqKH9yrzj5NcVAAAAAAOgAAAAAIAACAAAAAiTmzZ3fMv8VjMnS4QcEjJlJDDuLH0Ihd+W7KG90bDYxAAAABf4wIcq5VkHLxfm4WajkcAQAAAADX0/HixSk5ONk1aEdp9atKj6yIAcg9osIF3bHSWeGwzPzQqfpqy9GUTsfACFB0xZVCLhIJWFbg39y1X9ll94+8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[dados_dim_classe_elemento_despesa]"
+      DTS:refId="Package.ConnectionManagers[dados_dim_classe_funcao_despesa]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{D0B6A1D2-DC4C-4352-A93B-7C7F7A0669AC}"
-      DTS:ObjectName="dados_dim_classe_elemento_despesa">
+      DTS:DTSID="{8C0AFA93-E1E8-4664-85E7-C0002AD23067}"
+      DTS:ObjectName="dados_dim_classe_funcao_despesa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -47,7 +47,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_elemento.csv">
+          DTS:ConnectionString="C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dados\03_dados_carga\arquivos_para_carga\dados_funcao.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -56,7 +56,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CODIGO"
-              DTS:DTSID="{06666D89-C5EE-49A1-AB79-2CB04EA64BC3}"
+              DTS:DTSID="{5DB71342-6D29-4312-902A-3EE874E74125}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,7 +65,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DESCRICAO"
-              DTS:DTSID="{402EBFB0-296C-4F41-B5CA-BE09BA765438}"
+              DTS:DTSID="{6EB85B22-60AD-4ED2-B34A-4EFD97EBFF4E}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -75,13 +75,13 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Carga_Tabela_Classe_Elemento_Despesa"
+      DTS:refId="Package\Carga_Tabela_Classe_Funcao_Despesa"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:DTSID="{FC7D56FA-126A-4279-8D81-66481818A44D}"
+      DTS:DTSID="{38D8B4D1-3321-40D2-836A-A47F7CB05AF0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Carga_Tabela_Classe_Elemento_Despesa"
+      DTS:ObjectName="Carga_Tabela_Classe_Funcao_Despesa"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -89,12 +89,12 @@
           version="1">
           <components>
             <component
-              refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa"
+              refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Origem de Arquivo Simples;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;1"
               description="Origem de Arquivo Simples"
               localeId="1046"
-              name="Carga_Dim_Classe_Elemento_Despesa"
+              name="Carga_Dim_Classe_Funcao_Despesa"
               usesDispositions="true"
               version="1">
               <properties>
@@ -109,25 +109,25 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[dados_dim_classe_elemento_despesa]"
-                  connectionManagerRefId="Package.ConnectionManagers[dados_dim_classe_elemento_despesa]"
+                  refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[dados_dim_classe_funcao_despesa]"
+                  connectionManagerRefId="Package.ConnectionManagers[dados_dim_classe_funcao_despesa]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples]"
+                  refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples]"
                   name="Saída de Origem de Arquivo Simples">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
                       name="CODIGO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -142,14 +142,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DESCRICAO]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DESCRICAO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DESCRICAO]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DESCRICAO]"
                       length="150"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DESCRICAO]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DESCRICAO]"
                       name="DESCRICAO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -167,13 +167,13 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="CODIGO" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DESCRICAO]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DESCRICAO]"
                       codePage="1252"
                       dataType="str"
                       length="150"
@@ -181,27 +181,27 @@
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples]"
+                  refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples]"
                   isErrorOut="true"
                   name="Saída de Erro de Origem de Arquivo Simples">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
                       codePage="1252"
                       dataType="text"
                       description="Coluna de Saída de Erro de Origem de Arquivo Simples"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[Coluna de Saída de Erro de Origem de Arquivo Simples]"
                       name="Coluna de Saída de Erro de Origem de Arquivo Simples" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Erro de Origem de Arquivo Simples].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -210,11 +210,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa"
+              refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos os Direitos Reservados; http://www.microsoft.com/sql/support;4"
               description="Destino OLE DB"
-              name="Tabela_DIM_Classe_Elemento_Despesa"
+              name="Tabela_DIM_Classe_Funcao_Despesa"
               usesDispositions="true"
               version="4">
               <properties>
@@ -225,7 +225,7 @@
                 <property
                   dataType="System.String"
                   description="Especifica o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
-                  name="OpenRowset">[dbo].[Dim_Classe_Elemento_Despesa]</property>
+                  name="OpenRowset">[dbo].[Dim_Classe_Funcao_Despesa]</property>
                 <property
                   dataType="System.String"
                   description="Especifica a variável que contém o nome do objeto de banco de dados usado para abrir um conjunto de linhas."
@@ -267,7 +267,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Connections[OleDbConnection]"
+                  refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
                   connectionManagerRefId="Package.ConnectionManagers[ALLYSON\DEVSERV.DW_Contas_Publicas.sa]"
                   description="A conexão de tempo de execução OLE DB usada para acessar o banco de dados."
@@ -275,70 +275,70 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB]"
                   errorOrTruncationOperation="Inserir"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB].Columns[DESCRICAO]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].Columns[DESCRICAO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="150"
                       cachedName="DESCRICAO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao]"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DESCRICAO]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DESCRICAO]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB].Columns[CODIGO]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].Columns[CODIGO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="CODIGO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_classe]"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]" />
+                      externalMetadataColumnId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_classe]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[id]"
                       dataType="i4"
                       name="id" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_classe]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_classe]"
                       dataType="i8"
                       name="cod_classe" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao]"
                       codePage="1252"
                       dataType="str"
-                      length="250"
+                      length="50"
                       name="descricao" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_dim_classe_elemento_despesa]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[uid_dim_classe_funcao_despesa]"
                       dataType="guid"
-                      name="uid_dim_classe_elemento_despesa" />
+                      name="uid_dim_classe_funcao_despesa" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Outputs[Saída de Erro de Destino OLE DB]"
+                  refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Outputs[Saída de Erro de Destino OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Saída de Erro de Destino OLE DB"
-                  synchronousInputId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB]">
+                  synchronousInputId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Outputs[Saída de Erro de Destino OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -349,10 +349,10 @@
           </components>
           <paths>
             <path
-              refId="Package\Carga_Tabela_Classe_Elemento_Despesa.Paths[Saída de Origem de Arquivo Simples]"
-              endId="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa.Inputs[Entrada de Destino OLE DB]"
+              refId="Package\Carga_Tabela_Classe_Funcao_Despesa.Paths[Saída de Origem de Arquivo Simples]"
+              endId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB]"
               name="Saída de Origem de Arquivo Simples"
-              startId="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa.Outputs[Saída de Origem de Arquivo Simples]" />
+              startId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -371,28 +371,28 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="273.6,41.6"
-          Id="Package\Carga_Tabela_Classe_Elemento_Despesa"
+          Size="263.2,41.6"
+          Id="Package\Carga_Tabela_Classe_Funcao_Despesa"
           TopLeft="60,60" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Carga_Tabela_Classe_Elemento_Despesa">
+    design-time-name="Package\Carga_Tabela_Classe_Funcao_Despesa">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="265.6,41.6"
-          Id="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa"
+          Size="255.2,41.6"
+          Id="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa"
           TopLeft="137.5,146.5" />
         <NodeLayout
-          Size="260.8,41.6"
-          Id="Package\Carga_Tabela_Classe_Elemento_Despesa\Carga_Dim_Classe_Elemento_Despesa"
+          Size="250.4,41.6"
+          Id="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa"
           TopLeft="27.5,38.7352941183174" />
         <EdgeLayout
-          Id="Package\Carga_Tabela_Classe_Elemento_Despesa.Paths[Saída de Origem de Arquivo Simples]"
-          TopLeft="157.9,80.3352941183174">
+          Id="Package\Carga_Tabela_Classe_Funcao_Despesa.Paths[Saída de Origem de Arquivo Simples]"
+          TopLeft="152.7,80.3352941183174">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -428,7 +428,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga_Tabela_Classe_Elemento_Despesa\Tabela_DIM_Classe_Elemento_Despesa">
+    design-time-name="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{BDD79F6F-B324-43C2-AC4A-2025CAF2086A}">
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{2C81C00D-A349-4083-A855-79B30954627E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAqTEVLRlG+7EvQd8ScEfB1VMm9EbGLqH26RmfbSKS6FwAAAAAOgAAAAAIAACAAAABfgEgstFPgHJQBMPR3+HxsSR7bS2BFdpT1e9J8dOrc4RAAAABLDy/Krok0+EiDenJ0y1MgQAAAAC8tumm8/6IV1l5+25paGC1eS0i5CAmOOQ8dZ7KzhFMDI3j+rg+LQrOZcJ95S+pf4bc01ZQU0E0RtrW69w+Samo</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACfyTQJujXH1eI27cDQHZCdDN5wAj+WZOO82lOVZde3hwAAAAAOgAAAAAIAACAAAABLkRFOrwjULXzkt3YKV74EN/ysRUYwZlp6BHvSoCU79RAAAAA56D81BTGPuBHSALWk/AdNQAAAANpIJRMLWFRsOOTppSmDp0di0YtMBWR7bKOLDplQFaAgkQFEFfpWKnW1pWoNV4B7zwhNgCjPAfkcS/wrp7BkjsI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -55,8 +55,35 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="COD_DESPESA"
-              DTS:DTSID="{E9D3957B-F898-44E7-95B3-D7C401CA4A47}"
+              DTS:ObjectName="DATA_FATO"
+              DTS:DTSID="{4C47CF9F-1AB5-4DBB-A5AB-098023092B40}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FONTE_RECURSO"
+              DTS:DTSID="{9BF80129-1922-467F-9B0B-6E398097901C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ORGAO_INTERNO"
+              DTS:DTSID="{90A974A9-3A97-4C42-9A7D-BC256401E624}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ORGAO_VINCULADO"
+              DTS:DTSID="{53EE89A3-7765-441D-8CCC-8B15C4BE37C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -64,8 +91,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="DATA"
-              DTS:DTSID="{4DC92127-D6E0-43BC-A887-2E83EA6C8A55}"
+              DTS:ObjectName="ELEMENTO"
+              DTS:DTSID="{D697A126-A262-4A3A-A865-943DC004A223}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -73,8 +100,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="COD_CONTRIBUINTE"
-              DTS:DTSID="{3FEABD37-F810-435C-8E47-EB0E51F9EFF4}"
+              DTS:ObjectName="SUBELEMENTO"
+              DTS:DTSID="{7CDCE077-2F23-48EB-B2BD-7D6AF6E93CA2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -82,8 +109,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="VALOR"
-              DTS:DTSID="{7D203C8F-5F0E-4A5B-BFC4-206D50CFD65F}"
+              DTS:ObjectName="FUNCAO"
+              DTS:DTSID="{C3A33D65-D668-43F4-8C5D-393F9649F7A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -91,8 +118,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="LIQUIDADO"
-              DTS:DTSID="{5240109C-A24C-4931-BD55-47C0AD63B6B3}"
+              DTS:ObjectName="SUBFUNCAO"
+              DTS:DTSID="{DE09CC4B-A8FB-4CB8-856E-EBC8FE710E2A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -100,8 +127,44 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="PAGO"
-              DTS:DTSID="{03849874-ECE7-44D4-881E-660C880688BB}"
+              DTS:ObjectName="NATUREZA"
+              DTS:DTSID="{8CAFC5AF-D1DD-42BD-A9C5-DCC0A18D8B94}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="VALOR_FIXADO"
+              DTS:DTSID="{CFF104CC-2797-4DD9-8062-0E472ABD8765}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="VALOR_EMPENHADO"
+              DTS:DTSID="{9C632911-FB5D-45FE-935D-B47B2A91BA6F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="VALOR_LIQUIDADO"
+              DTS:DTSID="{1D897E35-5DD7-4CD0-9EEB-F2301C69983A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="VALOR_PAGO"
+              DTS:DTSID="{C1048B47-D3C3-465D-9B0F-5EE11C7739DC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -110,7 +173,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SALDO"
-              DTS:DTSID="{E23D60BC-AAFA-4556-87E1-D7786EC280CC}"
+              DTS:DTSID="{852A476B-4215-47C1-871A-E57A8EE95E94}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -118,8 +181,8 @@
               DTS:MaximumWidth="50"
               DTS:DataType="129"
               DTS:TextQualified="True"
-              DTS:ObjectName="FONTE_DADOS"
-              DTS:DTSID="{F1CB622F-8219-4BD7-8BF6-06AA856B8328}"
+              DTS:ObjectName="CODIGO"
+              DTS:DTSID="{D3CF0227-01B8-4240-B056-5E48909F7F61}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -174,138 +237,6 @@
                   name="Saída de Origem de Arquivo Simples">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_DESPESA]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_DESPESA]"
-                      length="50"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_DESPESA]"
-                      name="COD_DESPESA"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se os dados estão em formato binário."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DATA]"
-                      length="50"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]"
-                      name="DATA"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se os dados estão em formato binário."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_CONTRIBUINTE]"
-                      length="50"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]"
-                      name="COD_CONTRIBUINTE"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se os dados estão em formato binário."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR]"
-                      length="50"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR]"
-                      name="VALOR"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se os dados estão em formato binário."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[LIQUIDADO]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[LIQUIDADO]"
-                      length="50"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[LIQUIDADO]"
-                      name="LIQUIDADO"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se os dados estão em formato binário."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[PAGO]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversão"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[PAGO]"
-                      length="50"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[PAGO]"
-                      name="PAGO"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica se os dados estão em formato binário."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SALDO]"
                       codePage="1252"
                       dataType="str"
@@ -328,15 +259,301 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA_FATO]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FONTE_DADOS]"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DATA_FATO]"
                       length="50"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]"
-                      name="FONTE_DADOS"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA_FATO]"
+                      name="DATA_FATO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_RECURSO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FONTE_RECURSO]"
+                      length="200"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_RECURSO]"
+                      name="FONTE_RECURSO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ORGAO_INTERNO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[ORGAO_INTERNO]"
+                      length="200"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ORGAO_INTERNO]"
+                      name="ORGAO_INTERNO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ORGAO_VINCULADO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[ORGAO_VINCULADO]"
+                      length="200"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ORGAO_VINCULADO]"
+                      name="ORGAO_VINCULADO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ELEMENTO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[ELEMENTO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ELEMENTO]"
+                      name="ELEMENTO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SUBELEMENTO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SUBELEMENTO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SUBELEMENTO]"
+                      name="SUBELEMENTO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FUNCAO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FUNCAO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FUNCAO]"
+                      name="FUNCAO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SUBFUNCAO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SUBFUNCAO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SUBFUNCAO]"
+                      name="SUBFUNCAO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[NATUREZA]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[NATUREZA]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[NATUREZA]"
+                      name="NATUREZA"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_FIXADO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_FIXADO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_FIXADO]"
+                      name="VALOR_FIXADO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_EMPENHADO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_EMPENHADO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_EMPENHADO]"
+                      name="VALOR_EMPENHADO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_LIQUIDADO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_LIQUIDADO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_LIQUIDADO]"
+                      name="VALOR_LIQUIDADO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_PAGO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_PAGO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_PAGO]"
+                      name="VALOR_PAGO"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se a coluna usa as rotinas de análise de localidade neutro mais rápidas."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica se os dados estão em formato binário."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversão"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
+                      length="50"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]"
+                      name="CODIGO"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -353,53 +570,95 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_DESPESA]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="COD_DESPESA" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DATA]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="DATA" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[COD_CONTRIBUINTE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="COD_CONTRIBUINTE" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="VALOR" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[LIQUIDADO]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="LIQUIDADO" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[PAGO]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="PAGO" />
-                    <externalMetadataColumn
                       refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SALDO]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="SALDO" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FONTE_DADOS]"
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DATA_FATO]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="FONTE_DADOS" />
+                      name="DATA_FATO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FONTE_RECURSO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="FONTE_RECURSO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[ORGAO_INTERNO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="ORGAO_INTERNO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[ORGAO_VINCULADO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="ORGAO_VINCULADO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[ELEMENTO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ELEMENTO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SUBELEMENTO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="SUBELEMENTO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[FUNCAO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="FUNCAO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[SUBFUNCAO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="SUBFUNCAO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[NATUREZA]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NATUREZA" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_FIXADO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="VALOR_FIXADO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_EMPENHADO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="VALOR_EMPENHADO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_LIQUIDADO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="VALOR_LIQUIDADO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[VALOR_PAGO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="VALOR_PAGO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[CODIGO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CODIGO" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -504,30 +763,6 @@
                   name="Entrada de Destino OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[VALOR]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="VALOR"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR]" />
-                    <inputColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[LIQUIDADO]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LIQUIDADO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[liquidado]"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[LIQUIDADO]" />
-                    <inputColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[PAGO]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="PAGO"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[pago]"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[PAGO]" />
-                    <inputColumn
                       refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[SALDO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -536,37 +771,117 @@
                       externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[saldo]"
                       lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SALDO]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[FONTE_DADOS]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[CODIGO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="FONTE_DADOS"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_DADOS]" />
+                      cachedName="CODIGO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[credor_despesa]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[CODIGO]" />
                     <inputColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[DATA]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[FONTE_RECURSO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="200"
+                      cachedName="FONTE_RECURSO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_recurso]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FONTE_RECURSO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[ORGAO_INTERNO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="200"
+                      cachedName="ORGAO_INTERNO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[orgao_interno]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ORGAO_INTERNO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[ORGAO_VINCULADO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="200"
+                      cachedName="ORGAO_VINCULADO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[orgao_vinculado]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ORGAO_VINCULADO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[ELEMENTO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="DATA"
+                      cachedName="ELEMENTO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_elemento]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[ELEMENTO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[SUBELEMENTO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SUBELEMENTO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_subelemento]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SUBELEMENTO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[FUNCAO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="FUNCAO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_funcao]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[FUNCAO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[SUBFUNCAO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SUBFUNCAO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_subfuncao]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[SUBFUNCAO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[NATUREZA]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NATUREZA"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_natureza]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[NATUREZA]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[VALOR_FIXADO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="VALOR_FIXADO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor_fixado]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_FIXADO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[VALOR_EMPENHADO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="VALOR_EMPENHADO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor_empenhado]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_EMPENHADO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[VALOR_LIQUIDADO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="VALOR_LIQUIDADO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor_liquidado]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_LIQUIDADO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[VALOR_PAGO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="VALOR_PAGO"
+                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor_pago]"
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[VALOR_PAGO]" />
+                    <inputColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[DATA_FATO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DATA_FATO"
                       externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA]" />
-                    <inputColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[COD_DESPESA]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="COD_DESPESA"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[classe_despesa]"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_DESPESA]" />
-                    <inputColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].Columns[COD_CONTRIBUINTE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="COD_CONTRIBUINTE"
-                      externalMetadataColumnId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[entidade_despesa]"
-                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[COD_CONTRIBUINTE]" />
+                      lineageId="Package\Carga_Tabela_Despesa\Carga_Dados_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DATA_FATO]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -579,43 +894,73 @@
                       dataType="guid"
                       name="uid_fato_despesa" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[entidade_despesa]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="entidade_despesa" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[classe_despesa]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="classe_despesa" />
-                    <externalMetadataColumn
                       refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[data_fato]"
                       dataType="dbTimeStamp"
                       name="data_fato" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor]"
-                      dataType="r8"
-                      name="valor" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[liquidado]"
-                      dataType="r8"
-                      name="liquidado" />
-                    <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[pago]"
-                      dataType="r8"
-                      name="pago" />
                     <externalMetadataColumn
                       refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[saldo]"
                       dataType="r8"
                       name="saldo" />
                     <externalMetadataColumn
-                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_dados]"
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[credor_despesa]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="fonte_dados" />
+                      name="credor_despesa" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[fonte_recurso]"
+                      codePage="1252"
+                      dataType="str"
+                      length="150"
+                      name="fonte_recurso" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[orgao_interno]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="orgao_interno" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[orgao_vinculado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="250"
+                      name="orgao_vinculado" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_elemento]"
+                      dataType="i8"
+                      name="cod_elemento" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_subelemento]"
+                      dataType="i8"
+                      name="cod_subelemento" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_funcao]"
+                      dataType="i8"
+                      name="cod_funcao" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_subfuncao]"
+                      dataType="i8"
+                      name="cod_subfuncao" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[cod_natureza]"
+                      dataType="i8"
+                      name="cod_natureza" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor_fixado]"
+                      dataType="r8"
+                      name="valor_fixado" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor_empenhado]"
+                      dataType="r8"
+                      name="valor_empenhado" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor_liquidado]"
+                      dataType="r8"
+                      name="valor_liquidado" />
+                    <externalMetadataColumn
+                      refId="Package\Carga_Tabela_Despesa\Tabela_Fato_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[valor_pago]"
+                      dataType="r8"
+                      name="valor_pago" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
