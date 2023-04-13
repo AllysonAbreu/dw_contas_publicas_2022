@@ -1,0 +1,6 @@
+C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dw\bin\Debug\dw_contas_publicas_2022.dacpac
+C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dw\bin\Debug\dw_contas_publicas_2022.dll
+C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dw\bin\Debug\dw_contas_publicas_2022.pdb
+C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dw\obj\Debug\dw_contas_publicas_2022.sqlproj.AssemblyReference.cache
+C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dw\obj\Debug\dw_contas_publicas_2022.dll
+C:\Users\allys\Dados_TCC\dw_contas_publicas_2022\TCC2\dw\obj\Debug\dw_contas_publicas_2022.pdb

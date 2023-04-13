@@ -1,0 +1,26 @@
+﻿** Destaques
+     Tabelas que serão recriadas com os dados migrados
+       [dbo].[Dim_Tempo]
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Nenhum
+
+** Ações do usuário
+     Remover
+       restrição sem nome em [dbo].[Dim_Tempo] (Restrição Padrão)
+     Recriar tabela
+       [dbo].[Dim_Tempo] (Tabela)
+     Alterar
+       [dbo].[Fato_Despesa] (Tabela)
+       [dbo].[Fato_Receita] (Tabela)
+
+** Ações de suporte
+     Remover
+       [dbo].[FK_fato_despesa_id_data] (Chave Estrangeira)
+       [dbo].[FK_fato_receita_id_data] (Chave Estrangeira)
+     Criar
+       [dbo].[FK_fato_despesa_id_data] (Chave Estrangeira)
+       [dbo].[FK_fato_receita_id_data] (Chave Estrangeira)

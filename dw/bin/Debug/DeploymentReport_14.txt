@@ -1,0 +1,60 @@
+﻿** Destaques
+     Tabelas que serão recriadas com os dados migrados
+       [dbo].[Fato_Despesa]
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Ignorando a coluna [dbo].[Fato_Despesa].[liquidado]; poderá ocorrer perda de dados.
+       Ignorando a coluna [dbo].[Fato_Despesa].[pago]; poderá ocorrer perda de dados.
+       Ignorando a coluna [dbo].[Fato_Despesa].[valor]; poderá ocorrer perda de dados.
+       A coluna [dbo].[Fato_Despesa].[valor_empenhado] na tabela [dbo].[Fato_Despesa] deve ser adicionada, mas a coluna não
+         possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o
+         problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração
+         de padrões inteligentes como uma opção de implantação.
+       A coluna [dbo].[Fato_Despesa].[valor_fixado] na tabela [dbo].[Fato_Despesa] deve ser adicionada, mas a coluna não possui
+         valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o
+         problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração
+         de padrões inteligentes como uma opção de implantação.
+       A coluna [dbo].[Fato_Despesa].[valor_liquidado] na tabela [dbo].[Fato_Despesa] deve ser adicionada, mas a coluna não
+         possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o
+         problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração
+         de padrões inteligentes como uma opção de implantação.
+       A coluna [dbo].[Fato_Despesa].[valor_pago] na tabela [dbo].[Fato_Despesa] deve ser adicionada, mas a coluna não possui
+         valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o
+         problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração
+         de padrões inteligentes como uma opção de implantação.
+
+** Ações do usuário
+     Remover
+       restrição sem nome em [dbo].[Fato_Despesa] (Restrição Padrão)
+     Recriar tabela
+       [dbo].[Fato_Despesa] (Tabela)
+
+** Ações de suporte
+     Remover
+       [dbo].[FK_fato_despesa_id_data] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_contribuintes] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_elemento] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_subelemento] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_funcao] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_subfuncao] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_natureza] (Chave Estrangeira)
+     Criar
+       [dbo].[FK_fato_despesa_id_data] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_contribuintes] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_elemento] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_subelemento] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_funcao] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_subfuncao] (Chave Estrangeira)
+       [dbo].[FK_fato_despesa_id_natureza] (Chave Estrangeira)
+
+Ignorando a coluna [dbo].[Fato_Despesa].[liquidado]; poderá ocorrer perda de dados.
+Ignorando a coluna [dbo].[Fato_Despesa].[pago]; poderá ocorrer perda de dados.
+Ignorando a coluna [dbo].[Fato_Despesa].[valor]; poderá ocorrer perda de dados.
+A coluna [dbo].[Fato_Despesa].[valor_empenhado] na tabela [dbo].[Fato_Despesa] deve ser adicionada, mas a coluna não possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de padrões inteligentes como uma opção de implantação.
+A coluna [dbo].[Fato_Despesa].[valor_fixado] na tabela [dbo].[Fato_Despesa] deve ser adicionada, mas a coluna não possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de padrões inteligentes como uma opção de implantação.
+A coluna [dbo].[Fato_Despesa].[valor_liquidado] na tabela [dbo].[Fato_Despesa] deve ser adicionada, mas a coluna não possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de padrões inteligentes como uma opção de implantação.
+A coluna [dbo].[Fato_Despesa].[valor_pago] na tabela [dbo].[Fato_Despesa] deve ser adicionada, mas a coluna não possui valor padrão e não permite valores NULL. Se a tabela contiver dados, o script ALTER não funcionará. Para evitar o problema, você deve: adicionar um valor padrão para a coluna, marcá-la para permitir valores NULL ou habilitar a geração de padrões inteligentes como uma opção de implantação.
+

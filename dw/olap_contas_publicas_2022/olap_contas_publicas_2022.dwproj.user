@@ -1,0 +1,49 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DW Contas Publicas</Id>
+            <Name>DW Contas Publicas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAmAAAARABXACAAQwBvAG4AdABhAHMAIABQAHUAYgBsAGkAYwBhAHMAAAAQZgAAAAEAACAAAAAwn6Gsb7E7PjoeadorGOfoevNlydLgIf+pBL3feWsJRAAAAAAOgAAAAAIAACAAAAAouAvf02MzfYIwCMs/bvLEe6TTeEU9/7Y/+2MebEi9LhAAAABEqnuh6nRRDL6uOCDpXyeKQAAAAA4mZOd36FhZnUzob07Yn1A9uy6J0QzzHhDJJYRM9PHokWDuThCjbRdVSZpuMEUKn+aLoZ+sE2nk0+C7+vPaMFQ=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DS_DWContasPublicas</Id>
+            <Name>DS_DWContasPublicas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAoAAAARABTAF8ARABXAEMAbwBuAHQAYQBzAFAAdQBiAGwAaQBjAGEAcwAAABBmAAAAAQAAIAAAALfCaWnW+k0ZMOAoFx/WQAocfMqmSS+nvdHLxlqxMJNcAAAAAA6AAAAAAgAAIAAAAPR3fHoUHFJ8rZ7sPOnVHvD1IlLYanRpo6u3LQLQS7ydEAAAAL6ZgG4tU9tcepJH1v8QjVpAAAAARo3pd5LjugXvE6yzY4w4Lwffki1dK7Kzizd3+SNBAKEwWSgLm3d8DXysbLcrfY+sLNDny8HdJwwmcgjTGdae/A==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DS_ContasPublicas</Id>
+            <Name>DS_ContasPublicas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAkAAAARABTAF8AQwBvAG4AdABhAHMAUAB1AGIAbABpAGMAYQBzAAAAEGYAAAABAAAgAAAAUMbOOMQ1Esyi/hvy7UgLwpfCc8TxyL1PXvnkrIARS0cAAAAADoAAAAACAAAgAAAA9jPxCsVlQfdyvDZ66y760gFy5bo3RfJni9uKwVPW9lcQAAAAr6OkRA4ZPkWS927pUynP4kAAAABAJ52JQrydzMCGRJfe2WNmZWGfU9/x2SSSzG9sLqACjQxMXtPKmuLCMDNuUfm0zyJRHm1GSMDHF299+kUw54iO</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DW Contas Publicas</Id>
+            <Name>DW Contas Publicas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAmAAAARABXACAAQwBvAG4AdABhAHMAIABQAHUAYgBsAGkAYwBhAHMAAAAQZgAAAAEAACAAAABL+Cc9M1pxqlgIFXQh+sfn4oe14qquXQe1YMqcIHRyPwAAAAAOgAAAAAIAACAAAAA5i8E0B8fYrrX05487NE9vTWT+YR4EnaMHatuhHbWOzxAAAABmxcvb8y/0nmQvafmnJ/lFQAAAAP6tUO+mEoYLNwziCSEZcBPQWwgCeCkKpnbOxSxz587XEk78PHCu0JwlLFArhHEYjgp1uroxXjzaHqLwp4FJO5Y=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DS_DWContasPublicas</Id>
+            <Name>DS_DWContasPublicas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAoAAAARABTAF8ARABXAEMAbwBuAHQAYQBzAFAAdQBiAGwAaQBjAGEAcwAAABBmAAAAAQAAIAAAADH04f3AGka4GKsZhtgYAE2pJfTJTYAcyF7d2HajYzxFAAAAAA6AAAAAAgAAIAAAADcVc0fvVIhIdLm4eTxzn5adFh3kjZk8u0vTEbTURxi4EAAAAOS35T7ACy4ud4OysVf2lVNAAAAAIpEkkwJ59UygsysBAYhIswXrlIq1uJK1oVUmhPPXOh3+D1TJi/1IhWFXlkqamaYioQtRgFthqm3fNpQ47zFNPw==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DS_ContasPublicas</Id>
+            <Name>DS_ContasPublicas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAkAAAARABTAF8AQwBvAG4AdABhAHMAUAB1AGIAbABpAGMAYQBzAAAAEGYAAAABAAAgAAAAMb/xzdTmhnmY1XkkzBnMKTe361PL/9gd3QG03UX9mHAAAAAADoAAAAACAAAgAAAAZrFtHWFzFuYPM1XO2ZP5wy0q5i5YoEnigUOii+EcXHgQAAAA0LgPPDCEvb0804DPB5STlkAAAADyXiqTwc43HMaP53vzzd1T+uM6+yN3UD+XTV/p0tH0KRx38zGvzY85igFzMedew/W8qEJmlhQkNudhLsUBOEqi</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>ALLYSON\DEVSERV</TargetServer>
+        <TargetDatabase>olap_contas_publicas_2022</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
