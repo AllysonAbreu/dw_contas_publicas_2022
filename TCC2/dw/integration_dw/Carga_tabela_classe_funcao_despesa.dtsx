@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Carga_tabela_classe_funcao_despesa"
   DTS:PackageType="5"
-  DTS:VersionBuild="18"
-  DTS:VersionGUID="{D4625734-FF5C-4479-8A32-1CF2AA89F0FB}">
+  DTS:VersionBuild="19"
+  DTS:VersionGUID="{679A4CBF-2F55-4056-B3D2-C0D28A0E4094}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC7j70yv9FMTpvnZst9V6LhE8Aurj7CDqKH9yrzj5NcVAAAAAAOgAAAAAIAACAAAAAiTmzZ3fMv8VjMnS4QcEjJlJDDuLH0Ihd+W7KG90bDYxAAAABf4wIcq5VkHLxfm4WajkcAQAAAADX0/HixSk5ONk1aEdp9atKj6yIAcg9osIF3bHSWeGwzPzQqfpqy9GUTsfACFB0xZVCLhIJWFbg39y1X9ll94+8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD1yEzagJ8FAWqfwIBVc9r+nwQhzrKcBDMea2H4qb6wvAAAAAAOgAAAAAIAACAAAADGbjWllZHBqNoaFU1wBaxTUVoXICzeTj+MKkW7MtiFOhAAAABmaX7f91RAjm+Vkj4JpsSCQAAAAFjCAz8PHV7Ln9dKc2eR5ZRXZsz4LKOdr6n3uKPFRI7v7W5OQ03YKWvDD4W6JOyHO8ZtG0As7xX/Hp0LbmSmB3E</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,16 +56,16 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CODIGO"
-              DTS:DTSID="{5DB71342-6D29-4312-902A-3EE874E74125}"
+              DTS:DTSID="{3DBE0684-340F-44F2-8BE0-5EE6EE5FA5A9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="150"
+              DTS:MaximumWidth="200"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DESCRICAO"
-              DTS:DTSID="{6EB85B22-60AD-4ED2-B34A-4EFD97EBFF4E}"
+              DTS:DTSID="{D4BA3E07-1F61-4A61-A3BE-866DEB7AAD48}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -148,7 +148,7 @@
                       errorOrTruncationOperation="Conversão"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DESCRICAO]"
-                      length="150"
+                      length="200"
                       lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DESCRICAO]"
                       name="DESCRICAO"
                       truncationRowDisposition="FailComponent">
@@ -176,7 +176,7 @@
                       refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].ExternalColumns[DESCRICAO]"
                       codePage="1252"
                       dataType="str"
-                      length="150"
+                      length="200"
                       name="DESCRICAO" />
                   </externalMetadataColumns>
                 </output>
@@ -285,7 +285,7 @@
                       refId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].Columns[DESCRICAO]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="150"
+                      cachedLength="200"
                       cachedName="DESCRICAO"
                       externalMetadataColumnId="Package\Carga_Tabela_Classe_Funcao_Despesa\Tabela_DIM_Classe_Funcao_Despesa.Inputs[Entrada de Destino OLE DB].ExternalColumns[descricao]"
                       lineageId="Package\Carga_Tabela_Classe_Funcao_Despesa\Carga_Dim_Classe_Funcao_Despesa.Outputs[Saída de Origem de Arquivo Simples].Columns[DESCRICAO]" />

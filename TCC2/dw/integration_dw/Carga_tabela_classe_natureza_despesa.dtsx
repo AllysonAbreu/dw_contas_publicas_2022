@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Carga_tabela_classe_natureza_despesa"
   DTS:PackageType="5"
-  DTS:VersionBuild="18"
-  DTS:VersionGUID="{DBF9BC9A-4245-40C4-B67E-8BBA83F1984A}">
+  DTS:VersionBuild="19"
+  DTS:VersionGUID="{532E33F3-0813-4B58-8E8A-8915715F6B47}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAX+17v+plkY14vwTftOKDLr2l1vOGRGMBYQtgoQvvCIwAAAAAOgAAAAAIAACAAAACHj+jg3L/mnWgseuzDWIcRxFCGDuyo5rH2AeVUa60ULBAAAABMqOcum8GTlqwZ9aqpMzCZQAAAAP30/vrlFI9JGIE/TlgqqJDUED9BL5K2Hi3mqj29mKkgxd0ZETSPrpGBg1+l56uNpMMwdCNsaV3aB6MzBME0t+8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj2/4BNcmw06aoQy1HGCZ3QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAULHjr/PDCsimU/XrOCwiD80NEeVtMbkRG377DioqlCAAAAAAOgAAAAAIAACAAAACb4v1mLWjOM3YGZjGLAlWn4ElByiKDwY0ozdJrRaUepRAAAADXPS/lUzUpVK+ZciB+RXg5QAAAAHFDLOENWHuNFEU0CVK6qpwWXWsnD3o3SfpTiC91R0a9KdNDE6rnI+1YZg7vHRY3lDrV+ifmOApJ97i/4b7kTGo</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -56,7 +56,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CODIGO"
-              DTS:DTSID="{CB492C44-D8A3-4A46-AD55-1E946B7F1AEC}"
+              DTS:DTSID="{58FE4990-9C1A-4882-B167-7069EF97C695}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,7 +65,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DESCRICAO"
-              DTS:DTSID="{BF9F8C3F-F475-4313-9DDA-9C7AD6DA7F1E}"
+              DTS:DTSID="{F9385BBA-C2B1-4267-93FB-A1850A9415C7}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>

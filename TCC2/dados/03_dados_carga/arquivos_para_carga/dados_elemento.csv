@@ -1,4 +1,33 @@
 COD_ELEMENTO;ELEMENTO
+39;outros servicos de terceiros - pessoa juridica
+36;outros servicos de terceiros - pessoa fisica
+13;obrigacoes patronais
+47;obrigacoes tributarias e contributivas
+41;contribuicoes
+35;servicos de consultoria
+30;material de consumo
+11;vencimentos e vantagens fixas - pessoal civil
+4;contratacao por tempo determinado
+3;pensoes
+1;aposentadorias e reformas
+71;principal da divida contratual resgatado
+52;equipamentos e material permanente
+51;obras e instalacoes
+91;sentencas judiciais
+14;diarias - civil
+66;concessao de emprestimos e financiamentos
+48;outros auxilios financeiros a pessoas fisicas
+32;material de distribuicao gratuita
+31;premiacoes culturais, artisticas, cientificas, desportivas e outras (6)(i)
+33;passagens e despesas com locomocao
+43;subvencoes sociais
+92;despesas de exercicios anteriores
+5;outros beneficios previdenciarios
+8;outros beneficios assistenciais
+18;auxilio financeiro a estudantes
+93;indenizacoes e restituicoes
+61;aquisicao de imoveis
+40;servicos de tecnologia da informacao e comunicacao - pessoa juridica
 319011;vencimentos e vantagens fixas - pessoal civil
 339039;outros servicos de terceiros - pessoa juridica
 449052;equipamentos e material permanente
@@ -34,30 +63,3 @@ COD_ELEMENTO;ELEMENTO
 455066;concessao de emprestimos e financiamentos
 335043;subvencoes sociais
 339031;premiacoes culturais, artisticas, cientificas, desportivas e outras
-4;contratacao por tempo determinado
-11;vencimentos e vantagens fixas - pessoal civil
-30;material de consumo
-39;outros servicos de terceiros - pessoa juridica
-1;aposentadorias, reserva remunerada e reformas
-3;pensoes
-36;outros servicos de terceiros - pessoa fisica
-13;obrigacoes patronais
-40;servicos de tecnologia da informacao e comunicacao - pessoa juridica
-18;auxilio financeiro a estudantes
-32;material, bem ou servico para distribuicao gratuita
-52;equipamentos e material permanente
-91;sentencas judiciais
-41;contribuicoes
-47;obrigacoes tributarias e contributivas
-48;outros auxilios financeiros a pessoas fisicas
-31;premiacoes culturais, artisticas, cientificas, desportivas e outras (6)(i)
-51;obras e instalacoes
-14;diarias - civil
-35;servicos de consultoria
-93;indenizacoes e restituicoes
-71;outras amortizacoes da divida contratada
-92;despesas de exercicios anteriores
-43;subvencoes sociais
-5;outros beneficios previdenciarios
-61;aquisicao de imoveis
-33;passagens e despesas com locomocao
