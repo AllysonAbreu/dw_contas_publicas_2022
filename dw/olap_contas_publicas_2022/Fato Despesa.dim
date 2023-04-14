@@ -1,0 +1,453 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3b636783-abe7-4f20-974e-e623ef4cbbc6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fato Despesa</ID>
+  <Name>Fato Despesa</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2774" scrolltop="-1037" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9144" y="6541" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fato_Despesa" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3556" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e40d000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fato_Despesa" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2774</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1037</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="20" xmlns="">
+          <Shapes NodeWidth="181">
+            <Shape Id="Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Saldo" Expanded="false">
+              <Attributes>
+                <Attribute Id="Saldo" />
+              </Attributes>
+              <Position x="251" y="20" />
+            </Shape>
+            <Shape Id="Pago" Expanded="false">
+              <Attributes>
+                <Attribute Id="Pago" />
+              </Attributes>
+              <Position x="251" y="69" />
+            </Shape>
+            <Shape Id="Liquidado" Expanded="false">
+              <Attributes>
+                <Attribute Id="Liquidado" />
+              </Attributes>
+              <Position x="251" y="118" />
+            </Shape>
+            <Shape Id="Valor" Expanded="false">
+              <Attributes>
+                <Attribute Id="Valor" />
+              </Attributes>
+              <Position x="251" y="167" />
+            </Shape>
+            <Shape Id="Fonte Dados" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fonte Dados" />
+              </Attributes>
+              <Position x="251" y="216" />
+            </Shape>
+            <Shape Id="Entidade Despesa" Expanded="false">
+              <Attributes>
+                <Attribute Id="Entidade Despesa" />
+              </Attributes>
+              <Position x="251" y="265" />
+            </Shape>
+            <Shape Id="Data Fato" Expanded="false">
+              <Attributes>
+                <Attribute Id="Data Fato" />
+              </Attributes>
+              <Position x="251" y="314" />
+            </Shape>
+            <Shape Id="Classe Despesa" Expanded="false">
+              <Attributes>
+                <Attribute Id="Classe Despesa" />
+              </Attributes>
+              <Position x="251" y="363" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c68cba6a-cc08-4f41-bace-519ac04b42f3">
+    <DataSourceViewID>DSV_ContasPublicas</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="12664076-5e45-4a1f-9227-fed1e1ed067d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="706b681a-e514-4481-8c6e-4a5276a2fe3a">
+      <ID>Id</ID>
+      <Name>Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="821fa343-0774-413b-9f90-02c6dbb8d810">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fae03493-ea23-405d-bab4-f672ac242f7f">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3ef1862d-7796-4b44-8ac8-c73c8cb0616e">
+          <AttributeID>Classe Despesa</AttributeID>
+          <Name>classe_despesa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5ee711d1-880e-4e4c-857b-2503e070373d">
+          <AttributeID>Data Fato</AttributeID>
+          <Name>data_fato</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6f022143-2373-4ac2-8b75-0786998a8112">
+          <AttributeID>Entidade Despesa</AttributeID>
+          <Name>contribuinte_despesa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7a6e9dd4-b201-4e29-91a0-cd02977d89de">
+          <AttributeID>Fonte Dados</AttributeID>
+          <Name>fonte_dados</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a495521e-b911-44b5-a788-deaac1435f90">
+          <AttributeID>Valor</AttributeID>
+          <Name>valor_empenhado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7f2001b8-8064-4ed2-b3a7-78a03005bffd">
+          <AttributeID>Liquidado</AttributeID>
+          <Name>valor_liquidado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="013816c5-2cb5-4af9-9a7a-3ce5c4e8fbab">
+          <AttributeID>Pago</AttributeID>
+          <Name>valor_pago</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="23da44f4-38ae-4b01-93ff-82ec816fd468">
+          <AttributeID>Saldo</AttributeID>
+          <Name>saldo</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="63fe048b-8429-452c-9588-5747ca39532f">
+      <ID>Classe Despesa</ID>
+      <Name>classe_despesa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fbcd6e76-6f48-4e7f-8f5d-320dcc753043">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fd55e8b7-d9a3-4089-a903-7212ccea5a40">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>classe_despesa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a1691c3d-176a-498c-97f6-804768c2b4d8">
+      <ID>Data Fato</ID>
+      <Name>data_fato</Name>
+      <Type>Date</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6466d4e5-dc12-4fd0-881b-1031050a97f6">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="39cd8b1f-28b8-465c-b8ec-61755f009ca8">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>data_fato</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2c4f9816-5d31-4e1d-a032-8b159953c869">
+      <ID>Entidade Despesa</ID>
+      <Name>contribuinte_despesa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ea6de7a5-4335-4e25-8b84-104b59c0ff77">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="058c5da1-f3f6-4d0f-a3f6-6bdb54af480c">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>entidade_despesa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="846f3077-882c-424c-b866-6d0e991b619c">
+      <ID>Fonte Dados</ID>
+      <Name>fonte_dados</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="70a14d1d-19b3-4a62-92a6-a8e78427b9ef">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3f67f601-55ec-402c-a184-b8c169a027dd">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>fonte_dados</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="96b76200-54e5-4010-9e1d-b8a5cba6cbc1">
+      <ID>Valor</ID>
+      <Name>valor_empenhado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f300bd8c-797b-427c-816b-6df19cde088c">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0526e97a-ce40-470e-9d7f-b640068c4919">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>valor</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="74eed801-61f5-436e-8940-bb452704ceab">
+      <ID>Liquidado</ID>
+      <Name>valor_liquidado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="59a6bc74-003f-4d4e-978c-1d30b0c2abd9">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="664b834d-f271-4b3a-9295-5a009dc67eb2">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>liquidado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="28ba2974-e8f8-4101-8cb9-0480bef15e83">
+      <ID>Pago</ID>
+      <Name>valor_pago</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6de2233d-179a-4b85-a194-4ed76e6d2d46">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13736cb2-a734-4cb6-8d01-38dacb8c413f">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>pago</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="793c9ea4-cdf6-4891-8141-a3acc87c2505">
+      <ID>Saldo</ID>
+      <Name>saldo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="42550351-1f25-4f7d-b6a1-b41984f587b6">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="494e729d-8476-4654-9631-4cc908775f1d">
+            <TableID>dbo_Fato_Despesa</TableID>
+            <ColumnID>saldo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="4acfbdb7-3623-439a-bdc9-49a58837872c">
+      <ID>Hierarquia</ID>
+      <Name>Despesa_classe</Name>
+      <Levels>
+        <Level dwd:design-time-name="295a83e1-6c4a-47b4-89e6-85227b4eefb5">
+          <ID>classe_despesa</ID>
+          <Name>classe_despesa</Name>
+          <SourceAttributeID>Classe Despesa</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d9c6ef3f-2a81-469c-a5c5-27e45f5070ae">
+          <ID>valor_empenhado</ID>
+          <Name>valor_empenhado</Name>
+          <SourceAttributeID>Valor</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ffb6cd4e-abaf-42db-81ff-dc2d2a51dd85">
+          <ID>valor_liquidado</ID>
+          <Name>valor_liquidado</Name>
+          <SourceAttributeID>Liquidado</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="148e6111-b075-4140-a888-725e616d084b">
+          <ID>valor_pago</ID>
+          <Name>valor_pago</Name>
+          <SourceAttributeID>Pago</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="63700acb-fda2-4c57-8fda-46cdd36b9337">
+          <ID>saldo</ID>
+          <Name>saldo</Name>
+          <SourceAttributeID>Saldo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="fbf3f47e-9e62-42fb-a29f-7e1d3e6db149">
+      <ID>Hierarquia 1</ID>
+      <Name>Despesa_contribuinte</Name>
+      <Levels>
+        <Level dwd:design-time-name="3e49fdba-9ea9-496e-b5d7-441f9b6fdfc6">
+          <ID>contribuinte_despesa</ID>
+          <Name>contribuinte_despesa</Name>
+          <SourceAttributeID>Entidade Despesa</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d60e0b4d-a408-4798-8f24-5d696db2dfae">
+          <ID>valor_empenhado</ID>
+          <Name>valor_empenhado</Name>
+          <SourceAttributeID>Valor</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="246fc7d3-aaaa-41bf-910f-5dacfdb7e936">
+          <ID>valor_liquidado</ID>
+          <Name>valor_liquidado</Name>
+          <SourceAttributeID>Liquidado</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ef7ee7be-1ae4-43b2-a6dc-4a98ffc3fc19">
+          <ID>valor_pago</ID>
+          <Name>valor_pago</Name>
+          <SourceAttributeID>Pago</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9a20e700-a3b5-4e5d-bba0-c356a4e1ed35">
+          <ID>saldo</ID>
+          <Name>saldo</Name>
+          <SourceAttributeID>Saldo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="87be4594-3dc2-4095-9c64-a11b4d888d0a">
+      <ID>Hierarquia 2</ID>
+      <Name>Despesa_data</Name>
+      <Levels>
+        <Level dwd:design-time-name="16e303a3-f288-4576-b965-5f147dc7e32d">
+          <ID>data_fato</ID>
+          <Name>data_fato</Name>
+          <SourceAttributeID>Data Fato</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="26bbbf1d-adec-4eee-906f-59145fb7120b">
+          <ID>valor_empenhado</ID>
+          <Name>valor_empenhado</Name>
+          <SourceAttributeID>Valor</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a58f9fe3-29cd-4f5d-a8dd-3eec67a5fc6a">
+          <ID>valor_liquidado</ID>
+          <Name>valor_liquidado</Name>
+          <SourceAttributeID>Liquidado</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e09d2a1c-0864-4124-980f-25525fd4c4d7">
+          <ID>valor_pago</ID>
+          <Name>valor_pago</Name>
+          <SourceAttributeID>Pago</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b9f1e0b0-0a25-45d2-bc90-dcb0c88f1790">
+          <ID>saldo</ID>
+          <Name>saldo</Name>
+          <SourceAttributeID>Saldo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="f4a3e523-240d-4345-b41d-a1b7102b6985">
+      <ID>Hierarquia 3</ID>
+      <Name>Despesa_fonte_dados</Name>
+      <Levels>
+        <Level dwd:design-time-name="627985d2-29a3-4cc1-b227-7d90216c229b">
+          <ID>fonte_dados</ID>
+          <Name>fonte_dados</Name>
+          <SourceAttributeID>Fonte Dados</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="36d65af5-5a12-4a08-b75f-85a4f7ccface">
+          <ID>valor_empenhado</ID>
+          <Name>valor_empenhado</Name>
+          <SourceAttributeID>Valor</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d1214aed-e0f6-4f05-a85b-3a2db59879c9">
+          <ID>valor_liquidado</ID>
+          <Name>valor_liquidado</Name>
+          <SourceAttributeID>Liquidado</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d3ceba7c-4b2b-488d-89a1-ad125973bb5f">
+          <ID>valor_pago</ID>
+          <Name>valor_pago</Name>
+          <SourceAttributeID>Pago</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e9824a71-fd2f-4f8f-95f7-391d23b8c208">
+          <ID>saldo</ID>
+          <Name>saldo</Name>
+          <SourceAttributeID>Saldo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
