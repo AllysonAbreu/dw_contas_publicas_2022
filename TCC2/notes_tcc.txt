@@ -1,4 +1,4 @@
 camara não tem dados das receitas dos anos 21 e 22
-consorcio de saude não possue dados das receitas dos anos 21 e 22
-fundo municipal de defesa do consumidor nao possue dados das receitas dos anos 21 e 22
+consorcio de saude não possui dados das receitas dos anos 21 e 22
+fundo municipal de defesa do consumidor nao possui dados das receitas dos anos 21 e 22
 fundo municipal de saúde não possui dados das receitas do ano de 21
